@@ -1,5 +1,5 @@
 ---
-title: "Introducción a R para el manejo de datos"
+title: "Introducción a la programación con R"
 author: "Diego Villa Almeyda"
 format: revealjs
 editor: source
@@ -11,7 +11,7 @@ project:
   output-dir: docs
 ---
 
-# ¡Bienvenidos!
+# ¡Bienvenid@s!
 
 {{< include 00-presentacion.qmd >}}
 {{< include 01-r.qmd >}}
