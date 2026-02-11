@@ -1,4 +1,4 @@
-# Transformando datos
+# Transformación de datos
 
 ## Temperatura mínima
 

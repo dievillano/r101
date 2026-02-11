@@ -1,7 +1,9 @@
 ---
 title: "Introducción a la programación con R"
 author: "Diego Villa Almeyda"
-format: revealjs
+format: 
+  revealjs:
+    link-external-newwindow: true
 editor: source
 execute: 
   echo: true

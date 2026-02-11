@@ -1,4 +1,4 @@
-# Representando datos
+# Representación de datos
 
 ## ¡Creemos nuestro primer programa con R!
 
@@ -13,7 +13,7 @@ Un *script* de R es un archivo de texto que contiene el código en R que usaremo
 Los scripts de R tienen extensión `.R`. Por ejemplo, para crear un script con el nombre `hola.R` ingresamos en la consola:
 
 ```{r}
-#| eval: true
+#| eval: false
 file.create("hola.R")
 ```
 
@@ -84,7 +84,7 @@ Las funciones reciben un conjunto de entradas o argumentos, que sirven para modi
 
 ## Funciones
 
-En nuestro programa, el argumento de `print()` fue `"¡Hola, mundo"`. Los argumentos se ingresan en una función separados por una coma.
+En nuestro programa, el argumento de `print()` fue `"¡Hola, mundo!"`. Los argumentos se ingresan en una función separados por una coma.
 
 . . .
 

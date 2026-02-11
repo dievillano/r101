@@ -25,29 +25,28 @@ Sin embargo, actualmente también se ha consolidado como una potente herramienta
 
 ## COVID-19 Tracker
 
-![](images/covid-tracker-dashboard.png){.absolute top=150 left=45}
-<https://vac-lshtm.shinyapps.io/ncov_tracker/>
+[![](images/covid-tracker-dashboard.png)](https://vac-lshtm.shinyapps.io/ncov_tracker/)
+
 
 ## Reproducibilidad
 
-![](images/covid-tracker-github.png){.absolute top=150 left=45}
-<https://github.com/eparker12/nCoV_tracker>
+[![](images/covid-tracker-github.png)](https://github.com/eparker12/nCoV_tracker)
 
 ## Instalación de R (Windows) {.smaller}
 
-Para instalar R (Agosto de 2024):
+Para instalar R (Febrero de 2026):
 
 1. Ir a la web de CRAN (_The Comprehensive R Archive Network_) en <https://cran.r-project.org/>.
 2. Dar click en [Donwload R for Windows](https://cran.r-project.org/bin/windows/).
 3. Dar click en el subdirectorio [base](https://cran.r-project.org/bin/windows/base/).
-4. Dar click en [Download R-4.4.1 for Windows](https://cran.r-project.org/bin/windows/base/R-4.4.1-win.exe).
-5. Luego de que se haya finalizado la descarga, ejecutar el archivo __R-4.4.1-win.exe__. En caso Windows preguntara si deseamos que la aplicación haga cambios en el sistema, respondemos que __Sí__.
+4. Dar click en [Download R-4.5.2 for Windows](https://cran.r-project.org/bin/windows/base/R-4.5.2-win.exe).
+5. Luego de que se haya finalizado la descarga, ejecutar el archivo __R-4.5.2-win.exe__. En caso Windows preguntara si deseamos que la aplicación haga cambios en el sistema, respondemos que __Sí__.
 6. Elegir el idioma para la instalación.
 7. Para una instalación por defecto (lo recomendado), solo dar __Next__ o __Siguiente__ a todos los pasos hasta que haya finalizado la instalación.
 
 ## Instalación de R
 
-Para mayor detalle sobre la instalación, incluyendo cómo instalar R en macOS, revisar el capítulo de [Pre-requisitos](https://upch-r4pubh.netlify.app/pre-requisitos) del libro [r4pubh](https://upch-r4pubh.netlify.app/).
+Para mayor detalle sobre la instalación, incluyendo cómo instalar R en macOS, revisar el capítulo de [Pre-requisitos](https://upch-r4pubh.netlify.app/pre-requisitos) del libro [R4PUBH](https://upch-r4pubh.netlify.app/).
 
 ## Código
 
@@ -75,11 +74,11 @@ Existen otros IDE donde podemos escribir código en R, pero ninguno es tan efici
 
 ## Instalación de RStudio (Windows) 
 
-Para instalar RStudio Desktop (Agosto de 2024):
+Para instalar RStudio Desktop (Febrero de 2026):
 
-1. Instalar R.
+1. Asegurarse de tener instalado R.
 2. Ir a la web <https://posit.co/download/rstudio-desktop/> o buscar en el navegador web "rstudio download".
-3. Dar click en [DOWNLOAD RSTUDIO FOR WINDOWS](https://download1.rstudio.org/electron/windows/RStudio-2024.04.2-764.exe). Se descargará el instalador con nombre __RStudio-2024.04.2-764.exe__.
+3. Dar click en [DOWNLOAD RSTUDIO FOR WINDOWS](https://download1.rstudio.org/electron/windows/RStudio-2026.01.0-392.exe). Se descargará el instalador con nombre __RStudio-2026.01.0-392.exe__.
 3. Ejecutar el instalador y seguir las instrucciones. Para una instalación por defecto, aceptar todas las configuraciones predeterminadas.
 
 # Interfaz de RStudio

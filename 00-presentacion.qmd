@@ -8,3 +8,9 @@
 * Visualización de datos
 * Testeo de programas
 * Empaquetamiento de programas
+
+## CS50's Introduction to Programming with R {.smaller}
+
+[![](images/cs50-intro-r.png)](https://youtube.com/playlist?list=PLhQjrBD2T382yfNp_-xzX244d-O9W6YmD&si=HHlo4uSsquhAgJLJ)
+
+
