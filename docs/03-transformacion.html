@@ -1,0 +1,945 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.32">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>transformacion</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-991b1886d3c685c7aa2b62b80640c7af.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="fullcontent quarto-light">
+
+<div id="quarto-search-results"></div>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+
+
+
+
+<section id="transformación-de-datos" class="level1">
+<h1>Transformación de datos</h1>
+<section id="temperatura-mínima" class="level2">
+<h2 class="anchored" data-anchor-id="temperatura-mínima">Temperatura mínima</h2>
+<p>Creemos un script de R llamado <code>iquitos.R</code> y leamos los datos diarios de temperatura mínima en C° en Iquitos durante el año 2022:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>url <span class="ot">&lt;-</span> <span class="st">"https://raw.githubusercontent.com/healthinnovation/r101-iquitos-20240810/main/data/iquitos.csv"</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>iquitos <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(url)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="temperatura-mínima-1" class="level2">
+<h2 class="anchored" data-anchor-id="temperatura-mínima-1">Temperatura mínima</h2>
+<p>Veamos el vector de temperaturas mínimas:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>iquitos<span class="sc">$</span>temp_min</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="ordenando-un-vector" class="level2">
+<h2 class="anchored" data-anchor-id="ordenando-un-vector">Ordenando un vector</h2>
+<p>Podemos usar la función <code>sort()</code> para ordenar el vector temperaturas mínimas de manera ascendente:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sort</span>(iquitos<span class="sc">$</span>temp_min)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="ordenando-un-vector-1" class="level2">
+<h2 class="anchored" data-anchor-id="ordenando-un-vector-1">Ordenando un vector</h2>
+<p>Podemos usar el argumento <code>decreasing</code> para indicarle a <code>sort()</code> que queremos ordenar el vector manera descendente:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sort</span>(iquitos<span class="sc">$</span>temp_min, <span class="at">decreasing =</span> <span class="cn">TRUE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="valores-atípicos" class="level2">
+<h2 class="anchored" data-anchor-id="valores-atípicos">Valores atípicos</h2>
+<p>Vemos que los menores valores de la temperatura parecen ser valores atípicos. Digamos que queremos eliminar los primeros 5 valores atípicos. ¿Cómo los eliminamos?</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>temps <span class="ot">&lt;-</span> <span class="fu">sort</span>(iquitos<span class="sc">$</span>temp_min)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="valores-atípicos-1" class="level2">
+<h2 class="anchored" data-anchor-id="valores-atípicos-1">Valores atípicos</h2>
+<p>Recordemos que podemos acceder a cada elemento del vecto usando la notación de corchetes:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>temps[<span class="dv">1</span>]</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>temps[<span class="dv">2</span>]</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>temps[<span class="dv">3</span>]</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>temps[<span class="dv">4</span>]</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>temps[<span class="dv">5</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Sin embargo, lo que queremos es extraer todos estos valores en un solo vector.</p>
+</section>
+<section id="indexación-de-vectores" class="level2">
+<h2 class="anchored" data-anchor-id="indexación-de-vectores">Indexación de vectores</h2>
+<p>Hasta ahora hemos visto que podemos acceder a los elementos de un vector uno por uno:</p>
+<p><img src="images/temps-index-1.png" class="absolute img-fluid" data-top="250" data-left="20"></p>
+</section>
+<section id="indexación-de-vectores-1" class="level2">
+<h2 class="anchored" data-anchor-id="indexación-de-vectores-1">Indexación de vectores</h2>
+<p>También podemos usar un vector para acceder a más de una elemento del vector:</p>
+<p><img src="images/temps-index-2.png" class="absolute img-fluid" data-top="250" data-left="20"></p>
+</section>
+<section id="indexación-de-vectores-2" class="level2">
+<h2 class="anchored" data-anchor-id="indexación-de-vectores-2">Indexación de vectores</h2>
+<p>En R:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>temps[<span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>)]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="indexación-de-vectores-3" class="level2">
+<h2 class="anchored" data-anchor-id="indexación-de-vectores-3">Indexación de vectores</h2>
+<p>También podemos usar el operador <code>:</code> para generar una secuencia regular:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>temps[<span class="dv">1</span><span class="sc">:</span><span class="dv">5</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="indexación-de-vectores-4" class="level2">
+<h2 class="anchored" data-anchor-id="indexación-de-vectores-4">Indexación de vectores</h2>
+<p>Sin embargo, todavía no hemos removido estos valores atípico. Para eliminar elementos de un vector, debemos pasar índices negativos:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>temps[<span class="sc">-</span><span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>)]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="valores-atípicos-2" class="level2">
+<h2 class="anchored" data-anchor-id="valores-atípicos-2">Valores atípicos</h2>
+<p>¿Qué tal si tuviéramos datos de temperatura de otro distrito? ¿Simpre los valores atípicos van a ser los 5 valores menores?</p>
+<p>. . .</p>
+<p>Lo mejor sería establecer un umbral. Valores menores a este umbral serían considerados valores atípicos.</p>
+</section>
+<section id="expresiones-lógicas" class="level2">
+<h2 class="anchored" data-anchor-id="expresiones-lógicas">Expresiones lógicas</h2>
+<p>Para saber si un valor es menor al umbral, necesitamos comparar sus magnitudes. En R, esto se puede hacer mediante <em>operadores de comparación</em>:</p>
+<ul>
+<li><code>==</code> se lee “es igual a”,</li>
+<li><code>!=</code> se lee “es diferente a”,</li>
+<li><code>&gt;</code> se lee “es mayor a”,</li>
+<li><code>&gt;=</code> se lee “es mayor o igual a”,</li>
+<li><code>&lt;</code> se lee “es menor a”,</li>
+<li><code>&lt;=</code> se lee “es menor o igual a”.</li>
+</ul>
+</section>
+<section id="expresiones-lógicas-1" class="level2">
+<h2 class="anchored" data-anchor-id="expresiones-lógicas-1">Expresiones lógicas</h2>
+<p>Por ejemplo, al evaluar el enunciado <code>a &lt; b</code>, dos resultados son posibles:</p>
+<ul>
+<li><code>a</code> es de hecho menor a <code>b</code>, por lo cual el enunciado es verdadero, o</li>
+<li><code>a</code> no es menor a <code>b</code>, por lo cual el enunciado es falso.</li>
+</ul>
+<p>En el primer caso, R devuelve un valor lógico de <code>TRUE</code>, mientras que en el segundo devuelve un valor lógico de <code>FALSE</code>.</p>
+</section>
+<section id="expresiones-lógicas-2" class="level2">
+<h2 class="anchored" data-anchor-id="expresiones-lógicas-2">Expresiones lógicas</h2>
+<p>Debido a que el resulado de una comparación puede tomar solo dos valores lógicos, a los enunciados de comparación se les conoce como <strong>expresiones lógicas</strong>.</p>
+</section>
+<section id="expresiones-lógicas-3" class="level2">
+<h2 class="anchored" data-anchor-id="expresiones-lógicas-3">Expresiones lógicas</h2>
+<p>Por ejemplo, si definimos que las temperaturas menores a 19 C° son valores atípicos, necesitamos comparar cada elemento de <code>temps</code> con este umbral:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>temps[<span class="dv">1</span>] <span class="sc">&lt;</span> <span class="dv">19</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>temps[<span class="dv">2</span>] <span class="sc">&lt;</span> <span class="dv">19</span></span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>temps[<span class="dv">3</span>] <span class="sc">&lt;</span> <span class="dv">19</span></span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>temps[<span class="dv">4</span>] <span class="sc">&lt;</span> <span class="dv">19</span></span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>temps[<span class="dv">5</span>] <span class="sc">&lt;</span> <span class="dv">19</span></span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a>temps[<span class="dv">6</span>] <span class="sc">&lt;</span> <span class="dv">19</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="vectorización" class="level2">
+<h2 class="anchored" data-anchor-id="vectorización">Vectorización</h2>
+<p>Recordemos que las funciones en R está vectorizadas. Los operadores también actuan como funciones, por tanto también tienen la propiedad de vectorización:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>temps <span class="sc">&lt;</span> <span class="dv">19</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>En este caso, R devuelve un <strong>vector lógico</strong>, el cual indica el resultado de la comparación de cada elemento de <code>temps</code> con el valor 19.</p>
+</section>
+<section id="indexación-de-vectores-5" class="level2">
+<h2 class="anchored" data-anchor-id="indexación-de-vectores-5">Indexación de vectores</h2>
+<p>Volviendo al problema de indexación, en R podemos utilizar la función <code>which()</code> para saber cuáles son los índices del vector <code>temps</code> que son menores a 19 automáticamente:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="fu">which</span>(temps <span class="sc">&lt;</span> <span class="dv">19</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="indexación-de-vectores-6" class="level2">
+<h2 class="anchored" data-anchor-id="indexación-de-vectores-6">Indexación de vectores</h2>
+<p>De esta manera, podemos indicarle a R que elimine los valores atípicos usando los negativos de los índices:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>temps[<span class="sc">-</span><span class="fu">which</span>(temps <span class="sc">&lt;</span> <span class="dv">19</span>)]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="operadores-lógicos" class="level2">
+<h2 class="anchored" data-anchor-id="operadores-lógicos">Operadores lógicos</h2>
+<p>¿Qué tal si quisiéramos incluir a las temperatures mayores a 24.6 C° como valores atípicos? Para esto, necesitamos hacer uso de <strong>operadores lógicos</strong>, es decir, operadores que trabajen sobre valores lógicos:</p>
+<ul>
+<li><code>&amp;</code> representa al operador lógico “Y”,</li>
+<li><code>|</code> representa al operador lógico “O”,</li>
+<li><code>!</code> representa al operador lógico de negación o “NO”.</li>
+</ul>
+<p><code>&amp;</code> y <code>|</code> funcionan con vectores lógicos. Para comparar valores individuales debemos usar <code>&amp;&amp;</code> y <code>||</code>.</p>
+</section>
+<section id="operadores-lógicos-1" class="level2">
+<h2 class="anchored" data-anchor-id="operadores-lógicos-1">Operadores lógicos</h2>
+<p>Con los operadores lógicos, podemos construir las tablas lógicas:</p>
+<p><img src="images/oper-log.png" class="absolute img-fluid" data-top="200" data-left="20"></p>
+</section>
+<section id="operadores-lógicos-2" class="level2">
+<h2 class="anchored" data-anchor-id="operadores-lógicos-2">Operadores lógicos</h2>
+<p>Para el caso de la negación:</p>
+<p><img src="images/negacion.png" class="absolute img-fluid" data-top="150" data-left="300"></p>
+</section>
+<section id="operadores-lógicos-3" class="level2">
+<h2 class="anchored" data-anchor-id="operadores-lógicos-3">Operadores lógicos</h2>
+<p>En R:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>temps <span class="sc">&lt;</span> <span class="dv">19</span> <span class="sc">|</span> temps <span class="sc">&gt;</span> <span class="fl">24.6</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="indexación-de-vectores-7" class="level2">
+<h2 class="anchored" data-anchor-id="indexación-de-vectores-7">Indexación de vectores</h2>
+<p>Ahora con <code>which()</code>:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>temps[<span class="fu">which</span>(temps <span class="sc">&lt;</span> <span class="dv">19</span> <span class="sc">|</span> temps <span class="sc">&gt;</span> <span class="fl">24.6</span>)]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Si quisiéramos eliminar los valores atípicos:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>temps[<span class="sc">-</span><span class="fu">which</span>(temps <span class="sc">&lt;</span> <span class="dv">19</span> <span class="sc">|</span> temps <span class="sc">&gt;</span> <span class="fl">24.6</span>)]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="indexación-con-vectores-lógicos" class="level2">
+<h2 class="anchored" data-anchor-id="indexación-con-vectores-lógicos">Indexación con vectores lógicos</h2>
+<p>De hecho, usar <code>which()</code> es innecesario. Podemos acceder o filtrar a los elementos que queramos usando el vector lógico:</p>
+<p><img src="images/index-log-1.png" class="absolute img-fluid" data-top="250" data-left="15"></p>
+</section>
+<section id="indexación-con-vectores-lógicos-1" class="level2">
+<h2 class="anchored" data-anchor-id="indexación-con-vectores-lógicos-1">Indexación con vectores lógicos</h2>
+<p>De hecho, usar <code>which()</code> es innecesario. Podemos acceder o filtrar a los elementos que queramos usando el vector lógico:</p>
+<p><img src="images/index-log-2.png" class="absolute img-fluid" data-top="250" data-left="100"></p>
+</section>
+<section id="indexación-con-vectores-lógicos-2" class="level2">
+<h2 class="anchored" data-anchor-id="indexación-con-vectores-lógicos-2">Indexación con vectores lógicos</h2>
+<p>En R:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>temps[temps <span class="sc">&lt;</span> <span class="dv">19</span> <span class="sc">|</span> temps <span class="sc">&gt;</span> <span class="fl">24.6</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="indexación-con-vectores-lógicos-3" class="level2">
+<h2 class="anchored" data-anchor-id="indexación-con-vectores-lógicos-3">Indexación con vectores lógicos</h2>
+<p>Si quisiéramos quedarnos con los elementos que no son valores atípicos podemos usar el operador de negación <code>!</code>:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>temps[<span class="sc">!</span>(temps <span class="sc">&lt;</span> <span class="dv">19</span> <span class="sc">|</span> temps <span class="sc">&gt;</span> <span class="fl">24.6</span>)]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="indexación-con-vectores-lógicos-4" class="level2">
+<h2 class="anchored" data-anchor-id="indexación-con-vectores-lógicos-4">Indexación con vectores lógicos</h2>
+<p>Definimos nuestros vectores</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>filtro <span class="ot">&lt;-</span> (temps <span class="sc">&lt;</span> <span class="dv">19</span> <span class="sc">|</span> temps <span class="sc">&gt;</span> <span class="fl">24.6</span>)</span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>no_outliers <span class="ot">&lt;-</span> temps[<span class="sc">!</span>filtro]</span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a>outliers <span class="ot">&lt;-</span> temps[filtro]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="dengue" class="level2">
+<h2 class="anchored" data-anchor-id="dengue">Dengue</h2>
+<p>Creemos un script de R llamado <code>dengue_casos.R</code> y carguemos a nuestro conjunto de datos de Dengue:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>dengue <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">"dengue.csv"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="funciones-lógicas" class="level2">
+<h2 class="anchored" data-anchor-id="funciones-lógicas">Funciones lógicas</h2>
+<p>Sabemos que hay casos en los que no se registró la localidad. Es decir, donde la localidad es un <code>NA</code>.</p>
+<p>. . .</p>
+<p>Para identificar los <code>NA</code>s, podemos usar la <strong>función lógica</strong> <code>is.na()</code>, la cual devuelve <code>TRUE</code> si el valor que se le pase es un <code>NA</code> y <code>FALSE</code> en el caso contrario.</p>
+</section>
+<section id="funciones-lógicas-1" class="level2">
+<h2 class="anchored" data-anchor-id="funciones-lógicas-1">Funciones lógicas</h2>
+<p>Si quisiéramos filtrar los casos (filas) en donde no se registró la localidad, podemos hacer uso de la función lógica <code>is.na()</code> y la notación de corchetes:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>dengue[<span class="fu">is.na</span>(dengue<span class="sc">$</span>localidad), ]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="funciones-lógicas-2" class="level2">
+<h2 class="anchored" data-anchor-id="funciones-lógicas-2">Funciones lógicas</h2>
+<p>Si, por el contrario, quisiéramos filtrar los casos en los que sí se registró la localidad, entonces negamos a la función lógica:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb22"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>dengue[<span class="sc">!</span><span class="fu">is.na</span>(dengue<span class="sc">$</span>localidad), ]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="funciones-lógicas-3" class="level2">
+<h2 class="anchored" data-anchor-id="funciones-lógicas-3">Funciones lógicas</h2>
+<p>Existen otras funciones lógicas:</p>
+<ul>
+<li><code>is.nan()</code> para valores no definidos,</li>
+<li><code>is.infinite()</code> para valores infinitos,</li>
+<li><code>is.null()</code> para valores nulos,</li>
+<li>etc.</li>
+</ul>
+</section>
+<section id="subset" class="level2">
+<h2 class="anchored" data-anchor-id="subset">subset()</h2>
+<p>En R existe una función para hacer filtrar filas sin usar la notación por corchetes llamada <code>subset()</code>:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb23"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="fu">subset</span>(dengue, <span class="sc">!</span><span class="fu">is.na</span>(localidad))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>No es necesario poner <code>dengue$localidad</code> ya que <code>subset()</code> reconoce el nombre de las columnas en el data frame.</p>
+</section>
+<section id="subset-1" class="level2">
+<h2 class="anchored" data-anchor-id="subset-1">subset()</h2>
+<p>Guardemos los datos que contienen todas las localidades en un nuevo objeto:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb24"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>dengue_limpio <span class="ot">&lt;-</span> <span class="fu">subset</span>(dengue, <span class="sc">!</span><span class="fu">is.na</span>(localidad))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="dengue-1" class="level2">
+<h2 class="anchored" data-anchor-id="dengue-1">Dengue</h2>
+<p>Digamos que queramos calcular el número de casos notificados por cada tipo de Dengue durante los años 2018 y 2019:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb25"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="fu">unique</span>(dengue_limpio<span class="sc">$</span>enfermedad)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>¿Cómo filtramos por tipo de enfermedad?</p>
+</section>
+<section id="dengue-2" class="level2">
+<h2 class="anchored" data-anchor-id="dengue-2">Dengue</h2>
+<p>Por ejemplo, para los casos de dengue con señales de alarma:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb26"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a>filtro_alarma <span class="ot">&lt;-</span> dengue_limpio<span class="sc">$</span>enfermedad <span class="sc">==</span> <span class="st">"DENGUE CON SEÑALES DE ALARMA"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="dengue-3" class="level2">
+<h2 class="anchored" data-anchor-id="dengue-3">Dengue</h2>
+<p>Utilizamos <code>subset()</code>:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb27"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="fu">subset</span>(dengue_limpio, filtro_alarma)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Guardamos el resultado en nuevo objeto:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb28"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a>dengue_alarma <span class="ot">&lt;-</span> <span class="fu">subset</span>(dengue_limpio, filtro_alarma)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="dengue-4" class="level2">
+<h2 class="anchored" data-anchor-id="dengue-4">Dengue</h2>
+<p>¿Cómo podemos saber cuánto casos notificados de dengue con señales de alarma hubieron? Podemos calcular el número de filas de <code>dengue_alarma</code>:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb29"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="fu">nrow</span>(dengue_alarma)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="menú" class="level2">
+<h2 class="anchored" data-anchor-id="menú">Menú</h2>
+<p>Creemos ahora un programa que le permita al usuario decidir de qué tipo de dengue calcular el número de casos registrados. Empecemos por crear un vector con los valores únicos de <code>dengue$enfermedad</code>:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb30"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a>enfermedades <span class="ot">&lt;-</span> <span class="fu">unique</span>(dengue_limpio<span class="sc">$</span>enfermedad)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Y ahora, creemos un menú que liste los tipos de enfermedad usando la función <code>cat()</code>:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb31"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"1: "</span>, enfermedades[<span class="dv">1</span>])</span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"2: "</span>, enfermedades[<span class="dv">2</span>])</span>
+<span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"3: "</span>, enfermedades[<span class="dv">3</span>])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="menú-1" class="level2">
+<h2 class="anchored" data-anchor-id="menú-1">Menú</h2>
+<p>A diferencia de <code>print()</code>, la función <code>cat()</code> concatena sus argumentos imprime los resultados en la consola como texto, no como un vector.</p>
+</section>
+<section id="caracteres-de-escape" class="level2">
+<h2 class="anchored" data-anchor-id="caracteres-de-escape">Caracteres de escape</h2>
+<p>Los caracteres de escape sirven para insertar caracteres especiales en una cadena de caracteres. Por ejemplo:</p>
+<ul>
+<li><code>\n</code> inserta un salto de línea.</li>
+<li><code>\t</code> inserta una tabulación (<code>TAB</code> en el teclado).</li>
+</ul>
+</section>
+<section id="caracteres-de-escape-1" class="level2">
+<h2 class="anchored" data-anchor-id="caracteres-de-escape-1">Caracteres de escape</h2>
+<p>Mejoremos nuestro menú:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb32"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"1: "</span>, enfermedades[<span class="dv">1</span>], <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span>
+<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"2: "</span>, enfermedades[<span class="dv">2</span>], <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span>
+<span id="cb32-3"><a href="#cb32-3" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"3: "</span>, enfermedades[<span class="dv">3</span>], <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="menú-2" class="level2">
+<h2 class="anchored" data-anchor-id="menú-2">Menú</h2>
+<p>¿Qué pasaría si tengo muchas opciones? Podemos vectorizar el menú:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb33"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(enfermedades, <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Esto no es lo que esperábamos.</p>
+</section>
+<section id="menú-3" class="level2">
+<h2 class="anchored" data-anchor-id="menú-3">Menú</h2>
+<p>Si vemos la página de ayuda de <code>cat()</code>, hay un argumento llamado <code>sep</code> que inserta un caracter en cada elemento del vector que ingresemos. Podemos probar pasando el caracter de escape <code>\n</code> a este argumento:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb34"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(enfermedades, <span class="at">sep =</span> <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="menú-4" class="level2">
+<h2 class="anchored" data-anchor-id="menú-4">Menú</h2>
+<p>Faltaría agregar los número para que el usuario no tenga que escribir todo el texto de la enfermedad. Podemos aprovechar la propiedad de vectorización de <code>paste()</code> para crear un vector con las opciones:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb35"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a><span class="fu">paste0</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">3</span>, <span class="st">". "</span>,  enfermedades)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="menú-5" class="level2">
+<h2 class="anchored" data-anchor-id="menú-5">Menú</h2>
+<p>¿Qué pasaría si tengo más de 3 opciones? Podemos hacer que la secuencia de adapte al número de opciones usango la función <code>length()</code> que calcula el número de elementos de un vector:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb36"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a>opciones <span class="ot">&lt;-</span> <span class="fu">paste0</span>(<span class="dv">1</span><span class="sc">:</span><span class="fu">length</span>(enfermedades), <span class="st">". "</span>,  enfermedades)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="menú-6" class="level2">
+<h2 class="anchored" data-anchor-id="menú-6">Menú</h2>
+<p>Ahora sí podemos mostrar correctamente el menú:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb37"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(opciones, <span class="at">sep =</span> <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="entrada-de-usuario" class="level2">
+<h2 class="anchored" data-anchor-id="entrada-de-usuario">Entrada de usuario</h2>
+<p>Ahora, pedimos al usuario que ingrese la opción que desee:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb38"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a>opcion <span class="ot">&lt;-</span> <span class="fu">readline</span>(<span class="st">"Opción (solo número): "</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="entrada-de-usuario-1" class="level2">
+<h2 class="anchored" data-anchor-id="entrada-de-usuario-1">Entrada de usuario</h2>
+<p>Estas opciones corresponden a los índices del vector <code>enfermedad</code>. Por lo tanto, podemos filtrar la enfermedad que el usuario desea:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb39"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a>enfermedades[opcion]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>¿Qué salió mal?</p>
+</section>
+<section id="entrada-de-usuario-2" class="level2">
+<h2 class="anchored" data-anchor-id="entrada-de-usuario-2">Entrada de usuario</h2>
+<p>El problema fue que no convertimos la opción a un valor numérico:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb40"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a>opcion <span class="ot">&lt;-</span> <span class="fu">as.integer</span>(<span class="fu">readline</span>(<span class="st">"Opción (solo número): "</span>))</span>
+<span id="cb40-2"><a href="#cb40-2" aria-hidden="true" tabindex="-1"></a>enfermedades[opcion]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="dengue-5" class="level2">
+<h2 class="anchored" data-anchor-id="dengue-5">Dengue</h2>
+<p>Ahora, filtramos con <code>subset()</code>:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb41"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true" tabindex="-1"></a>enfermedad <span class="ot">&lt;-</span> enfermedades[opcion]</span>
+<span id="cb41-2"><a href="#cb41-2" aria-hidden="true" tabindex="-1"></a>dengue_opcion <span class="ot">&lt;-</span> <span class="fu">subset</span>(dengue_limpio, enfermedad <span class="sc">==</span> filtro_enfermedad)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Y calculamos el número de casos:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb42"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true" tabindex="-1"></a>casos <span class="ot">&lt;-</span> <span class="fu">nrow</span>(dengue_opcion)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="dengue-6" class="level2">
+<h2 class="anchored" data-anchor-id="dengue-6">Dengue</h2>
+<p>Por último, mostramos el mensaje con el resultado al usuario:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb43"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb43-1"><a href="#cb43-1" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"Se reportaron"</span>, casos, <span class="st">"de"</span>, enfermedad, <span class="st">"en la provincia de Maynas en 2018 y 2019."</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

@@ -5,12 +5,6 @@ format:
   revealjs:
     link-external-newwindow: true
 editor: source
-execute: 
-  echo: true
-  eval: false
-project:
-  type: website
-  output-dir: docs
 ---
 
 # ¡Bienvenid@s!

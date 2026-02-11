@@ -1,1178 +1,2368 @@
 [
   {
-    "objectID": "index.html#diego-villa-almeyda",
-    "href": "index.html#diego-villa-almeyda",
-    "title": "Introducción a R para el manejo de datos",
-    "section": "Diego Villa Almeyda",
-    "text": "Diego Villa Almeyda\nAlgunos datos sobre mí:\n\nBSc en Estadística Informática de la Universidad Nacional Agraria La Molina.\nData Analyst en el Laboratorio de Innovación en Salud, IMTAvH, UPCH.\nPróximamente: MSc Statistics with Data Science, University of Edinburgh, UK.\nQuería estudiar Biología. Ahora hubiera querido estudiar Matemáticas.\nIntereses académicos: Modelos de regresión, modelamiento espacio-temporal, estadística Bayesiana, inferencia causal, aprendizaje de máquina.\nIntereses personales: Música, gym rat, foodie, ciclismo, películas y series."
+    "objectID": "index.html#contenido",
+    "href": "index.html#contenido",
+    "title": "Introducción a la programación con R",
+    "section": "Contenido",
+    "text": "Contenido\n\n¿Qué es R?\nRepresentación de datos\nTranformación de datos\nFunciones\nOrdenando (tidying) datos\nVisualización de datos\nTesteo de programas\nEmpaquetamiento de programas"
   },
   {
-    "objectID": "index.html#agenda",
-    "href": "index.html#agenda",
-    "title": "Introducción a R para el manejo de datos",
-    "section": "Agenda",
-    "text": "Agenda\n\n¿Qué es R?\nRepresentando datos\nTranformando datos"
+    "objectID": "index.html#cs50s-introduction-to-programming-with-r",
+    "href": "index.html#cs50s-introduction-to-programming-with-r",
+    "title": "Introducción a la programación con R",
+    "section": "CS50’s Introduction to Programming with R",
+    "text": "CS50’s Introduction to Programming with R"
   },
   {
     "objectID": "index.html#r-es-un-lenguaje-de-programación",
     "href": "index.html#r-es-un-lenguaje-de-programación",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "R es un lenguaje de programación",
     "text": "R es un lenguaje de programación\nUn lenguaje de programación es un conjunto de intrucciones y reglas que permite a los humanos comunicar órdenes a una computadora."
   },
   {
     "objectID": "index.html#r",
     "href": "index.html#r",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "R",
     "text": "R\nR fue originalmente desarrollado para realizar análisis estadístico.\n\nSin embargo, actualmente también se ha consolidado como una potente herramienta para la manipulación de datos en general en diferentes áreas como las ciencias sociales, la ecología, la medicina, las finanzas, el marketing, etc."
   },
   {
     "objectID": "index.html#por-qué-aprender-r",
     "href": "index.html#por-qué-aprender-r",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "¿Por qué aprender R?",
-    "text": "¿Por qué aprender R?\n\n\nEspecializado en análisis estadístico\nHerramientas potentes para la manipulación y visualización de datos\nAmplia comunidad y soporte\nGran cantidad de paquetes y extensiones\nInteroperabilidad\nGratuito y de código abierto\nAmpliamente utilizado en la investigación académica\nCreciente demanda en la industria"
+    "text": "¿Por qué aprender R?\n\nEspecializado en análisis estadístico\nHerramientas potentes para la manipulación y visualización de datos\nAmplia comunidad y soporte\nGran cantidad de paquetes y extensiones\nInteroperabilidad\nGratuito y de código abierto\nAmpliamente utilizado en la investigación académica\nCreciente demanda en la industria"
   },
   {
     "objectID": "index.html#covid-19-tracker",
     "href": "index.html#covid-19-tracker",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "COVID-19 Tracker",
-    "text": "COVID-19 Tracker\n https://vac-lshtm.shinyapps.io/ncov_tracker/"
+    "text": "COVID-19 Tracker"
   },
   {
     "objectID": "index.html#reproducibilidad",
     "href": "index.html#reproducibilidad",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Reproducibilidad",
-    "text": "Reproducibilidad\n https://github.com/eparker12/nCoV_tracker"
+    "text": "Reproducibilidad"
   },
   {
     "objectID": "index.html#instalación-de-r-windows",
     "href": "index.html#instalación-de-r-windows",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Instalación de R (Windows)",
-    "text": "Instalación de R (Windows)\nPara instalar R (Agosto de 2024):\n\nIr a la web de CRAN (The Comprehensive R Archive Network) en https://cran.r-project.org/.\nDar click en Donwload R for Windows.\nDar click en el subdirectorio base.\nDar click en Download R-4.4.1 for Windows.\nLuego de que se haya finalizado la descarga, ejecutar el archivo R-4.4.1-win.exe. En caso Windows preguntara si deseamos que la aplicación haga cambios en el sistema, respondemos que Sí.\nElegir el idioma para la instalación.\nPara una instalación por defecto (lo recomendado), solo dar Next o Siguiente a todos los pasos hasta que haya finalizado la instalación."
+    "text": "Instalación de R (Windows)\nPara instalar R (Febrero de 2026):\n\nIr a la web de CRAN (The Comprehensive R Archive Network) en https://cran.r-project.org/.\nDar click en Donwload R for Windows.\nDar click en el subdirectorio base.\nDar click en Download R-4.5.2 for Windows.\nLuego de que se haya finalizado la descarga, ejecutar el archivo R-4.5.2-win.exe. En caso Windows preguntara si deseamos que la aplicación haga cambios en el sistema, respondemos que Sí.\nElegir el idioma para la instalación.\nPara una instalación por defecto (lo recomendado), solo dar Next o Siguiente a todos los pasos hasta que haya finalizado la instalación."
   },
   {
     "objectID": "index.html#instalación-de-r",
     "href": "index.html#instalación-de-r",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Instalación de R",
-    "text": "Instalación de R\nPara mayor detalle sobre la instalación, incluyendo cómo instalar R en macOS, revisar el capítulo de Pre-requisitos del libro r4pubh."
+    "text": "Instalación de R\nPara mayor detalle sobre la instalación, incluyendo cómo instalar R en macOS, revisar el capítulo de Pre-requisitos del libro R4PUBH."
   },
   {
     "objectID": "index.html#código",
     "href": "index.html#código",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Código",
     "text": "Código\nUn “código” se refiere al conjunto de instrucciones escritas en un lenguaje de programación, como R, que una computadora puede interpretar y ejecutar.\n\nEl código es la base de todos los programas y aplicaciones que utilizamos en nuestra vida diaria, desde simples calculadoras hasta complejos sistemas operativos y aplicaciones web."
   },
   {
     "objectID": "index.html#integrated-development-environments-ide",
     "href": "index.html#integrated-development-environments-ide",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Integrated Development Environments (IDE)",
     "text": "Integrated Development Environments (IDE)\nAsí como para escribir documentos usamos Word, también existen programas que nos permiten escribir código de manera eficiente.\n\nA estos programas se les llama Integrated Development Environments (IDE)."
   },
   {
     "objectID": "index.html#rstudio",
     "href": "index.html#rstudio",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "RStudio",
     "text": "RStudio\nRStudio es un IDE que fue desarrollado particularmente para escribir código en R.\n\nExisten otros IDE donde podemos escribir código en R, pero ninguno es tan eficiente para este lenguaje como RStudio (hasta ahora)."
   },
   {
     "objectID": "index.html#instalación-de-rstudio-windows",
     "href": "index.html#instalación-de-rstudio-windows",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Instalación de RStudio (Windows)",
-    "text": "Instalación de RStudio (Windows)\nPara instalar RStudio Desktop (Agosto de 2024):\n\nInstalar R.\nIr a la web https://posit.co/download/rstudio-desktop/ o buscar en el navegador web “rstudio download”.\nDar click en DOWNLOAD RSTUDIO FOR WINDOWS. Se descargará el instalador con nombre RStudio-2024.04.2-764.exe.\nEjecutar el instalador y seguir las instrucciones. Para una instalación por defecto, aceptar todas las configuraciones predeterminadas."
+    "text": "Instalación de RStudio (Windows)\nPara instalar RStudio Desktop (Febrero de 2026):\n\nAsegurarse de tener instalado R.\nIr a la web https://posit.co/download/rstudio-desktop/ o buscar en el navegador web “rstudio download”.\nDar click en DOWNLOAD RSTUDIO FOR WINDOWS. Se descargará el instalador con nombre RStudio-2026.01.0-392.exe.\nEjecutar el instalador y seguir las instrucciones. Para una instalación por defecto, aceptar todas las configuraciones predeterminadas."
   },
   {
     "objectID": "index.html#proyectos-en-rstudio",
     "href": "index.html#proyectos-en-rstudio",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Proyectos en RStudio",
     "text": "Proyectos en RStudio\nUn proyecto en RStudio es una funcionalidad que proporciona un entorno de trabajo organizado y gestionado para trabajar con R.\n\nEs recomendable crear un proyecto de RStudio asociado a cada proyecto de análisis de datos con R que realicemos.\n\n\nAl crear un proyecto en RStudio, estamos creando una carpeta dedicada a nuestro proyecto de análisis de datos con R."
   },
   {
     "objectID": "index.html#crear-un-proyecto-en-rstudio",
     "href": "index.html#crear-un-proyecto-en-rstudio",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Crear un proyecto en RStudio",
     "text": "Crear un proyecto en RStudio\nPara crear un proyecto en RStudio:\n\nIr a File &gt; New Project.\nSelecciona si deseas crear un proyecto nuevo, abrir un proyecto existente o crear un proyecto desde un repositorio de control de versiones (como Git).\nSigue las instrucciones para configurar el nuevo proyecto."
   },
   {
     "objectID": "index.html#creemos-nuestro-primer-programa-con-r",
     "href": "index.html#creemos-nuestro-primer-programa-con-r",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "¡Creemos nuestro primer programa con R!",
     "text": "¡Creemos nuestro primer programa con R!"
   },
   {
     "objectID": "index.html#crear-un-script-de-r",
     "href": "index.html#crear-un-script-de-r",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Crear un script de R",
-    "text": "Crear un script de R\nUn script de R es un archivo de texto que contiene el código en R que usaremos para darle comandos a la computadora.\n\nLos scripts de R tienen extensión .R. Por ejemplo, para crear un script con el nombre hola.R ingresamos en la consola:\n\nfile.create(\"hola.R\")\n\n[1] TRUE"
+    "text": "Crear un script de R\nUn script de R es un archivo de texto que contiene el código en R que usaremos para darle comandos a la computadora.\n\nLos scripts de R tienen extensión .R. Por ejemplo, para crear un script con el nombre hola.R ingresamos en la consola:\n\nfile.create(\"hola.R\")"
   },
   {
     "objectID": "index.html#files",
     "href": "index.html#files",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Files",
     "text": "Files\nVeremos que en la pestaña Files en RStudio aparecerá el script de R que hemos creado. Esta pestaña sirve como un explorador de archivos.\n\nEn la parte superior podemos ver la ruta de la carpeta donde nos encontramos trabajando, la cual será la carpeta donde creamos el proyecto de RStudio."
   },
   {
     "objectID": "index.html#editor",
     "href": "index.html#editor",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Editor",
     "text": "Editor\nEn Files podemos darle click al archivo hola.R y se abrirá un panel de edición, el cual se le conoce como el editor de RStudio.\n\nEn este editor podemos escribir las líneas de código que queramos dentro del script y también ejecutar el código línea por línea, por partes, o en su totalidad."
   },
   {
     "objectID": "index.html#hola.r",
     "href": "index.html#hola.r",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "hola.R",
     "text": "hola.R\nEn el editor, escribamos:\n\nprint(\"¡Hola, mundo!\")\n\nY luego, con el cursor en la misma línea de código, demos click en Run o presionemos Ctrl + Enter para ejecutarlo."
   },
   {
     "objectID": "index.html#consola",
     "href": "index.html#consola",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Consola",
     "text": "Consola\nEn la consola veremos:\n\nprint(\"¡Hola, mundo!\")\n\n[1] \"¡Hola, mundo!\"\n\n\n\nLa consola es el lugar donde el código se ejectua.\n\n\nCon “ejecutar” nos referimos a que los comandos que hemos escrito en R se traducen al lenguaje máquina para que la computadora nos pueda entender y devolver el resultado deseado."
   },
   {
     "objectID": "index.html#hola-mundo",
     "href": "index.html#hola-mundo",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "¡Hola, mundo!",
     "text": "¡Hola, mundo!\n¡Felicidades 🎉! Has creado tu primer programa con R."
   },
   {
     "objectID": "index.html#funciones",
     "href": "index.html#funciones",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Funciones",
     "text": "Funciones\nPara crear nuestro primer programa con R, hemos utilizado una función llamada print().\n\nUna función es un módulo de código diseñado para realizar una tarea específica.\n\n\nEn R, se denota a una función por su nombre, seguido de paréntesis (). Por ejemplo: print()."
   },
   {
     "objectID": "index.html#funciones-1",
     "href": "index.html#funciones-1",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Funciones",
     "text": "Funciones\nLas funciones reciben un conjunto de entradas o argumentos, que sirven para modificar su comportamiento, y devuelven una o varias salidas."
   },
   {
     "objectID": "index.html#funciones-2",
     "href": "index.html#funciones-2",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Funciones",
-    "text": "Funciones\nEn nuestro programa, el argumento de print() fue \"¡Hola, mundo\". Los argumentos se ingresan en una función separados por una coma.\n\nLa tarea específica de esta función es imprimir en la consola el argumento. La salida es el mismo argumento, solo que en este caso se devuelve de manera silenciosa."
+    "text": "Funciones\nEn nuestro programa, el argumento de print() fue \"¡Hola, mundo!\". Los argumentos se ingresan en una función separados por una coma.\n\nLa tarea específica de esta función es imprimir en la consola el argumento. La salida es el mismo argumento, solo que en este caso se devuelve de manera silenciosa."
   },
   {
     "objectID": "index.html#página-de-ayuda",
     "href": "index.html#página-de-ayuda",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Página de ayuda",
     "text": "Página de ayuda\nTodas las funciones tienen una página de ayuda, donde se tiene documentado cómo usar la función y los argumentos que recibe.\n\nPara acceder a la página de ayuda, en la consola ingresar el nombre de la función precedida por un símbolo de interrogación ?:\n\n?print"
   },
   {
     "objectID": "index.html#página-de-ayuda-1",
     "href": "index.html#página-de-ayuda-1",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Página de ayuda",
     "text": "Página de ayuda\nLa página de ayuda se mostrará en la pestaña de Help.\n\nTambién es posible usar esta pestaña para buscar la página de ayuda de una función."
   },
   {
     "objectID": "index.html#errores",
     "href": "index.html#errores",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Errores",
     "text": "Errores\n¿Qué pasa si en vez de print escribimos prin?\n\nprin(\"¡Hola, mundo!\")\n\nError in prin(\"¡Hola, mundo!\"): could not find function \"prin\"\n\n\n\nLos mensajes de error de R nos precisan en qué parte del código hay un error.\n\n\nEsto nos ayuda a la depuración o debugging de nuestro código."
   },
   {
     "objectID": "index.html#entradas-de-usuario",
     "href": "index.html#entradas-de-usuario",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Entradas de usuario",
     "text": "Entradas de usuario\n¿Cómo haríamos si quisieramos saludar a un usuario en particular?\n\nEn R, podemos preguntarle su nombre al usuario utilizando la función readline().\n\n\nEl argumento de esta función es el mensaje que queremos mostrarle al usuario cuando le pidamos su nombre:\n\nreadline(\"¿Cuál es tu nombre? \")"
   },
   {
     "objectID": "index.html#entradas-de-usuario-1",
     "href": "index.html#entradas-de-usuario-1",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Entradas de usuario",
     "text": "Entradas de usuario\nreadline() devuelve lo que hayamos ingresado en la consola:\n\nreadline(\"¿Cuál es tu nombre? \")"
   },
   {
     "objectID": "index.html#saludo",
     "href": "index.html#saludo",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Saludo",
     "text": "Saludo\n¿Cómo armamos el saludo?\n\nreadline(\"¿Cuál es tu nombre? \")\nprint(\"Hola, Diego\")"
   },
   {
     "objectID": "index.html#saludo-1",
     "href": "index.html#saludo-1",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Saludo",
     "text": "Saludo\nPodemos usar el botón de Source para ejectuar todo el código en este script.\n\nreadline(\"¿Cuál es tu nombre? \")\nprint(\"Hola, Diego\")"
   },
   {
     "objectID": "index.html#saludo-2",
     "href": "index.html#saludo-2",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Saludo",
     "text": "Saludo\n¿Qué pasa si ingreso otro nombre?\n\nreadline(\"¿Cuál es tu nombre? \")\nprint(\"Hola, Diego\")"
   },
   {
     "objectID": "index.html#objetos",
     "href": "index.html#objetos",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Objetos",
     "text": "Objetos\nUn objeto en R sirve para almacenar información.\n\nPodemos darle un nombre a un objeto, y asignarle la información que queramos.\n\n\nAsí, cada vez que queramos usar la información almacenada, solo debemos llamar al nombre del objeto."
   },
   {
     "objectID": "index.html#objetos-1",
     "href": "index.html#objetos-1",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Objetos",
     "text": "Objetos\nAlmacenemos la salida de la función readline() en un objeto llamado nombre:\n\nnombre &lt;- readline(\"¿Cuál es tu nombre? \")\n\nEl símbolo &lt;- sirve para asignar o almacenar la salida de readline() al objeto de nombre nombre.\nVemos que en la pestaña de Environment se ha creado un objeto con el valor de “Diego”."
   },
   {
     "objectID": "index.html#objetos-2",
     "href": "index.html#objetos-2",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Objetos",
     "text": "Objetos\nAhora veamos el saludo completo:\n\nnombre &lt;- readline(\"¿Cuál es tu nombre? \")\nprint(\"Hola, nombre\")\n\n¿Por qué no sale mi nombre?"
   },
   {
     "objectID": "index.html#cadena-de-caracteres",
     "href": "index.html#cadena-de-caracteres",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Cadena de caracteres",
     "text": "Cadena de caracteres\nHasta ahora, hemos usado texto representado como una cadena de caracteres para escribir los saludos.\n\nLas cadenas de caracteres, o simplemente caracteres, se escriben en R dentro de comillas dobles (\"\")."
   },
   {
     "objectID": "index.html#cadena-de-caracteres-1",
     "href": "index.html#cadena-de-caracteres-1",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Cadena de caracteres",
     "text": "Cadena de caracteres\nAl incluir nombre dentro de las comillas en el texto del saludo, esta cadena se toma literalmente.\n\n¿Cómo podríamos incluir los caracteres almacenados en el objeto nombre?"
   },
   {
     "objectID": "index.html#paste",
     "href": "index.html#paste",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "paste()",
     "text": "paste()\nUna opción es usar la función paste(). Esta función convierte sus argumentos a cadenas de caracteres (si es que no lo son) y los concatena:\n\nnombre &lt;- readline(\"¿Cuál es tu nombre? \")\nsaludo &lt;- paste(\"Hola, \", nombre)\nprint(saludo)"
   },
   {
     "objectID": "index.html#paste-1",
     "href": "index.html#paste-1",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "paste()",
     "text": "paste()\n¿Por qué hay un espacio de más entre “Hola,” y “Diego”?\n\nSi revisamos la página de ayuda de paste() vemos que uno de sus argumentos es sep, el cual sirve como separador entre las cadenas que se quieren concatenar.\n\n\nPor defecto, sep tiene el valor de \" \"."
   },
   {
     "objectID": "index.html#paste-2",
     "href": "index.html#paste-2",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "paste()",
     "text": "paste()\nSi cambiamos el valor de sep a \"\", vemos que ya no hay un espacio de más en el saludo:\n\nnombre &lt;- readline(\"¿Cuál es tu nombre? \")\nsaludo &lt;- paste(\"Hola, \", nombre, sep = \"\")\nprint(saludo)"
   },
   {
     "objectID": "index.html#paste0",
     "href": "index.html#paste0",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "paste0()",
     "text": "paste0()\nSin embargo, alguien creó una función cuyo argumento sep ya tiene el valor por defecto \"\":\n\nnombre &lt;- readline(\"¿Cuál es tu nombre? \")\nsaludo &lt;- paste0(\"Hola, \", nombre, sep = \"\")\nprint(saludo)"
   },
   {
     "objectID": "index.html#composición-de-funciones",
     "href": "index.html#composición-de-funciones",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Composición de funciones",
     "text": "Composición de funciones\nPodríamos haber escrito el mismo código en una sola línea:\n\nprint(paste0(\"Hola, \", readline(\"¿Cuál es tu nombre? \"), sep = \"\"))\n\n\nA esto se le llama composición de funciones.\n\n\nObtenemos el mismo resultado. Pero, ¿es esta la mejor forma de escribirlo?"
   },
   {
     "objectID": "index.html#comentarios",
     "href": "index.html#comentarios",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Comentarios",
     "text": "Comentarios\nPodemos escribir notas en nuestro código para nosotros mismos o para otras personas usando comentarios. Para insertar un comentario, se escribe un numeral (#) al inicio de la línea:\n\n# Preguntamos el nombre\nnombre &lt;- readline(\"¿Cuál es tu nombre? \")\n\n# Creamos el saludo\nsaludo &lt;- paste0(\"Hola, \", nombre, sep = \"\")\n\n# Saludamos al usuario\nprint(saludo)"
   },
   {
     "objectID": "index.html#conteo-de-casos",
     "href": "index.html#conteo-de-casos",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Conteo de casos",
     "text": "Conteo de casos\n¡Trabajemos ahora con datos! Escribamos un programa que nos permita ingresar el conteo de casos confirmado de tres enfermedades:\n\nreadline(\"Ingresa el número de casos de Dengue: \")\nreadline(\"Ingresa el número de casos de Malaria: \")\nreadline(\"Ingresa el número de casos de Leptospirosis: \")"
   },
   {
     "objectID": "index.html#conteo-de-casos-1",
     "href": "index.html#conteo-de-casos-1",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Conteo de casos",
     "text": "Conteo de casos\n\ndengue &lt;- readline(\"Ingresa el número de casos de Dengue: \")\nmalaria &lt;- readline(\"Ingresa el número de casos de Malaria: \")\nlepto &lt;- readline(\"Ingresa el número de casos de Leptospirosis: \")"
   },
   {
     "objectID": "index.html#aritmética",
     "href": "index.html#aritmética",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Aritmética",
     "text": "Aritmética\nR permite realizar operaciones aritméticas básicas usando los siguientes operadores:\n\n+ para sumar,\n- para restar,\n* para multiplicar (multiplicación escalar),\ny / para dividir."
   },
   {
     "objectID": "index.html#conteo-de-casos-2",
     "href": "index.html#conteo-de-casos-2",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Conteo de casos",
     "text": "Conteo de casos\n\ndengue &lt;- readline(\"Ingresa el número de casos de Dengue: \")\nmalaria &lt;- readline(\"Ingresa el número de casos de Malaria: \")\nlepto &lt;- readline(\"Ingresa el número de casos de Leptospirosis: \")\n\ntotal &lt;- dengue + malaria + lepto\n\nprint(paste0(\"El número total de casos es: \", total))"
   },
   {
     "objectID": "index.html#modos-de-almacenamiento",
     "href": "index.html#modos-de-almacenamiento",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Modos de almacenamiento",
     "text": "Modos de almacenamiento\n¿Por qué nos sale error? Vemos que Environment los valores que hemos ingresado se han guardado como cadenas de caracteres.\n\n¿Se pueden sumar cadenas de caracteres (texto)?"
   },
   {
     "objectID": "index.html#modos-de-almacenamiento-1",
     "href": "index.html#modos-de-almacenamiento-1",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Modos de almacenamiento",
     "text": "Modos de almacenamiento\nR tiene diferentes modos para guardar información:\n\ncharacter para caracteres o cadenas de caracteres,\ndouble para números decimales,\ninteger para números enteros,\netc.\n\nTambién se les conoce como tipo de dato."
   },
   {
     "objectID": "index.html#coerción",
     "href": "index.html#coerción",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Coerción",
     "text": "Coerción\nR permite transformar el modo de almacenamiento de un objeto coercitivamente usando funciones:\n\nas.character() para cambiar a modo character,\nas.double() para cambiar a modo double,\nas.integer() para cambiar a modo integer,\netc."
   },
   {
     "objectID": "index.html#coerción-1",
     "href": "index.html#coerción-1",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Coerción",
     "text": "Coerción\nEstas funciones botarán un mensaje de error si es no es posible hacer la transformación.\n\nPor ejemplo, no es posible convertir \"Diego\" a un número, pero sí podemos convertir \"32\" a un número."
   },
   {
     "objectID": "index.html#conteo-de-casos-3",
     "href": "index.html#conteo-de-casos-3",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Conteo de casos",
     "text": "Conteo de casos\nApliquemos el concepto de coerción:\n\ndengue &lt;- readline(\"Ingresa el número de casos de Dengue: \")\nmalaria &lt;- readline(\"Ingresa el número de casos de Malaria: \")\nlepto &lt;- readline(\"Ingresa el número de casos de Leptospirosis: \")\n\nas.integer(dengue)\nas.integer(malaria)\nas.integer(lepto)\n\ntotal &lt;- dengue + malaria + lepto\n\nprint(paste0(\"El número total de casos es: \", total))"
   },
   {
     "objectID": "index.html#conteo-de-casos-4",
     "href": "index.html#conteo-de-casos-4",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Conteo de casos",
     "text": "Conteo de casos\nLos cambios de modo de almacenamiento no se hacen automáticamente. Es necesario guardar o actualizar los valores con el nuevo modo de almacenamiento:\n\ndengue &lt;- readline(\"Ingresa el número de casos de Dengue: \")\nmalaria &lt;- readline(\"Ingresa el número de casos de Malaria: \")\nlepto &lt;- readline(\"Ingresa el número de casos de Leptospirosis: \")\n\ndengue &lt;- as.integer(dengue)\nmalaria &lt;- as.integer(malaria)\nlepto &lt;- as.integer(lepto)\n\ntotal &lt;- dengue + malaria + lepto\n\nprint(paste0(\"El número total de casos es: \", total))"
   },
   {
     "objectID": "index.html#conteo-de-casos-5",
     "href": "index.html#conteo-de-casos-5",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Conteo de casos",
     "text": "Conteo de casos\nPoder acortar el código usando composición de funciones:\n\ndengue &lt;- as.integer(readline(\"Ingresa el número de casos de Dengue: \"))\nmalaria &lt;- as.integer(readline(\"Ingresa el número de casos de Malaria: \"))\nlepto &lt;- as.integer(readline(\"Ingresa el número de casos de Leptospirosis: \"))\n\ntotal &lt;- dengue + malaria + lepto\n\nprint(paste0(\"El número total de casos es: \", total))"
   },
   {
     "objectID": "index.html#conteo-de-casos-6",
     "href": "index.html#conteo-de-casos-6",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Conteo de casos",
     "text": "Conteo de casos\n¿Qué pasaría si tuviéramos que sumar muchos valores? Definitivamente, tipear + muchas veces no es eficiente.\nAfortunadamente, R tiene una función llamada sum() que permite calcular la suma de sus argumentos:\n\ndengue &lt;- as.integer(readline(\"Ingresa el número de casos de Dengue: \"))\nmalaria &lt;- as.integer(readline(\"Ingresa el número de casos de Malaria: \"))\nlepto &lt;- as.integer(readline(\"Ingresa el número de casos de Leptospirosis: \"))\n\ntotal &lt;- sum(dengue, malaria, lepto)\n\nprint(paste0(\"El número total de casos es: \", total))"
   },
   {
     "objectID": "index.html#tablas",
     "href": "index.html#tablas",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Tablas",
     "text": "Tablas\nUna tabla es un arreglo de información en filas y columnas:"
   },
   {
     "objectID": "index.html#tablas-1",
     "href": "index.html#tablas-1",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Tablas",
     "text": "Tablas\nPodemos usar esta tabla para calcular el número de casos total de dengue:"
   },
   {
     "objectID": "index.html#tablas-2",
     "href": "index.html#tablas-2",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Tablas",
     "text": "Tablas\nO el número total de casos confirmados:"
   },
   {
     "objectID": "index.html#tablas-3",
     "href": "index.html#tablas-3",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Tablas",
     "text": "Tablas\nA estas operaciones se les llama tabulaciones."
   },
   {
     "objectID": "index.html#archivos-csv",
     "href": "index.html#archivos-csv",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Archivos CSV",
     "text": "Archivos CSV\nUna forma popular de almacenar tablas es usando archivos de valores separados por coma o CSV (Comma Separated Values). Por ejemplo, nuestra tabla en formato CSV se veería así:\nenfermedad, confirmados, probables\nDengue, 37, 63\nMalaria, 43, 107,\nLeptospirosis, 25, 44"
   },
   {
     "objectID": "index.html#archivos-csv-1",
     "href": "index.html#archivos-csv-1",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Archivos CSV",
     "text": "Archivos CSV\nCreemos el archivo CSV de nuestra tabla usando las opciones New File &gt; Text File en RStudio. Dentro del archivo en blanco, ingresmos los valores separados por coma y luego guardemos el archivo con el nombre casos.csv\n\nEs importante asegurarse que el nombre del archivo tenga la extensión .csv."
   },
   {
     "objectID": "index.html#tablas-4",
     "href": "index.html#tablas-4",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Tablas",
     "text": "Tablas\nCreemos un nuevo script de R para realizar las tabulaciones:\n\nfile.create(\"tabulacion.R\")"
   },
   {
     "objectID": "index.html#leer-un-archivo-csv",
     "href": "index.html#leer-un-archivo-csv",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Leer un archivo CSV",
     "text": "Leer un archivo CSV\nR tiene una función para leer un archivo con formato de tabla llamada read.table(). El primer argumento de esta función es la ruta donde se ubica el archivo:\n\ncasos &lt;- read.table(\"casos.csv\")\n\nPodemos ver la tabla usando la función View():\n\nView(casos)"
   },
   {
     "objectID": "index.html#leer-un-archivo-csv-1",
     "href": "index.html#leer-un-archivo-csv-1",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Leer un archivo CSV",
     "text": "Leer un archivo CSV\nR tiene una función para leer un archivo con formato de tabla llamada read.table(). El primer argumento de esta función es la ruta donde se ubica el archivo:\n\ncasos &lt;- read.table(\"casos.csv\")\n\nPodemos ver la tabla usando la función View():\n\nView(casos)\n\n¡Esto no se ve bien!"
   },
   {
     "objectID": "index.html#leer-un-archivo-csv-2",
     "href": "index.html#leer-un-archivo-csv-2",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Leer un archivo CSV",
     "text": "Leer un archivo CSV\nVeamos la página de ayuda de read.table(). Vemos que esta función posee un argumento llamado sep para indicar qué separador de columnas tiene el archivo que queremos leer. En nuestro caso, el separador es la coma (\",\"):\n\ncasos &lt;- read.table(\"casos.csv\", sep = \",\")\nView(casos)\n\n¡Vamos bien!"
   },
   {
     "objectID": "index.html#leer-un-archivo-csv-3",
     "href": "index.html#leer-un-archivo-csv-3",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Leer un archivo CSV",
     "text": "Leer un archivo CSV\nAdemás, read.table() tiene otro argumento llamado header el cual puede tomar los valores lógicos TRUE o FALSE dependiendo de si nuestro archivo tiene los nombres de las columna en la primera línea o no, respectivamente. En nuestro caso, los nombres de las columnas sí están en la primera fila:\n\ncasos &lt;- read.table(\"casos.csv\", sep = \",\", header = TRUE)\nView(casos)\n\n¡Ahora sí tenemos nuestra tabla!"
   },
   {
     "objectID": "index.html#leer-un-archivo-csv-4",
     "href": "index.html#leer-un-archivo-csv-4",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Leer un archivo CSV",
     "text": "Leer un archivo CSV\nPara mejorar la legibilidad del código, podemos escribir los argumentos en líneas separadas:\n\ncasos &lt;- read.table(\n  \"casos.csv\", \n  sep = \",\", \n  header = TRUE\n)\nView(casos)"
   },
   {
     "objectID": "index.html#leer-un-archivo-csv-5",
     "href": "index.html#leer-un-archivo-csv-5",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Leer un archivo CSV",
     "text": "Leer un archivo CSV\nLos programadores son flojos. Uno de ellos creó una función llamada read.csv() que hace lo mismo que read.table() pero con los argumentos sep = \",\" y header = TRUE por defecto:\n\ncasos &lt;- read.csv(\"casos.csv\")\nView(casos)"
   },
   {
     "objectID": "index.html#data-frames",
     "href": "index.html#data-frames",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Data frames",
     "text": "Data frames\nLa salida que nos devuelve la función read.csv() es un data frame. Un data frame en R es un modo de almacenamiento bidimensional (filas y columnas) que sirve para almacenar datos tabulares."
   },
   {
     "objectID": "index.html#notación-de-corchetes",
     "href": "index.html#notación-de-corchetes",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Notación de corchetes",
     "text": "Notación de corchetes\nPodemos realizar diversas operaciones sobre un data frame, como acceder a los datos de las filas o columnas usando la notación de corchetes:"
   },
   {
     "objectID": "index.html#notación-de-corchetes-1",
     "href": "index.html#notación-de-corchetes-1",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Notación de corchetes",
     "text": "Notación de corchetes\nPor ejemplo, para acceder al número de casos confirmados de Dengue (el primer valor de la segunda columna):"
   },
   {
     "objectID": "index.html#notación-de-corchetes-2",
     "href": "index.html#notación-de-corchetes-2",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Notación de corchetes",
     "text": "Notación de corchetes\nSi quisiéramos acceder a todos los valores de una columna, demos el blanco el lugar de la fila. Por ejemplo, para acceder a la columna de casos confirmados:"
   },
   {
     "objectID": "index.html#notación-de-corchetes-3",
     "href": "index.html#notación-de-corchetes-3",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Notación de corchetes",
     "text": "Notación de corchetes\nEn R:\n\ncasos[, 3]"
   },
   {
     "objectID": "index.html#acceder-a-columnas",
     "href": "index.html#acceder-a-columnas",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Acceder a columnas",
     "text": "Acceder a columnas\n¿Qué pasaría si cambio el orden de las columnas? Tendría que estar actualizando el número de la columna a la cual quiero acceder. Es más fácil acceder a los datos de una columna por su nombre."
   },
   {
     "objectID": "index.html#acceder-a-columnas-1",
     "href": "index.html#acceder-a-columnas-1",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Acceder a columnas",
     "text": "Acceder a columnas\nEn R, para acceder a una columna por su nombre escribimos el nombre del data frame, seguido del símbolo $ y el nombre de la columna. Por ejemplo, para acceder a la columna de los casos confirmados:"
   },
   {
     "objectID": "index.html#acceder-a-columnas-2",
     "href": "index.html#acceder-a-columnas-2",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Acceder a columnas",
     "text": "Acceder a columnas\nEn R:\n\ncasos$confirmados"
   },
   {
     "objectID": "index.html#vectores",
     "href": "index.html#vectores",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Vectores",
     "text": "Vectores\nCuando accedemos a una columna usando el símbolo $, R nos devuelve un vector. Un vector es una lista de elementos del mismo tipo. Es decir, la salida no es más un data frame, sino un vector de datos."
   },
   {
     "objectID": "index.html#vectores-1",
     "href": "index.html#vectores-1",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Vectores",
     "text": "Vectores\nUn vector es un arreglo unidimensional de datos, y por tanto también acepta la notación de corchetes. Por ejemplo, para acceder al primer elemento del vector de casos confirmados:\n\ncasos$confirmados[1]\n\nEn un vector, ya no es necesario ingresar el número de fila y de columna, ya que solo tiene una dimensión."
   },
   {
     "objectID": "index.html#vectores-2",
     "href": "index.html#vectores-2",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Vectores",
     "text": "Vectores\n¿Cómo podríamos calcular el número total de casos confirmados? Una opción es la siguiente:\n\ncasos$confirmados[1] + casos$confirmados[2] + casos$confirmados[3]\n\nSin embargo, ¿qué pasaría si tenemos más de tres enfermedades? ¿Es esto eficiente?"
   },
   {
     "objectID": "index.html#vectores-3",
     "href": "index.html#vectores-3",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Vectores",
     "text": "Vectores\nIntentemos lo siguiente:\n\nsum(casos$confirmados)\n\n¿Por qué funciona?"
   },
   {
     "objectID": "index.html#vectorización",
     "href": "index.html#vectorización",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Vectorización",
     "text": "Vectorización\nLas funciones en R están vectorizadas. Es decir, operan sobre todos los elementos de un vector sin tener que operar uno por uno. Por esta razón, podemos usar la función sum() para realizar la suma de todos los elementos del vector:\n\nsum(casos$confirmados)"
   },
   {
     "objectID": "index.html#todo-en-r-son-vectores",
     "href": "index.html#todo-en-r-son-vectores",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Todo en R son vectores",
     "text": "Todo en R son vectores\nLa cadena de caracteres que usamos para el salud es un vector (de un solo elemento):\n\nprint(\"¡Hola, mundo!\")\n\nIncluso un data frame es una colección de vectores (columnas).\n\ncasos$enfermedad\ncasos$confirmados\ncasos$probables"
   },
   {
     "objectID": "index.html#tablas-5",
     "href": "index.html#tablas-5",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Tablas",
     "text": "Tablas\n¿Cómo podría calcular el número total de casos para cada enfermedad?"
   },
   {
     "objectID": "index.html#tablas-6",
     "href": "index.html#tablas-6",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Tablas",
     "text": "Tablas\nUna opción en R:\n\n# Para Dengue\ncasos$confirmados[1] + casos$probables[1]\n\n# Para Malaria\ncasos$confirmados[2] + casos$probables[2]\n\n# Para Leptospirosis\ncasos$confirmados[3] + casos$probables[3]\n\n¿Qué tal si tengo muchas enfermedades? ¿Habrá una formas más eficiente de hacerlo?"
   },
   {
     "objectID": "index.html#aritmética-vectorial",
     "href": "index.html#aritmética-vectorial",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Aritmética vectorial",
     "text": "Aritmética vectorial\nComo todo en R es un vector, es posible aplicar la aritmética vectorial para calcular la suma de los elementos de cada vector según su posición:"
   },
   {
     "objectID": "index.html#aritmética-vectorial-1",
     "href": "index.html#aritmética-vectorial-1",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Aritmética vectorial",
     "text": "Aritmética vectorial\nEl resultado de realizar una operación aritmetica entre vectors siempre será también un vector."
   },
   {
     "objectID": "index.html#aritmética-vectorial-2",
     "href": "index.html#aritmética-vectorial-2",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Aritmética vectorial",
     "text": "Aritmética vectorial\nEn R:\n\ncasos$confirmados + casos$probables"
   },
   {
     "objectID": "index.html#aritmética-vectorial-3",
     "href": "index.html#aritmética-vectorial-3",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Aritmética vectorial",
     "text": "Aritmética vectorial\nTambién podríamos usar la notación de corchetes:\n\ncasos[, 2] + casos[, 3]"
   },
   {
     "objectID": "index.html#aritmética-vectorial-4",
     "href": "index.html#aritmética-vectorial-4",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Aritmética vectorial",
     "text": "Aritmética vectorial\nSin embargo, hay que tener cuidado con la siguiente notación:\n\ncasos[2] + casos[3]\n\nEsta notación devuelve un data frame y no un vector. Si bien los totales son correctos, es más conveniente tener los resultados en un vector que en un data frame, ya que el primeor es más sencillo de manipular."
   },
   {
     "objectID": "index.html#crear-una-nueva-columna",
     "href": "index.html#crear-una-nueva-columna",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Crear una nueva columna",
     "text": "Crear una nueva columna\nPodemos asignar los totales calculados a una nueva columna en la tabla usando el símbolo $ seguido del nombre de la nueva columna:\n\ncasos$totales &lt;- casos$confirmados + casos$probables\nView(casos)\n\nEsto se puede hacer siempre y cuando la nueva columna tenga el mismo número de filas de la tabla."
   },
   {
     "objectID": "index.html#escribir-un-archivo-csv",
     "href": "index.html#escribir-un-archivo-csv",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Escribir un archivo CSV",
     "text": "Escribir un archivo CSV\nPodemos escribir un nuevo archivo CSV con nuestra nueva tabla usando la función write.csv(). Si vemos la documentación, el primer argumento es el data frame y el segundo la ruta donde se va a escribir el archivo:\n\nwrite.csv(casos, \"totales.csv\")"
   },
   {
     "objectID": "index.html#nombres-de-fila",
     "href": "index.html#nombres-de-fila",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Nombres de fila",
     "text": "Nombres de fila\nSi abrimos el archivo, vemos que tiene la siguiente estructura:\n\"\",\"enfermedad\",\"confirmados\",\"probables\",\"totales\"\n\"1\",\"Dengue\",37,63,100\n\"2\",\"Malaria\",43,107,150\n\"3\",\"Leptospirosis\",25,44,69\n\nVemos que además de las columnas que tenía el data frame, se añadió una columna que indica la posición de las filas. Esta columna sirve para nombrar las filas."
   },
   {
     "objectID": "index.html#nombres-de-fila-1",
     "href": "index.html#nombres-de-fila-1",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Nombres de fila",
     "text": "Nombres de fila\nPodemos decirle a write.csv() si queremos (TRUE) o no queremos (FALSE) nombres de fila usando el argumento row.names:\n\nwrite.csv(casos, \"totales.csv\", row.names = FALSE)"
   },
   {
     "objectID": "index.html#dengue",
     "href": "index.html#dengue",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Dengue",
     "text": "Dengue\nCreemos un nuevo script con el nombre dengue.R y usémoslo para importar desde una página web un archivo CSV con los casos notificados de Dengue en la provincia de Maynas en los años 2018 y 2019:\n\nurl &lt;- \"https://raw.githubusercontent.com/healthinnovation/r101-iquitos-20240810/main/data/dengue.csv\"\ndengue &lt;- read.csv(url)"
   },
   {
     "objectID": "index.html#dengue-1",
     "href": "index.html#dengue-1",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Dengue",
     "text": "Dengue\nGuardémoslo para poder usarlo luego:\n\nwrite.csv(dengue, \"dengue.csv\", row.names = FALSE)"
   },
   {
     "objectID": "index.html#número-de-filas",
     "href": "index.html#número-de-filas",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Número de filas",
     "text": "Número de filas\n¿Cuál es el número de filas de este data frame?\n\nnrow(dengue)"
   },
   {
     "objectID": "index.html#número-de-columnas",
     "href": "index.html#número-de-columnas",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Número de columnas",
     "text": "Número de columnas\n¿Cuál es el número de columnas de este data frame?\n\nncol(dengue)"
   },
   {
     "objectID": "index.html#enfermedades",
     "href": "index.html#enfermedades",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Enfermedades",
     "text": "Enfermedades\n¿Qué enfermedades se notificaron en esta tabla?\n\ndengue$enfermedad"
   },
   {
     "objectID": "index.html#valores-únicos",
     "href": "index.html#valores-únicos",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Valores únicos",
     "text": "Valores únicos\nPara ver los valores únicos de una variable, podemos usar la función unique():\n\nunique(dengue$enfermedad)"
   },
   {
     "objectID": "index.html#dengue-2",
     "href": "index.html#dengue-2",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Dengue",
     "text": "Dengue\nVeamos la variable de código de localidad:\n\ndengue$localcod"
   },
   {
     "objectID": "index.html#dengue-3",
     "href": "index.html#dengue-3",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Dengue",
     "text": "Dengue\n¿Qué son estos valores NA?"
   },
   {
     "objectID": "index.html#valores-especiales",
     "href": "index.html#valores-especiales",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Valores especiales",
     "text": "Valores especiales\nNA en R significa Not Available o “no disponible”. Es un valor especial que indica que debería existir un dato en esa posición, pero por alguna razón no se encuentra disponible o está perdido."
   },
   {
     "objectID": "index.html#valores-especiales-1",
     "href": "index.html#valores-especiales-1",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Valores especiales",
     "text": "Valores especiales\nR tiene otros valores especiales:\n\nNaN de Not a Number, sirve para indicar un valor que es imposible de calcular o no es determinado (división entre cero).\nInf y -Inf sirven para indicar valores infinitos positivos y negativos, respectivamente.\nNULL representa a un objeto nulo. Es la representación de “la nada”. Es posible tener un vector de NAs pero no de NULLs. Un vector que conciente un NULL es considerado NULL."
   },
   {
     "objectID": "index.html#valores-especiales-2",
     "href": "index.html#valores-especiales-2",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Valores especiales",
     "text": "Valores especiales\nR tiene otros valores especiales:\n\nNaN de Not a Number, sirve para indicar un valor que es imposible de calcular o no es determinado (división entre cero).\nInf y -Inf sirven para indicar valores infinitos positivos y negativos, respectivamente.\nNULL representa a un objeto nulo. Es la representación de “la nada”. Es posible tener un vector de NAs pero no de NULLs. Un vector que conciente un NULL es considerado NULL."
   },
   {
     "objectID": "index.html#dengue-4",
     "href": "index.html#dengue-4",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Dengue",
     "text": "Dengue\nVeamos la variable sexo:\n\ndengue$sexo"
   },
   {
     "objectID": "index.html#dengue-5",
     "href": "index.html#dengue-5",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Dengue",
     "text": "Dengue\nVeamos los valores únicos de la variable sexo:\n\nunique(dengue$sexo)\n\nVemos que esta variable toma dos valores: F de femenino y M de masculino."
   },
   {
     "objectID": "index.html#factores",
     "href": "index.html#factores",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Factores",
     "text": "Factores\nUn tipo de dato en R bastante útil para manejar estos tipos de variables son los factores.\n\nUn factor es un modo de almacenamiento utilizado para representar variables categóricas. Es decir, variables que tienen un número limitado y fijo de valores posibles, llamados niveles."
   },
   {
     "objectID": "index.html#factores-1",
     "href": "index.html#factores-1",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Factores",
     "text": "Factores\nPodemos definir un factor usando la función factor(). Por ejemplo, usando la variable sex:\n\nfactor(dengue$sexo)\n\nVemos que ahora R reconoce que la variable sex tiene dos niveles o categorías: F y M."
   },
   {
     "objectID": "index.html#etiquetas-de-los-niveles",
     "href": "index.html#etiquetas-de-los-niveles",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Etiquetas de los niveles",
     "text": "Etiquetas de los niveles\nPodemos darle etiquetas a los niveles usando el argumento labels. Este argumento recibe un vector de la misma dimensión de los niveles de la variable con las etiquetas que queramos según el orden de los niveles.\n\nEs decir, el primer elemento del vector de etiquetas es la etiqueta del primer nivel, el segundo elemento del vector es la etiqueta del segundo nivel, y así sucesivamente."
   },
   {
     "objectID": "index.html#crear-un-vector",
     "href": "index.html#crear-un-vector",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Crear un vector",
     "text": "Crear un vector\nPara crear un vector en R podemos usar la función c(). Por ejemplo, para crear un vector con las etiquetas Femenino y Masculino:\n\nc(\"Femenino\", \"Masculino\")"
   },
   {
     "objectID": "index.html#etiquetas-de-los-niveles-1",
     "href": "index.html#etiquetas-de-los-niveles-1",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Etiquetas de los niveles",
     "text": "Etiquetas de los niveles\nAhora pasamos el vector al argumento labels de la función factor():\n\nfactor(dengue$sex, labels = c(\"Femenino\", \"Masculino\"))"
   },
   {
     "objectID": "index.html#cambiar-el-orden-de-los-niveles",
     "href": "index.html#cambiar-el-orden-de-los-niveles",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Cambiar el orden de los niveles",
     "text": "Cambiar el orden de los niveles\nSi quisiéramos cambiar el orden de los niveles, podemos usar el argumento levels de la función factor(). Este argumento recibe un vector con los niveles en el orden que queramoss:\n\nfactor(\n  dengue$sex,\n  levels = c(\"M\", \"F\"),\n  labels = c(\"Masculino\", \"Femenino\")\n)\n\n¡Cuidado! Hay que cambiar el orden de las etiquetas también."
   },
   {
     "objectID": "index.html#por-qué-trabajar-con-factores",
     "href": "index.html#por-qué-trabajar-con-factores",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "¿Por qué trabajar con factores?",
     "text": "¿Por qué trabajar con factores?\nDigamos que tenemos el siguiente vector:\n\nsexo &lt;- c(\"F\", \"F\", \"M\", \"M\", \"J\")\n\nDefinimos el factor solo con los niveles F y M:\n\nfactor(sexo, levels = c(\"F\", \"M\"))\n\nVemos que J fue reemplazado con un NA. Los factores son útiles para asegurar la integridad de la variable categórica."
   },
   {
     "objectID": "index.html#temperatura-mínima",
     "href": "index.html#temperatura-mínima",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Temperatura mínima",
     "text": "Temperatura mínima\nCreemos un script de R llamado iquitos.R y leamos los datos diarios de temperatura mínima en C° en Iquitos durante el año 2022:\n\nurl &lt;- \"https://raw.githubusercontent.com/healthinnovation/r101-iquitos-20240810/main/data/iquitos.csv\"\niquitos &lt;- read.csv(url)"
   },
   {
     "objectID": "index.html#temperatura-mínima-1",
     "href": "index.html#temperatura-mínima-1",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Temperatura mínima",
     "text": "Temperatura mínima\nVeamos el vector de temperaturas mínimas:\n\niquitos$temp_min"
   },
   {
     "objectID": "index.html#ordenando-un-vector",
     "href": "index.html#ordenando-un-vector",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Ordenando un vector",
     "text": "Ordenando un vector\nPodemos usar la función sort() para ordenar el vector temperaturas mínimas de manera ascendente:\n\nsort(iquitos$temp_min)"
   },
   {
     "objectID": "index.html#ordenando-un-vector-1",
     "href": "index.html#ordenando-un-vector-1",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Ordenando un vector",
     "text": "Ordenando un vector\nPodemos usar el argumento decreasing para indicarle a sort() que queremos ordenar el vector manera descendente:\n\nsort(iquitos$temp_min, decreasing = TRUE)"
   },
   {
     "objectID": "index.html#valores-atípicos",
     "href": "index.html#valores-atípicos",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Valores atípicos",
     "text": "Valores atípicos\nVemos que los menores valores de la temperatura parecen ser valores atípicos. Digamos que queremos eliminar los primeros 5 valores atípicos. ¿Cómo los eliminamos?\n\ntemps &lt;- sort(iquitos$temp_min)"
   },
   {
     "objectID": "index.html#valores-atípicos-1",
     "href": "index.html#valores-atípicos-1",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Valores atípicos",
     "text": "Valores atípicos\nRecordemos que podemos acceder a cada elemento del vecto usando la notación de corchetes:\n\ntemps[1]\ntemps[2]\ntemps[3]\ntemps[4]\ntemps[5]\n\nSin embargo, lo que queremos es extraer todos estos valores en un solo vector."
   },
   {
     "objectID": "index.html#indexación-de-vectores",
     "href": "index.html#indexación-de-vectores",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Indexación de vectores",
     "text": "Indexación de vectores\nHasta ahora hemos visto que podemos acceder a los elementos de un vector uno por uno:"
   },
   {
     "objectID": "index.html#indexación-de-vectores-1",
     "href": "index.html#indexación-de-vectores-1",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Indexación de vectores",
     "text": "Indexación de vectores\nTambién podemos usar un vector para acceder a más de una elemento del vector:"
   },
   {
     "objectID": "index.html#indexación-de-vectores-2",
     "href": "index.html#indexación-de-vectores-2",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Indexación de vectores",
     "text": "Indexación de vectores\nEn R:\n\ntemps[c(1, 2, 3, 4, 5)]"
   },
   {
     "objectID": "index.html#indexación-de-vectores-3",
     "href": "index.html#indexación-de-vectores-3",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Indexación de vectores",
     "text": "Indexación de vectores\nTambién podemos usar el operador : para generar una secuencia regular:\n\ntemps[1:5]"
   },
   {
     "objectID": "index.html#indexación-de-vectores-4",
     "href": "index.html#indexación-de-vectores-4",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Indexación de vectores",
     "text": "Indexación de vectores\nSin embargo, todavía no hemos removido estos valores atípico. Para eliminar elementos de un vector, debemos pasar índices negativos:\n\ntemps[-c(1, 2, 3, 4, 5)]"
   },
   {
     "objectID": "index.html#valores-atípicos-2",
     "href": "index.html#valores-atípicos-2",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Valores atípicos",
     "text": "Valores atípicos\n¿Qué tal si tuviéramos datos de temperatura de otro distrito? ¿Simpre los valores atípicos van a ser los 5 valores menores?\n\nLo mejor sería establecer un umbral. Valores menores a este umbral serían considerados valores atípicos."
   },
   {
     "objectID": "index.html#expresiones-lógicas",
     "href": "index.html#expresiones-lógicas",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Expresiones lógicas",
     "text": "Expresiones lógicas\nPara saber si un valor es menor al umbral, necesitamos comparar sus magnitudes. En R, esto se puede hacer mediante operadores de comparación:\n\n== se lee “es igual a”,\n!= se lee “es diferente a”,\n&gt; se lee “es mayor a”,\n&gt;= se lee “es mayor o igual a”,\n&lt; se lee “es menor a”,\n&lt;= se lee “es menor o igual a”."
   },
   {
     "objectID": "index.html#expresiones-lógicas-1",
     "href": "index.html#expresiones-lógicas-1",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Expresiones lógicas",
     "text": "Expresiones lógicas\nPor ejemplo, al evaluar el enunciado a &lt; b, dos resultados son posibles:\n\na es de hecho menor a b, por lo cual el enunciado es verdadero, o\na no es menor a b, por lo cual el enunciado es falso.\n\nEn el primer caso, R devuelve un valor lógico de TRUE, mientras que en el segundo devuelve un valor lógico de FALSE."
   },
   {
     "objectID": "index.html#expresiones-lógicas-2",
     "href": "index.html#expresiones-lógicas-2",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Expresiones lógicas",
     "text": "Expresiones lógicas\nDebido a que el resulado de una comparación puede tomar solo dos valores lógicos, a los enunciados de comparación se les conoce como expresiones lógicas."
   },
   {
     "objectID": "index.html#expresiones-lógicas-3",
     "href": "index.html#expresiones-lógicas-3",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Expresiones lógicas",
     "text": "Expresiones lógicas\nPor ejemplo, si definimos que las temperaturas menores a 19 C° son valores atípicos, necesitamos comparar cada elemento de temps con este umbral:\n\ntemps[1] &lt; 19\ntemps[2] &lt; 19\ntemps[3] &lt; 19\ntemps[4] &lt; 19\ntemps[5] &lt; 19\ntemps[6] &lt; 19"
   },
   {
     "objectID": "index.html#vectorización-1",
     "href": "index.html#vectorización-1",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Vectorización",
     "text": "Vectorización\nRecordemos que las funciones en R está vectorizadas. Los operadores también actuan como funciones, por tanto también tienen la propiedad de vectorización:\n\ntemps &lt; 19\n\nEn este caso, R devuelve un vector lógico, el cual indica el resultado de la comparación de cada elemento de temps con el valor 19."
   },
   {
     "objectID": "index.html#indexación-de-vectores-5",
     "href": "index.html#indexación-de-vectores-5",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Indexación de vectores",
     "text": "Indexación de vectores\nVolviendo al problema de indexación, en R podemos utilizar la función which() para saber cuáles son los índices del vector temps que son menores a 19 automáticamente:\n\nwhich(temps &lt; 19)"
   },
   {
     "objectID": "index.html#indexación-de-vectores-6",
     "href": "index.html#indexación-de-vectores-6",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Indexación de vectores",
     "text": "Indexación de vectores\nDe esta manera, podemos indicarle a R que elimine los valores atípicos usando los negativos de los índices:\n\ntemps[-which(temps &lt; 19)]"
   },
   {
     "objectID": "index.html#operadores-lógicos",
     "href": "index.html#operadores-lógicos",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Operadores lógicos",
     "text": "Operadores lógicos\n¿Qué tal si quisiéramos incluir a las temperatures mayores a 24.6 C° como valores atípicos? Para esto, necesitamos hacer uso de operadores lógicos, es decir, operadores que trabajen sobre valores lógicos:\n\n& representa al operador lógico “Y”,\n| representa al operador lógico “O”,\n! representa al operador lógico de negación o “NO”.\n\n& y | funcionan con vectores lógicos. Para comparar valores individuales debemos usar && y ||."
   },
   {
     "objectID": "index.html#operadores-lógicos-1",
     "href": "index.html#operadores-lógicos-1",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Operadores lógicos",
     "text": "Operadores lógicos\nCon los operadores lógicos, podemos construir las tablas lógicas:"
   },
   {
     "objectID": "index.html#operadores-lógicos-2",
     "href": "index.html#operadores-lógicos-2",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Operadores lógicos",
     "text": "Operadores lógicos\nPara el caso de la negación:"
   },
   {
     "objectID": "index.html#operadores-lógicos-3",
     "href": "index.html#operadores-lógicos-3",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Operadores lógicos",
     "text": "Operadores lógicos\nEn R:\n\ntemps &lt; 19 | temps &gt; 24.6"
   },
   {
     "objectID": "index.html#indexación-de-vectores-7",
     "href": "index.html#indexación-de-vectores-7",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Indexación de vectores",
     "text": "Indexación de vectores\nAhora con which():\n\ntemps[which(temps &lt; 19 | temps &gt; 24.6)]\n\nSi quisiéramos eliminar los valores atípicos:\n\ntemps[-which(temps &lt; 19 | temps &gt; 24.6)]"
   },
   {
     "objectID": "index.html#indexación-con-vectores-lógicos",
     "href": "index.html#indexación-con-vectores-lógicos",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Indexación con vectores lógicos",
     "text": "Indexación con vectores lógicos\nDe hecho, usar which() es innecesario. Podemos acceder o filtrar a los elementos que queramos usando el vector lógico:"
   },
   {
     "objectID": "index.html#indexación-con-vectores-lógicos-1",
     "href": "index.html#indexación-con-vectores-lógicos-1",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Indexación con vectores lógicos",
     "text": "Indexación con vectores lógicos\nDe hecho, usar which() es innecesario. Podemos acceder o filtrar a los elementos que queramos usando el vector lógico:"
   },
   {
     "objectID": "index.html#indexación-con-vectores-lógicos-2",
     "href": "index.html#indexación-con-vectores-lógicos-2",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Indexación con vectores lógicos",
     "text": "Indexación con vectores lógicos\nEn R:\n\ntemps[temps &lt; 19 | temps &gt; 24.6]"
   },
   {
     "objectID": "index.html#indexación-con-vectores-lógicos-3",
     "href": "index.html#indexación-con-vectores-lógicos-3",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Indexación con vectores lógicos",
     "text": "Indexación con vectores lógicos\nSi quisiéramos quedarnos con los elementos que no son valores atípicos podemos usar el operador de negación !:\n\ntemps[!(temps &lt; 19 | temps &gt; 24.6)]"
   },
   {
     "objectID": "index.html#indexación-con-vectores-lógicos-4",
     "href": "index.html#indexación-con-vectores-lógicos-4",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Indexación con vectores lógicos",
     "text": "Indexación con vectores lógicos\nDefinimos nuestros vectores\n\nfiltro &lt;- (temps &lt; 19 | temps &gt; 24.6)\nno_outliers &lt;- temps[!filtro]\noutliers &lt;- temps[filtro]"
   },
   {
     "objectID": "index.html#dengue-6",
     "href": "index.html#dengue-6",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Dengue",
     "text": "Dengue\nCreemos un script de R llamado dengue_casos.R y carguemos a nuestro conjunto de datos de Dengue:\n\ndengue &lt;- read.csv(\"dengue.csv\")"
   },
   {
     "objectID": "index.html#funciones-lógicas",
     "href": "index.html#funciones-lógicas",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Funciones lógicas",
     "text": "Funciones lógicas\nSabemos que hay casos en los que no se registró la localidad. Es decir, donde la localidad es un NA.\n\nPara identificar los NAs, podemos usar la función lógica is.na(), la cual devuelve TRUE si el valor que se le pase es un NA y FALSE en el caso contrario."
   },
   {
     "objectID": "index.html#funciones-lógicas-1",
     "href": "index.html#funciones-lógicas-1",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Funciones lógicas",
     "text": "Funciones lógicas\nSi quisiéramos filtrar los casos (filas) en donde no se registró la localidad, podemos hacer uso de la función lógica is.na() y la notación de corchetes:\n\ndengue[is.na(dengue$localidad), ]"
   },
   {
     "objectID": "index.html#funciones-lógicas-2",
     "href": "index.html#funciones-lógicas-2",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Funciones lógicas",
     "text": "Funciones lógicas\nSi, por el contrario, quisiéramos filtrar los casos en los que sí se registró la localidad, entonces negamos a la función lógica:\n\ndengue[!is.na(dengue$localidad), ]"
   },
   {
     "objectID": "index.html#funciones-lógicas-3",
     "href": "index.html#funciones-lógicas-3",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Funciones lógicas",
     "text": "Funciones lógicas\nExisten otras funciones lógicas:\n\nis.nan() para valores no definidos,\nis.infinite() para valores infinitos,\nis.null() para valores nulos,\netc."
   },
   {
     "objectID": "index.html#subset",
     "href": "index.html#subset",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "subset()",
     "text": "subset()\nEn R existe una función para hacer filtrar filas sin usar la notación por corchetes llamada subset():\n\nsubset(dengue, !is.na(localidad))\n\nNo es necesario poner dengue$localidad ya que subset() reconoce el nombre de las columnas en el data frame."
   },
   {
     "objectID": "index.html#subset-1",
     "href": "index.html#subset-1",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "subset()",
     "text": "subset()\nGuardemos los datos que contienen todas las localidades en un nuevo objeto:\n\ndengue_limpio &lt;- subset(dengue, !is.na(localidad))"
   },
   {
     "objectID": "index.html#dengue-7",
     "href": "index.html#dengue-7",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Dengue",
     "text": "Dengue\nDigamos que queramos calcular el número de casos notificados por cada tipo de Dengue durante los años 2018 y 2019:\n\nunique(dengue_limpio$enfermedad)\n\n¿Cómo filtramos por tipo de enfermedad?"
   },
   {
     "objectID": "index.html#dengue-8",
     "href": "index.html#dengue-8",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Dengue",
     "text": "Dengue\nPor ejemplo, para los casos de dengue con señales de alarma:\n\nfiltro_alarma &lt;- dengue_limpio$enfermedad == \"DENGUE CON SEÑALES DE ALARMA\""
   },
   {
     "objectID": "index.html#dengue-9",
     "href": "index.html#dengue-9",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Dengue",
     "text": "Dengue\nUtilizamos subset():\n\nsubset(dengue_limpio, filtro_alarma)\n\nGuardamos el resultado en nuevo objeto:\n\ndengue_alarma &lt;- subset(dengue_limpio, filtro_alarma)"
   },
   {
     "objectID": "index.html#dengue-10",
     "href": "index.html#dengue-10",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Dengue",
     "text": "Dengue\n¿Cómo podemos saber cuánto casos notificados de dengue con señales de alarma hubieron? Podemos calcular el número de filas de dengue_alarma:\n\nnrow(dengue_alarma)"
   },
   {
     "objectID": "index.html#menú",
     "href": "index.html#menú",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Menú",
     "text": "Menú\nCreemos ahora un programa que le permita al usuario decidir de qué tipo de dengue calcular el número de casos registrados. Empecemos por crear un vector con los valores únicos de dengue$enfermedad:\n\nenfermedades &lt;- unique(dengue_limpio$enfermedad)\n\nY ahora, creemos un menú que liste los tipos de enfermedad usando la función cat():\n\ncat(\"1: \", enfermedades[1])\ncat(\"2: \", enfermedades[2])\ncat(\"3: \", enfermedades[3])"
   },
   {
     "objectID": "index.html#menú-1",
     "href": "index.html#menú-1",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Menú",
     "text": "Menú\nA diferencia de print(), la función cat() concatena sus argumentos imprime los resultados en la consola como texto, no como un vector."
   },
   {
     "objectID": "index.html#caracteres-de-escape",
     "href": "index.html#caracteres-de-escape",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Caracteres de escape",
     "text": "Caracteres de escape\nLos caracteres de escape sirven para insertar caracteres especiales en una cadena de caracteres. Por ejemplo:\n\n\\n inserta un salto de línea.\n\\t inserta una tabulación (TAB en el teclado)."
   },
   {
     "objectID": "index.html#caracteres-de-escape-1",
     "href": "index.html#caracteres-de-escape-1",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Caracteres de escape",
     "text": "Caracteres de escape\nMejoremos nuestro menú:\n\ncat(\"1: \", enfermedades[1], \"\\n\")\ncat(\"2: \", enfermedades[2], \"\\n\")\ncat(\"3: \", enfermedades[3], \"\\n\")"
   },
   {
     "objectID": "index.html#menú-2",
     "href": "index.html#menú-2",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Menú",
     "text": "Menú\n¿Qué pasaría si tengo muchas opciones? Podemos vectorizar el menú:\n\ncat(enfermedades, \"\\n\")\n\nEsto no es lo que esperábamos."
   },
   {
     "objectID": "index.html#menú-3",
     "href": "index.html#menú-3",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Menú",
     "text": "Menú\nSi vemos la página de ayuda de cat(), hay un argumento llamado sep que inserta un caracter en cada elemento del vector que ingresemos. Podemos probar pasando el caracter de escape \\n a este argumento:\n\ncat(enfermedades, sep = \"\\n\")"
   },
   {
     "objectID": "index.html#menú-4",
     "href": "index.html#menú-4",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Menú",
     "text": "Menú\nFaltaría agregar los número para que el usuario no tenga que escribir todo el texto de la enfermedad. Podemos aprovechar la propiedad de vectorización de paste() para crear un vector con las opciones:\n\npaste0(1:3, \". \",  enfermedades)"
   },
   {
     "objectID": "index.html#menú-5",
     "href": "index.html#menú-5",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Menú",
     "text": "Menú\n¿Qué pasaría si tengo más de 3 opciones? Podemos hacer que la secuencia de adapte al número de opciones usango la función length() que calcula el número de elementos de un vector:\n\nopciones &lt;- paste0(1:length(enfermedades), \". \",  enfermedades)"
   },
   {
     "objectID": "index.html#menú-6",
     "href": "index.html#menú-6",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Menú",
     "text": "Menú\nAhora sí podemos mostrar correctamente el menú:\n\ncat(opciones, sep = \"\\n\")"
   },
   {
     "objectID": "index.html#entrada-de-usuario",
     "href": "index.html#entrada-de-usuario",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Entrada de usuario",
     "text": "Entrada de usuario\nAhora, pedimos al usuario que ingrese la opción que desee:\n\nopcion &lt;- readline(\"Opción (solo número): \")"
   },
   {
     "objectID": "index.html#entrada-de-usuario-1",
     "href": "index.html#entrada-de-usuario-1",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Entrada de usuario",
     "text": "Entrada de usuario\nEstas opciones corresponden a los índices del vector enfermedad. Por lo tanto, podemos filtrar la enfermedad que el usuario desea:\n\nenfermedades[opcion]\n\n¿Qué salió mal?"
   },
   {
     "objectID": "index.html#entrada-de-usuario-2",
     "href": "index.html#entrada-de-usuario-2",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Entrada de usuario",
     "text": "Entrada de usuario\nEl problema fue que no convertimos la opción a un valor numérico:\n\nopcion &lt;- as.integer(readline(\"Opción (solo número): \"))\nenfermedades[opcion]"
   },
   {
     "objectID": "index.html#dengue-11",
     "href": "index.html#dengue-11",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Dengue",
     "text": "Dengue\nAhora, filtramos con subset():\n\nenfermedad &lt;- enfermedades[opcion]\ndengue_opcion &lt;- subset(dengue_limpio, enfermedad == filtro_enfermedad)\n\nY calculamos el número de casos:\n\ncasos &lt;- nrow(dengue_opcion)"
   },
   {
     "objectID": "index.html#dengue-12",
     "href": "index.html#dengue-12",
-    "title": "Introducción a R para el manejo de datos",
+    "title": "Introducción a la programación con R",
     "section": "Dengue",
     "text": "Dengue\nPor último, mostramos el mensaje con el resultado al usuario:\n\ncat(\"Se reportaron\", casos, \"de\", enfermedad, \"en la provincia de Maynas en 2018 y 2019.\")"
+  },
+  {
+    "objectID": "03-transformacion.html",
+    "href": "03-transformacion.html",
+    "title": "Transformación de datos",
+    "section": "",
+    "text": "Creemos un script de R llamado iquitos.R y leamos los datos diarios de temperatura mínima en C° en Iquitos durante el año 2022:\n\nurl &lt;- \"https://raw.githubusercontent.com/healthinnovation/r101-iquitos-20240810/main/data/iquitos.csv\"\niquitos &lt;- read.csv(url)\n\n\n\n\nVeamos el vector de temperaturas mínimas:\n\niquitos$temp_min\n\n\n\n\nPodemos usar la función sort() para ordenar el vector temperaturas mínimas de manera ascendente:\n\nsort(iquitos$temp_min)\n\n\n\n\nPodemos usar el argumento decreasing para indicarle a sort() que queremos ordenar el vector manera descendente:\n\nsort(iquitos$temp_min, decreasing = TRUE)\n\n\n\n\nVemos que los menores valores de la temperatura parecen ser valores atípicos. Digamos que queremos eliminar los primeros 5 valores atípicos. ¿Cómo los eliminamos?\n\ntemps &lt;- sort(iquitos$temp_min)\n\n\n\n\nRecordemos que podemos acceder a cada elemento del vecto usando la notación de corchetes:\n\ntemps[1]\ntemps[2]\ntemps[3]\ntemps[4]\ntemps[5]\n\nSin embargo, lo que queremos es extraer todos estos valores en un solo vector.\n\n\n\nHasta ahora hemos visto que podemos acceder a los elementos de un vector uno por uno:\n\n\n\n\nTambién podemos usar un vector para acceder a más de una elemento del vector:\n\n\n\n\nEn R:\n\ntemps[c(1, 2, 3, 4, 5)]\n\n\n\n\nTambién podemos usar el operador : para generar una secuencia regular:\n\ntemps[1:5]\n\n\n\n\nSin embargo, todavía no hemos removido estos valores atípico. Para eliminar elementos de un vector, debemos pasar índices negativos:\n\ntemps[-c(1, 2, 3, 4, 5)]\n\n\n\n\n¿Qué tal si tuviéramos datos de temperatura de otro distrito? ¿Simpre los valores atípicos van a ser los 5 valores menores?\n. . .\nLo mejor sería establecer un umbral. Valores menores a este umbral serían considerados valores atípicos.\n\n\n\nPara saber si un valor es menor al umbral, necesitamos comparar sus magnitudes. En R, esto se puede hacer mediante operadores de comparación:\n\n== se lee “es igual a”,\n!= se lee “es diferente a”,\n&gt; se lee “es mayor a”,\n&gt;= se lee “es mayor o igual a”,\n&lt; se lee “es menor a”,\n&lt;= se lee “es menor o igual a”.\n\n\n\n\nPor ejemplo, al evaluar el enunciado a &lt; b, dos resultados son posibles:\n\na es de hecho menor a b, por lo cual el enunciado es verdadero, o\na no es menor a b, por lo cual el enunciado es falso.\n\nEn el primer caso, R devuelve un valor lógico de TRUE, mientras que en el segundo devuelve un valor lógico de FALSE.\n\n\n\nDebido a que el resulado de una comparación puede tomar solo dos valores lógicos, a los enunciados de comparación se les conoce como expresiones lógicas.\n\n\n\nPor ejemplo, si definimos que las temperaturas menores a 19 C° son valores atípicos, necesitamos comparar cada elemento de temps con este umbral:\n\ntemps[1] &lt; 19\ntemps[2] &lt; 19\ntemps[3] &lt; 19\ntemps[4] &lt; 19\ntemps[5] &lt; 19\ntemps[6] &lt; 19\n\n\n\n\nRecordemos que las funciones en R está vectorizadas. Los operadores también actuan como funciones, por tanto también tienen la propiedad de vectorización:\n\ntemps &lt; 19\n\nEn este caso, R devuelve un vector lógico, el cual indica el resultado de la comparación de cada elemento de temps con el valor 19.\n\n\n\nVolviendo al problema de indexación, en R podemos utilizar la función which() para saber cuáles son los índices del vector temps que son menores a 19 automáticamente:\n\nwhich(temps &lt; 19)\n\n\n\n\nDe esta manera, podemos indicarle a R que elimine los valores atípicos usando los negativos de los índices:\n\ntemps[-which(temps &lt; 19)]\n\n\n\n\n¿Qué tal si quisiéramos incluir a las temperatures mayores a 24.6 C° como valores atípicos? Para esto, necesitamos hacer uso de operadores lógicos, es decir, operadores que trabajen sobre valores lógicos:\n\n& representa al operador lógico “Y”,\n| representa al operador lógico “O”,\n! representa al operador lógico de negación o “NO”.\n\n& y | funcionan con vectores lógicos. Para comparar valores individuales debemos usar && y ||.\n\n\n\nCon los operadores lógicos, podemos construir las tablas lógicas:\n\n\n\n\nPara el caso de la negación:\n\n\n\n\nEn R:\n\ntemps &lt; 19 | temps &gt; 24.6\n\n\n\n\nAhora con which():\n\ntemps[which(temps &lt; 19 | temps &gt; 24.6)]\n\nSi quisiéramos eliminar los valores atípicos:\n\ntemps[-which(temps &lt; 19 | temps &gt; 24.6)]\n\n\n\n\nDe hecho, usar which() es innecesario. Podemos acceder o filtrar a los elementos que queramos usando el vector lógico:\n\n\n\n\nDe hecho, usar which() es innecesario. Podemos acceder o filtrar a los elementos que queramos usando el vector lógico:\n\n\n\n\nEn R:\n\ntemps[temps &lt; 19 | temps &gt; 24.6]\n\n\n\n\nSi quisiéramos quedarnos con los elementos que no son valores atípicos podemos usar el operador de negación !:\n\ntemps[!(temps &lt; 19 | temps &gt; 24.6)]\n\n\n\n\nDefinimos nuestros vectores\n\nfiltro &lt;- (temps &lt; 19 | temps &gt; 24.6)\nno_outliers &lt;- temps[!filtro]\noutliers &lt;- temps[filtro]\n\n\n\n\nCreemos un script de R llamado dengue_casos.R y carguemos a nuestro conjunto de datos de Dengue:\n\ndengue &lt;- read.csv(\"dengue.csv\")\n\n\n\n\nSabemos que hay casos en los que no se registró la localidad. Es decir, donde la localidad es un NA.\n. . .\nPara identificar los NAs, podemos usar la función lógica is.na(), la cual devuelve TRUE si el valor que se le pase es un NA y FALSE en el caso contrario.\n\n\n\nSi quisiéramos filtrar los casos (filas) en donde no se registró la localidad, podemos hacer uso de la función lógica is.na() y la notación de corchetes:\n\ndengue[is.na(dengue$localidad), ]\n\n\n\n\nSi, por el contrario, quisiéramos filtrar los casos en los que sí se registró la localidad, entonces negamos a la función lógica:\n\ndengue[!is.na(dengue$localidad), ]\n\n\n\n\nExisten otras funciones lógicas:\n\nis.nan() para valores no definidos,\nis.infinite() para valores infinitos,\nis.null() para valores nulos,\netc.\n\n\n\n\nEn R existe una función para hacer filtrar filas sin usar la notación por corchetes llamada subset():\n\nsubset(dengue, !is.na(localidad))\n\nNo es necesario poner dengue$localidad ya que subset() reconoce el nombre de las columnas en el data frame.\n\n\n\nGuardemos los datos que contienen todas las localidades en un nuevo objeto:\n\ndengue_limpio &lt;- subset(dengue, !is.na(localidad))\n\n\n\n\nDigamos que queramos calcular el número de casos notificados por cada tipo de Dengue durante los años 2018 y 2019:\n\nunique(dengue_limpio$enfermedad)\n\n¿Cómo filtramos por tipo de enfermedad?\n\n\n\nPor ejemplo, para los casos de dengue con señales de alarma:\n\nfiltro_alarma &lt;- dengue_limpio$enfermedad == \"DENGUE CON SEÑALES DE ALARMA\"\n\n\n\n\nUtilizamos subset():\n\nsubset(dengue_limpio, filtro_alarma)\n\nGuardamos el resultado en nuevo objeto:\n\ndengue_alarma &lt;- subset(dengue_limpio, filtro_alarma)\n\n\n\n\n¿Cómo podemos saber cuánto casos notificados de dengue con señales de alarma hubieron? Podemos calcular el número de filas de dengue_alarma:\n\nnrow(dengue_alarma)\n\n\n\n\nCreemos ahora un programa que le permita al usuario decidir de qué tipo de dengue calcular el número de casos registrados. Empecemos por crear un vector con los valores únicos de dengue$enfermedad:\n\nenfermedades &lt;- unique(dengue_limpio$enfermedad)\n\nY ahora, creemos un menú que liste los tipos de enfermedad usando la función cat():\n\ncat(\"1: \", enfermedades[1])\ncat(\"2: \", enfermedades[2])\ncat(\"3: \", enfermedades[3])\n\n\n\n\nA diferencia de print(), la función cat() concatena sus argumentos imprime los resultados en la consola como texto, no como un vector.\n\n\n\nLos caracteres de escape sirven para insertar caracteres especiales en una cadena de caracteres. Por ejemplo:\n\n\\n inserta un salto de línea.\n\\t inserta una tabulación (TAB en el teclado).\n\n\n\n\nMejoremos nuestro menú:\n\ncat(\"1: \", enfermedades[1], \"\\n\")\ncat(\"2: \", enfermedades[2], \"\\n\")\ncat(\"3: \", enfermedades[3], \"\\n\")\n\n\n\n\n¿Qué pasaría si tengo muchas opciones? Podemos vectorizar el menú:\n\ncat(enfermedades, \"\\n\")\n\nEsto no es lo que esperábamos.\n\n\n\nSi vemos la página de ayuda de cat(), hay un argumento llamado sep que inserta un caracter en cada elemento del vector que ingresemos. Podemos probar pasando el caracter de escape \\n a este argumento:\n\ncat(enfermedades, sep = \"\\n\")\n\n\n\n\nFaltaría agregar los número para que el usuario no tenga que escribir todo el texto de la enfermedad. Podemos aprovechar la propiedad de vectorización de paste() para crear un vector con las opciones:\n\npaste0(1:3, \". \",  enfermedades)\n\n\n\n\n¿Qué pasaría si tengo más de 3 opciones? Podemos hacer que la secuencia de adapte al número de opciones usango la función length() que calcula el número de elementos de un vector:\n\nopciones &lt;- paste0(1:length(enfermedades), \". \",  enfermedades)\n\n\n\n\nAhora sí podemos mostrar correctamente el menú:\n\ncat(opciones, sep = \"\\n\")\n\n\n\n\nAhora, pedimos al usuario que ingrese la opción que desee:\n\nopcion &lt;- readline(\"Opción (solo número): \")\n\n\n\n\nEstas opciones corresponden a los índices del vector enfermedad. Por lo tanto, podemos filtrar la enfermedad que el usuario desea:\n\nenfermedades[opcion]\n\n¿Qué salió mal?\n\n\n\nEl problema fue que no convertimos la opción a un valor numérico:\n\nopcion &lt;- as.integer(readline(\"Opción (solo número): \"))\nenfermedades[opcion]\n\n\n\n\nAhora, filtramos con subset():\n\nenfermedad &lt;- enfermedades[opcion]\ndengue_opcion &lt;- subset(dengue_limpio, enfermedad == filtro_enfermedad)\n\nY calculamos el número de casos:\n\ncasos &lt;- nrow(dengue_opcion)\n\n\n\n\nPor último, mostramos el mensaje con el resultado al usuario:\n\ncat(\"Se reportaron\", casos, \"de\", enfermedad, \"en la provincia de Maynas en 2018 y 2019.\")"
+  },
+  {
+    "objectID": "03-transformacion.html#temperatura-mínima",
+    "href": "03-transformacion.html#temperatura-mínima",
+    "title": "Transformación de datos",
+    "section": "",
+    "text": "Creemos un script de R llamado iquitos.R y leamos los datos diarios de temperatura mínima en C° en Iquitos durante el año 2022:\n\nurl &lt;- \"https://raw.githubusercontent.com/healthinnovation/r101-iquitos-20240810/main/data/iquitos.csv\"\niquitos &lt;- read.csv(url)"
+  },
+  {
+    "objectID": "03-transformacion.html#temperatura-mínima-1",
+    "href": "03-transformacion.html#temperatura-mínima-1",
+    "title": "Transformación de datos",
+    "section": "",
+    "text": "Veamos el vector de temperaturas mínimas:\n\niquitos$temp_min"
+  },
+  {
+    "objectID": "03-transformacion.html#ordenando-un-vector",
+    "href": "03-transformacion.html#ordenando-un-vector",
+    "title": "Transformación de datos",
+    "section": "",
+    "text": "Podemos usar la función sort() para ordenar el vector temperaturas mínimas de manera ascendente:\n\nsort(iquitos$temp_min)"
+  },
+  {
+    "objectID": "03-transformacion.html#ordenando-un-vector-1",
+    "href": "03-transformacion.html#ordenando-un-vector-1",
+    "title": "Transformación de datos",
+    "section": "",
+    "text": "Podemos usar el argumento decreasing para indicarle a sort() que queremos ordenar el vector manera descendente:\n\nsort(iquitos$temp_min, decreasing = TRUE)"
+  },
+  {
+    "objectID": "03-transformacion.html#valores-atípicos",
+    "href": "03-transformacion.html#valores-atípicos",
+    "title": "Transformación de datos",
+    "section": "",
+    "text": "Vemos que los menores valores de la temperatura parecen ser valores atípicos. Digamos que queremos eliminar los primeros 5 valores atípicos. ¿Cómo los eliminamos?\n\ntemps &lt;- sort(iquitos$temp_min)"
+  },
+  {
+    "objectID": "03-transformacion.html#valores-atípicos-1",
+    "href": "03-transformacion.html#valores-atípicos-1",
+    "title": "Transformación de datos",
+    "section": "",
+    "text": "Recordemos que podemos acceder a cada elemento del vecto usando la notación de corchetes:\n\ntemps[1]\ntemps[2]\ntemps[3]\ntemps[4]\ntemps[5]\n\nSin embargo, lo que queremos es extraer todos estos valores en un solo vector."
+  },
+  {
+    "objectID": "03-transformacion.html#indexación-de-vectores",
+    "href": "03-transformacion.html#indexación-de-vectores",
+    "title": "Transformación de datos",
+    "section": "",
+    "text": "Hasta ahora hemos visto que podemos acceder a los elementos de un vector uno por uno:"
+  },
+  {
+    "objectID": "03-transformacion.html#indexación-de-vectores-1",
+    "href": "03-transformacion.html#indexación-de-vectores-1",
+    "title": "Transformación de datos",
+    "section": "",
+    "text": "También podemos usar un vector para acceder a más de una elemento del vector:"
+  },
+  {
+    "objectID": "03-transformacion.html#indexación-de-vectores-2",
+    "href": "03-transformacion.html#indexación-de-vectores-2",
+    "title": "Transformación de datos",
+    "section": "",
+    "text": "En R:\n\ntemps[c(1, 2, 3, 4, 5)]"
+  },
+  {
+    "objectID": "03-transformacion.html#indexación-de-vectores-3",
+    "href": "03-transformacion.html#indexación-de-vectores-3",
+    "title": "Transformación de datos",
+    "section": "",
+    "text": "También podemos usar el operador : para generar una secuencia regular:\n\ntemps[1:5]"
+  },
+  {
+    "objectID": "03-transformacion.html#indexación-de-vectores-4",
+    "href": "03-transformacion.html#indexación-de-vectores-4",
+    "title": "Transformación de datos",
+    "section": "",
+    "text": "Sin embargo, todavía no hemos removido estos valores atípico. Para eliminar elementos de un vector, debemos pasar índices negativos:\n\ntemps[-c(1, 2, 3, 4, 5)]"
+  },
+  {
+    "objectID": "03-transformacion.html#valores-atípicos-2",
+    "href": "03-transformacion.html#valores-atípicos-2",
+    "title": "Transformación de datos",
+    "section": "",
+    "text": "¿Qué tal si tuviéramos datos de temperatura de otro distrito? ¿Simpre los valores atípicos van a ser los 5 valores menores?\n. . .\nLo mejor sería establecer un umbral. Valores menores a este umbral serían considerados valores atípicos."
+  },
+  {
+    "objectID": "03-transformacion.html#expresiones-lógicas",
+    "href": "03-transformacion.html#expresiones-lógicas",
+    "title": "Transformación de datos",
+    "section": "",
+    "text": "Para saber si un valor es menor al umbral, necesitamos comparar sus magnitudes. En R, esto se puede hacer mediante operadores de comparación:\n\n== se lee “es igual a”,\n!= se lee “es diferente a”,\n&gt; se lee “es mayor a”,\n&gt;= se lee “es mayor o igual a”,\n&lt; se lee “es menor a”,\n&lt;= se lee “es menor o igual a”."
+  },
+  {
+    "objectID": "03-transformacion.html#expresiones-lógicas-1",
+    "href": "03-transformacion.html#expresiones-lógicas-1",
+    "title": "Transformación de datos",
+    "section": "",
+    "text": "Por ejemplo, al evaluar el enunciado a &lt; b, dos resultados son posibles:\n\na es de hecho menor a b, por lo cual el enunciado es verdadero, o\na no es menor a b, por lo cual el enunciado es falso.\n\nEn el primer caso, R devuelve un valor lógico de TRUE, mientras que en el segundo devuelve un valor lógico de FALSE."
+  },
+  {
+    "objectID": "03-transformacion.html#expresiones-lógicas-2",
+    "href": "03-transformacion.html#expresiones-lógicas-2",
+    "title": "Transformación de datos",
+    "section": "",
+    "text": "Debido a que el resulado de una comparación puede tomar solo dos valores lógicos, a los enunciados de comparación se les conoce como expresiones lógicas."
+  },
+  {
+    "objectID": "03-transformacion.html#expresiones-lógicas-3",
+    "href": "03-transformacion.html#expresiones-lógicas-3",
+    "title": "Transformación de datos",
+    "section": "",
+    "text": "Por ejemplo, si definimos que las temperaturas menores a 19 C° son valores atípicos, necesitamos comparar cada elemento de temps con este umbral:\n\ntemps[1] &lt; 19\ntemps[2] &lt; 19\ntemps[3] &lt; 19\ntemps[4] &lt; 19\ntemps[5] &lt; 19\ntemps[6] &lt; 19"
+  },
+  {
+    "objectID": "03-transformacion.html#vectorización",
+    "href": "03-transformacion.html#vectorización",
+    "title": "Transformación de datos",
+    "section": "",
+    "text": "Recordemos que las funciones en R está vectorizadas. Los operadores también actuan como funciones, por tanto también tienen la propiedad de vectorización:\n\ntemps &lt; 19\n\nEn este caso, R devuelve un vector lógico, el cual indica el resultado de la comparación de cada elemento de temps con el valor 19."
+  },
+  {
+    "objectID": "03-transformacion.html#indexación-de-vectores-5",
+    "href": "03-transformacion.html#indexación-de-vectores-5",
+    "title": "Transformación de datos",
+    "section": "",
+    "text": "Volviendo al problema de indexación, en R podemos utilizar la función which() para saber cuáles son los índices del vector temps que son menores a 19 automáticamente:\n\nwhich(temps &lt; 19)"
+  },
+  {
+    "objectID": "03-transformacion.html#indexación-de-vectores-6",
+    "href": "03-transformacion.html#indexación-de-vectores-6",
+    "title": "Transformación de datos",
+    "section": "",
+    "text": "De esta manera, podemos indicarle a R que elimine los valores atípicos usando los negativos de los índices:\n\ntemps[-which(temps &lt; 19)]"
+  },
+  {
+    "objectID": "03-transformacion.html#operadores-lógicos",
+    "href": "03-transformacion.html#operadores-lógicos",
+    "title": "Transformación de datos",
+    "section": "",
+    "text": "¿Qué tal si quisiéramos incluir a las temperatures mayores a 24.6 C° como valores atípicos? Para esto, necesitamos hacer uso de operadores lógicos, es decir, operadores que trabajen sobre valores lógicos:\n\n& representa al operador lógico “Y”,\n| representa al operador lógico “O”,\n! representa al operador lógico de negación o “NO”.\n\n& y | funcionan con vectores lógicos. Para comparar valores individuales debemos usar && y ||."
+  },
+  {
+    "objectID": "03-transformacion.html#operadores-lógicos-1",
+    "href": "03-transformacion.html#operadores-lógicos-1",
+    "title": "Transformación de datos",
+    "section": "",
+    "text": "Con los operadores lógicos, podemos construir las tablas lógicas:"
+  },
+  {
+    "objectID": "03-transformacion.html#operadores-lógicos-2",
+    "href": "03-transformacion.html#operadores-lógicos-2",
+    "title": "Transformación de datos",
+    "section": "",
+    "text": "Para el caso de la negación:"
+  },
+  {
+    "objectID": "03-transformacion.html#operadores-lógicos-3",
+    "href": "03-transformacion.html#operadores-lógicos-3",
+    "title": "Transformación de datos",
+    "section": "",
+    "text": "En R:\n\ntemps &lt; 19 | temps &gt; 24.6"
+  },
+  {
+    "objectID": "03-transformacion.html#indexación-de-vectores-7",
+    "href": "03-transformacion.html#indexación-de-vectores-7",
+    "title": "Transformación de datos",
+    "section": "",
+    "text": "Ahora con which():\n\ntemps[which(temps &lt; 19 | temps &gt; 24.6)]\n\nSi quisiéramos eliminar los valores atípicos:\n\ntemps[-which(temps &lt; 19 | temps &gt; 24.6)]"
+  },
+  {
+    "objectID": "03-transformacion.html#indexación-con-vectores-lógicos",
+    "href": "03-transformacion.html#indexación-con-vectores-lógicos",
+    "title": "Transformación de datos",
+    "section": "",
+    "text": "De hecho, usar which() es innecesario. Podemos acceder o filtrar a los elementos que queramos usando el vector lógico:"
+  },
+  {
+    "objectID": "03-transformacion.html#indexación-con-vectores-lógicos-1",
+    "href": "03-transformacion.html#indexación-con-vectores-lógicos-1",
+    "title": "Transformación de datos",
+    "section": "",
+    "text": "De hecho, usar which() es innecesario. Podemos acceder o filtrar a los elementos que queramos usando el vector lógico:"
+  },
+  {
+    "objectID": "03-transformacion.html#indexación-con-vectores-lógicos-2",
+    "href": "03-transformacion.html#indexación-con-vectores-lógicos-2",
+    "title": "Transformación de datos",
+    "section": "",
+    "text": "En R:\n\ntemps[temps &lt; 19 | temps &gt; 24.6]"
+  },
+  {
+    "objectID": "03-transformacion.html#indexación-con-vectores-lógicos-3",
+    "href": "03-transformacion.html#indexación-con-vectores-lógicos-3",
+    "title": "Transformación de datos",
+    "section": "",
+    "text": "Si quisiéramos quedarnos con los elementos que no son valores atípicos podemos usar el operador de negación !:\n\ntemps[!(temps &lt; 19 | temps &gt; 24.6)]"
+  },
+  {
+    "objectID": "03-transformacion.html#indexación-con-vectores-lógicos-4",
+    "href": "03-transformacion.html#indexación-con-vectores-lógicos-4",
+    "title": "Transformación de datos",
+    "section": "",
+    "text": "Definimos nuestros vectores\n\nfiltro &lt;- (temps &lt; 19 | temps &gt; 24.6)\nno_outliers &lt;- temps[!filtro]\noutliers &lt;- temps[filtro]"
+  },
+  {
+    "objectID": "03-transformacion.html#dengue",
+    "href": "03-transformacion.html#dengue",
+    "title": "Transformación de datos",
+    "section": "",
+    "text": "Creemos un script de R llamado dengue_casos.R y carguemos a nuestro conjunto de datos de Dengue:\n\ndengue &lt;- read.csv(\"dengue.csv\")"
+  },
+  {
+    "objectID": "03-transformacion.html#funciones-lógicas",
+    "href": "03-transformacion.html#funciones-lógicas",
+    "title": "Transformación de datos",
+    "section": "",
+    "text": "Sabemos que hay casos en los que no se registró la localidad. Es decir, donde la localidad es un NA.\n. . .\nPara identificar los NAs, podemos usar la función lógica is.na(), la cual devuelve TRUE si el valor que se le pase es un NA y FALSE en el caso contrario."
+  },
+  {
+    "objectID": "03-transformacion.html#funciones-lógicas-1",
+    "href": "03-transformacion.html#funciones-lógicas-1",
+    "title": "Transformación de datos",
+    "section": "",
+    "text": "Si quisiéramos filtrar los casos (filas) en donde no se registró la localidad, podemos hacer uso de la función lógica is.na() y la notación de corchetes:\n\ndengue[is.na(dengue$localidad), ]"
+  },
+  {
+    "objectID": "03-transformacion.html#funciones-lógicas-2",
+    "href": "03-transformacion.html#funciones-lógicas-2",
+    "title": "Transformación de datos",
+    "section": "",
+    "text": "Si, por el contrario, quisiéramos filtrar los casos en los que sí se registró la localidad, entonces negamos a la función lógica:\n\ndengue[!is.na(dengue$localidad), ]"
+  },
+  {
+    "objectID": "03-transformacion.html#funciones-lógicas-3",
+    "href": "03-transformacion.html#funciones-lógicas-3",
+    "title": "Transformación de datos",
+    "section": "",
+    "text": "Existen otras funciones lógicas:\n\nis.nan() para valores no definidos,\nis.infinite() para valores infinitos,\nis.null() para valores nulos,\netc."
+  },
+  {
+    "objectID": "03-transformacion.html#subset",
+    "href": "03-transformacion.html#subset",
+    "title": "Transformación de datos",
+    "section": "",
+    "text": "En R existe una función para hacer filtrar filas sin usar la notación por corchetes llamada subset():\n\nsubset(dengue, !is.na(localidad))\n\nNo es necesario poner dengue$localidad ya que subset() reconoce el nombre de las columnas en el data frame."
+  },
+  {
+    "objectID": "03-transformacion.html#subset-1",
+    "href": "03-transformacion.html#subset-1",
+    "title": "Transformación de datos",
+    "section": "",
+    "text": "Guardemos los datos que contienen todas las localidades en un nuevo objeto:\n\ndengue_limpio &lt;- subset(dengue, !is.na(localidad))"
+  },
+  {
+    "objectID": "03-transformacion.html#dengue-1",
+    "href": "03-transformacion.html#dengue-1",
+    "title": "Transformación de datos",
+    "section": "",
+    "text": "Digamos que queramos calcular el número de casos notificados por cada tipo de Dengue durante los años 2018 y 2019:\n\nunique(dengue_limpio$enfermedad)\n\n¿Cómo filtramos por tipo de enfermedad?"
+  },
+  {
+    "objectID": "03-transformacion.html#dengue-2",
+    "href": "03-transformacion.html#dengue-2",
+    "title": "Transformación de datos",
+    "section": "",
+    "text": "Por ejemplo, para los casos de dengue con señales de alarma:\n\nfiltro_alarma &lt;- dengue_limpio$enfermedad == \"DENGUE CON SEÑALES DE ALARMA\""
+  },
+  {
+    "objectID": "03-transformacion.html#dengue-3",
+    "href": "03-transformacion.html#dengue-3",
+    "title": "Transformación de datos",
+    "section": "",
+    "text": "Utilizamos subset():\n\nsubset(dengue_limpio, filtro_alarma)\n\nGuardamos el resultado en nuevo objeto:\n\ndengue_alarma &lt;- subset(dengue_limpio, filtro_alarma)"
+  },
+  {
+    "objectID": "03-transformacion.html#dengue-4",
+    "href": "03-transformacion.html#dengue-4",
+    "title": "Transformación de datos",
+    "section": "",
+    "text": "¿Cómo podemos saber cuánto casos notificados de dengue con señales de alarma hubieron? Podemos calcular el número de filas de dengue_alarma:\n\nnrow(dengue_alarma)"
+  },
+  {
+    "objectID": "03-transformacion.html#menú",
+    "href": "03-transformacion.html#menú",
+    "title": "Transformación de datos",
+    "section": "",
+    "text": "Creemos ahora un programa que le permita al usuario decidir de qué tipo de dengue calcular el número de casos registrados. Empecemos por crear un vector con los valores únicos de dengue$enfermedad:\n\nenfermedades &lt;- unique(dengue_limpio$enfermedad)\n\nY ahora, creemos un menú que liste los tipos de enfermedad usando la función cat():\n\ncat(\"1: \", enfermedades[1])\ncat(\"2: \", enfermedades[2])\ncat(\"3: \", enfermedades[3])"
+  },
+  {
+    "objectID": "03-transformacion.html#menú-1",
+    "href": "03-transformacion.html#menú-1",
+    "title": "Transformación de datos",
+    "section": "",
+    "text": "A diferencia de print(), la función cat() concatena sus argumentos imprime los resultados en la consola como texto, no como un vector."
+  },
+  {
+    "objectID": "03-transformacion.html#caracteres-de-escape",
+    "href": "03-transformacion.html#caracteres-de-escape",
+    "title": "Transformación de datos",
+    "section": "",
+    "text": "Los caracteres de escape sirven para insertar caracteres especiales en una cadena de caracteres. Por ejemplo:\n\n\\n inserta un salto de línea.\n\\t inserta una tabulación (TAB en el teclado)."
+  },
+  {
+    "objectID": "03-transformacion.html#caracteres-de-escape-1",
+    "href": "03-transformacion.html#caracteres-de-escape-1",
+    "title": "Transformación de datos",
+    "section": "",
+    "text": "Mejoremos nuestro menú:\n\ncat(\"1: \", enfermedades[1], \"\\n\")\ncat(\"2: \", enfermedades[2], \"\\n\")\ncat(\"3: \", enfermedades[3], \"\\n\")"
+  },
+  {
+    "objectID": "03-transformacion.html#menú-2",
+    "href": "03-transformacion.html#menú-2",
+    "title": "Transformación de datos",
+    "section": "",
+    "text": "¿Qué pasaría si tengo muchas opciones? Podemos vectorizar el menú:\n\ncat(enfermedades, \"\\n\")\n\nEsto no es lo que esperábamos."
+  },
+  {
+    "objectID": "03-transformacion.html#menú-3",
+    "href": "03-transformacion.html#menú-3",
+    "title": "Transformación de datos",
+    "section": "",
+    "text": "Si vemos la página de ayuda de cat(), hay un argumento llamado sep que inserta un caracter en cada elemento del vector que ingresemos. Podemos probar pasando el caracter de escape \\n a este argumento:\n\ncat(enfermedades, sep = \"\\n\")"
+  },
+  {
+    "objectID": "03-transformacion.html#menú-4",
+    "href": "03-transformacion.html#menú-4",
+    "title": "Transformación de datos",
+    "section": "",
+    "text": "Faltaría agregar los número para que el usuario no tenga que escribir todo el texto de la enfermedad. Podemos aprovechar la propiedad de vectorización de paste() para crear un vector con las opciones:\n\npaste0(1:3, \". \",  enfermedades)"
+  },
+  {
+    "objectID": "03-transformacion.html#menú-5",
+    "href": "03-transformacion.html#menú-5",
+    "title": "Transformación de datos",
+    "section": "",
+    "text": "¿Qué pasaría si tengo más de 3 opciones? Podemos hacer que la secuencia de adapte al número de opciones usango la función length() que calcula el número de elementos de un vector:\n\nopciones &lt;- paste0(1:length(enfermedades), \". \",  enfermedades)"
+  },
+  {
+    "objectID": "03-transformacion.html#menú-6",
+    "href": "03-transformacion.html#menú-6",
+    "title": "Transformación de datos",
+    "section": "",
+    "text": "Ahora sí podemos mostrar correctamente el menú:\n\ncat(opciones, sep = \"\\n\")"
+  },
+  {
+    "objectID": "03-transformacion.html#entrada-de-usuario",
+    "href": "03-transformacion.html#entrada-de-usuario",
+    "title": "Transformación de datos",
+    "section": "",
+    "text": "Ahora, pedimos al usuario que ingrese la opción que desee:\n\nopcion &lt;- readline(\"Opción (solo número): \")"
+  },
+  {
+    "objectID": "03-transformacion.html#entrada-de-usuario-1",
+    "href": "03-transformacion.html#entrada-de-usuario-1",
+    "title": "Transformación de datos",
+    "section": "",
+    "text": "Estas opciones corresponden a los índices del vector enfermedad. Por lo tanto, podemos filtrar la enfermedad que el usuario desea:\n\nenfermedades[opcion]\n\n¿Qué salió mal?"
+  },
+  {
+    "objectID": "03-transformacion.html#entrada-de-usuario-2",
+    "href": "03-transformacion.html#entrada-de-usuario-2",
+    "title": "Transformación de datos",
+    "section": "",
+    "text": "El problema fue que no convertimos la opción a un valor numérico:\n\nopcion &lt;- as.integer(readline(\"Opción (solo número): \"))\nenfermedades[opcion]"
+  },
+  {
+    "objectID": "03-transformacion.html#dengue-5",
+    "href": "03-transformacion.html#dengue-5",
+    "title": "Transformación de datos",
+    "section": "",
+    "text": "Ahora, filtramos con subset():\n\nenfermedad &lt;- enfermedades[opcion]\ndengue_opcion &lt;- subset(dengue_limpio, enfermedad == filtro_enfermedad)\n\nY calculamos el número de casos:\n\ncasos &lt;- nrow(dengue_opcion)"
+  },
+  {
+    "objectID": "03-transformacion.html#dengue-6",
+    "href": "03-transformacion.html#dengue-6",
+    "title": "Transformación de datos",
+    "section": "",
+    "text": "Por último, mostramos el mensaje con el resultado al usuario:\n\ncat(\"Se reportaron\", casos, \"de\", enfermedad, \"en la provincia de Maynas en 2018 y 2019.\")"
+  },
+  {
+    "objectID": "01-r.html",
+    "href": "01-r.html",
+    "title": "¿Qué es R?",
+    "section": "",
+    "text": "Un lenguaje de programación es un conjunto de intrucciones y reglas que permite a los humanos comunicar órdenes a una computadora.\n\n\n\nR fue originalmente desarrollado para realizar análisis estadístico.\n. . .\nSin embargo, actualmente también se ha consolidado como una potente herramienta para la manipulación de datos en general en diferentes áreas como las ciencias sociales, la ecología, la medicina, las finanzas, el marketing, etc.\n\n\n\n\n\nEspecializado en análisis estadístico\nHerramientas potentes para la manipulación y visualización de datos\nAmplia comunidad y soporte\nGran cantidad de paquetes y extensiones\nInteroperabilidad\nGratuito y de código abierto\nAmpliamente utilizado en la investigación académica\nCreciente demanda en la industria\n\n\n\n\n\n\n\n\n\n\n\n\n\nPara instalar R (Febrero de 2026):\n\nIr a la web de CRAN (The Comprehensive R Archive Network) en https://cran.r-project.org/.\nDar click en Donwload R for Windows.\nDar click en el subdirectorio base.\nDar click en Download R-4.5.2 for Windows.\nLuego de que se haya finalizado la descarga, ejecutar el archivo R-4.5.2-win.exe. En caso Windows preguntara si deseamos que la aplicación haga cambios en el sistema, respondemos que Sí.\nElegir el idioma para la instalación.\nPara una instalación por defecto (lo recomendado), solo dar Next o Siguiente a todos los pasos hasta que haya finalizado la instalación.\n\n\n\n\nPara mayor detalle sobre la instalación, incluyendo cómo instalar R en macOS, revisar el capítulo de Pre-requisitos del libro R4PUBH.\n\n\n\nUn “código” se refiere al conjunto de instrucciones escritas en un lenguaje de programación, como R, que una computadora puede interpretar y ejecutar.\n. . .\nEl código es la base de todos los programas y aplicaciones que utilizamos en nuestra vida diaria, desde simples calculadoras hasta complejos sistemas operativos y aplicaciones web.\n\n\n\nAsí como para escribir documentos usamos Word, también existen programas que nos permiten escribir código de manera eficiente.\n. . .\nA estos programas se les llama Integrated Development Environments (IDE).\n\n\n\nRStudio es un IDE que fue desarrollado particularmente para escribir código en R.\n. . .\nExisten otros IDE donde podemos escribir código en R, pero ninguno es tan eficiente para este lenguaje como RStudio (hasta ahora).\n\n\n\nPara instalar RStudio Desktop (Febrero de 2026):\n\nAsegurarse de tener instalado R.\nIr a la web https://posit.co/download/rstudio-desktop/ o buscar en el navegador web “rstudio download”.\nDar click en DOWNLOAD RSTUDIO FOR WINDOWS. Se descargará el instalador con nombre RStudio-2026.01.0-392.exe.\nEjecutar el instalador y seguir las instrucciones. Para una instalación por defecto, aceptar todas las configuraciones predeterminadas."
+  },
+  {
+    "objectID": "01-r.html#r-es-un-lenguaje-de-programación",
+    "href": "01-r.html#r-es-un-lenguaje-de-programación",
+    "title": "¿Qué es R?",
+    "section": "",
+    "text": "Un lenguaje de programación es un conjunto de intrucciones y reglas que permite a los humanos comunicar órdenes a una computadora."
+  },
+  {
+    "objectID": "01-r.html#r",
+    "href": "01-r.html#r",
+    "title": "¿Qué es R?",
+    "section": "",
+    "text": "R fue originalmente desarrollado para realizar análisis estadístico.\n. . .\nSin embargo, actualmente también se ha consolidado como una potente herramienta para la manipulación de datos en general en diferentes áreas como las ciencias sociales, la ecología, la medicina, las finanzas, el marketing, etc."
+  },
+  {
+    "objectID": "01-r.html#por-qué-aprender-r",
+    "href": "01-r.html#por-qué-aprender-r",
+    "title": "¿Qué es R?",
+    "section": "",
+    "text": "Especializado en análisis estadístico\nHerramientas potentes para la manipulación y visualización de datos\nAmplia comunidad y soporte\nGran cantidad de paquetes y extensiones\nInteroperabilidad\nGratuito y de código abierto\nAmpliamente utilizado en la investigación académica\nCreciente demanda en la industria"
+  },
+  {
+    "objectID": "01-r.html#instalación-de-r-windows",
+    "href": "01-r.html#instalación-de-r-windows",
+    "title": "¿Qué es R?",
+    "section": "",
+    "text": "Para instalar R (Febrero de 2026):\n\nIr a la web de CRAN (The Comprehensive R Archive Network) en https://cran.r-project.org/.\nDar click en Donwload R for Windows.\nDar click en el subdirectorio base.\nDar click en Download R-4.5.2 for Windows.\nLuego de que se haya finalizado la descarga, ejecutar el archivo R-4.5.2-win.exe. En caso Windows preguntara si deseamos que la aplicación haga cambios en el sistema, respondemos que Sí.\nElegir el idioma para la instalación.\nPara una instalación por defecto (lo recomendado), solo dar Next o Siguiente a todos los pasos hasta que haya finalizado la instalación."
+  },
+  {
+    "objectID": "01-r.html#instalación-de-r",
+    "href": "01-r.html#instalación-de-r",
+    "title": "¿Qué es R?",
+    "section": "",
+    "text": "Para mayor detalle sobre la instalación, incluyendo cómo instalar R en macOS, revisar el capítulo de Pre-requisitos del libro R4PUBH."
+  },
+  {
+    "objectID": "01-r.html#código",
+    "href": "01-r.html#código",
+    "title": "¿Qué es R?",
+    "section": "",
+    "text": "Un “código” se refiere al conjunto de instrucciones escritas en un lenguaje de programación, como R, que una computadora puede interpretar y ejecutar.\n. . .\nEl código es la base de todos los programas y aplicaciones que utilizamos en nuestra vida diaria, desde simples calculadoras hasta complejos sistemas operativos y aplicaciones web."
+  },
+  {
+    "objectID": "01-r.html#integrated-development-environments-ide",
+    "href": "01-r.html#integrated-development-environments-ide",
+    "title": "¿Qué es R?",
+    "section": "",
+    "text": "Así como para escribir documentos usamos Word, también existen programas que nos permiten escribir código de manera eficiente.\n. . .\nA estos programas se les llama Integrated Development Environments (IDE)."
+  },
+  {
+    "objectID": "01-r.html#rstudio",
+    "href": "01-r.html#rstudio",
+    "title": "¿Qué es R?",
+    "section": "",
+    "text": "RStudio es un IDE que fue desarrollado particularmente para escribir código en R.\n. . .\nExisten otros IDE donde podemos escribir código en R, pero ninguno es tan eficiente para este lenguaje como RStudio (hasta ahora)."
+  },
+  {
+    "objectID": "01-r.html#instalación-de-rstudio-windows",
+    "href": "01-r.html#instalación-de-rstudio-windows",
+    "title": "¿Qué es R?",
+    "section": "",
+    "text": "Para instalar RStudio Desktop (Febrero de 2026):\n\nAsegurarse de tener instalado R.\nIr a la web https://posit.co/download/rstudio-desktop/ o buscar en el navegador web “rstudio download”.\nDar click en DOWNLOAD RSTUDIO FOR WINDOWS. Se descargará el instalador con nombre RStudio-2026.01.0-392.exe.\nEjecutar el instalador y seguir las instrucciones. Para una instalación por defecto, aceptar todas las configuraciones predeterminadas."
+  },
+  {
+    "objectID": "01-r.html#proyectos-en-rstudio",
+    "href": "01-r.html#proyectos-en-rstudio",
+    "title": "¿Qué es R?",
+    "section": "Proyectos en RStudio",
+    "text": "Proyectos en RStudio\nUn proyecto en RStudio es una funcionalidad que proporciona un entorno de trabajo organizado y gestionado para trabajar con R.\n. . .\nEs recomendable crear un proyecto de RStudio asociado a cada proyecto de análisis de datos con R que realicemos.\n. . .\nAl crear un proyecto en RStudio, estamos creando una carpeta dedicada a nuestro proyecto de análisis de datos con R."
+  },
+  {
+    "objectID": "01-r.html#crear-un-proyecto-en-rstudio",
+    "href": "01-r.html#crear-un-proyecto-en-rstudio",
+    "title": "¿Qué es R?",
+    "section": "Crear un proyecto en RStudio",
+    "text": "Crear un proyecto en RStudio\nPara crear un proyecto en RStudio:\n\nIr a File &gt; New Project.\nSelecciona si deseas crear un proyecto nuevo, abrir un proyecto existente o crear un proyecto desde un repositorio de control de versiones (como Git).\nSigue las instrucciones para configurar el nuevo proyecto."
+  },
+  {
+    "objectID": "00-presentacion.html",
+    "href": "00-presentacion.html",
+    "title": "",
+    "section": "",
+    "text": "¿Qué es R?\nRepresentación de datos\nTranformación de datos\nFunciones\nOrdenando (tidying) datos\nVisualización de datos\nTesteo de programas\nEmpaquetamiento de programas"
+  },
+  {
+    "objectID": "00-presentacion.html#contenido",
+    "href": "00-presentacion.html#contenido",
+    "title": "",
+    "section": "",
+    "text": "¿Qué es R?\nRepresentación de datos\nTranformación de datos\nFunciones\nOrdenando (tidying) datos\nVisualización de datos\nTesteo de programas\nEmpaquetamiento de programas"
+  },
+  {
+    "objectID": "00-presentacion.html#cs50s-introduction-to-programming-with-r",
+    "href": "00-presentacion.html#cs50s-introduction-to-programming-with-r",
+    "title": "",
+    "section": "CS50’s Introduction to Programming with R",
+    "text": "CS50’s Introduction to Programming with R"
+  },
+  {
+    "objectID": "02-estructuras.html",
+    "href": "02-estructuras.html",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "Un script de R es un archivo de texto que contiene el código en R que usaremos para darle comandos a la computadora.\n\nLos scripts de R tienen extensión .R. Por ejemplo, para crear un script con el nombre hola.R ingresamos en la consola:\n\nfile.create(\"hola.R\")\n\n\n\n\nVeremos que en la pestaña Files en RStudio aparecerá el script de R que hemos creado. Esta pestaña sirve como un explorador de archivos.\n. . .\nEn la parte superior podemos ver la ruta de la carpeta donde nos encontramos trabajando, la cual será la carpeta donde creamos el proyecto de RStudio.\n\n\n\nEn Files podemos darle click al archivo hola.R y se abrirá un panel de edición, el cual se le conoce como el editor de RStudio.\n. . .\nEn este editor podemos escribir las líneas de código que queramos dentro del script y también ejecutar el código línea por línea, por partes, o en su totalidad.\n\n\n\nEn el editor, escribamos:\n\nprint(\"¡Hola, mundo!\")\n\nY luego, con el cursor en la misma línea de código, demos click en Run o presionemos Ctrl + Enter para ejecutarlo.\n\n\n\nEn la consola veremos:\n\nprint(\"¡Hola, mundo!\")\n\n[1] \"¡Hola, mundo!\"\n\n\n. . .\nLa consola es el lugar donde el código se ejectua.\n. . .\nCon “ejecutar” nos referimos a que los comandos que hemos escrito en R se traducen al lenguaje máquina para que la computadora nos pueda entender y devolver el resultado deseado.\n\n\n\n¡Felicidades 🎉! Has creado tu primer programa con R.\n\n\n\nPara crear nuestro primer programa con R, hemos utilizado una función llamada print().\n. . .\nUna función es un módulo de código diseñado para realizar una tarea específica.\n. . .\nEn R, se denota a una función por su nombre, seguido de paréntesis (). Por ejemplo: print().\n\n\n\nLas funciones reciben un conjunto de entradas o argumentos, que sirven para modificar su comportamiento, y devuelven una o varias salidas.\n\n\n\n\nEn nuestro programa, el argumento de print() fue \"¡Hola, mundo!\". Los argumentos se ingresan en una función separados por una coma.\n. . .\nLa tarea específica de esta función es imprimir en la consola el argumento. La salida es el mismo argumento, solo que en este caso se devuelve de manera silenciosa.\n\n\n\nTodas las funciones tienen una página de ayuda, donde se tiene documentado cómo usar la función y los argumentos que recibe.\n. . .\nPara acceder a la página de ayuda, en la consola ingresar el nombre de la función precedida por un símbolo de interrogación ?:\n\n?print\n\n\n\n\nLa página de ayuda se mostrará en la pestaña de Help.\n. . .\nTambién es posible usar esta pestaña para buscar la página de ayuda de una función.\n\n\n\n¿Qué pasa si en vez de print escribimos prin?\n\nprin(\"¡Hola, mundo!\")\n\nError in prin(\"¡Hola, mundo!\"): could not find function \"prin\"\n\n\n. . .\nLos mensajes de error de R nos precisan en qué parte del código hay un error.\n. . .\nEsto nos ayuda a la depuración o debugging de nuestro código.\n\n\n\n¿Cómo haríamos si quisieramos saludar a un usuario en particular?\n. . .\nEn R, podemos preguntarle su nombre al usuario utilizando la función readline().\n. . .\nEl argumento de esta función es el mensaje que queremos mostrarle al usuario cuando le pidamos su nombre:\n\nreadline(\"¿Cuál es tu nombre? \")\n\n\n\n\nreadline() devuelve lo que hayamos ingresado en la consola:\n\nreadline(\"¿Cuál es tu nombre? \")\n\n\n\n\n¿Cómo armamos el saludo?\n\nreadline(\"¿Cuál es tu nombre? \")\nprint(\"Hola, Diego\")\n\n\n\n\nPodemos usar el botón de Source para ejectuar todo el código en este script.\n\nreadline(\"¿Cuál es tu nombre? \")\nprint(\"Hola, Diego\")\n\n\n\n\n¿Qué pasa si ingreso otro nombre?\n\nreadline(\"¿Cuál es tu nombre? \")\nprint(\"Hola, Diego\")\n\n\n\n\nUn objeto en R sirve para almacenar información.\n. . .\nPodemos darle un nombre a un objeto, y asignarle la información que queramos.\n. . .\nAsí, cada vez que queramos usar la información almacenada, solo debemos llamar al nombre del objeto.\n\n\n\nAlmacenemos la salida de la función readline() en un objeto llamado nombre:\n\nnombre &lt;- readline(\"¿Cuál es tu nombre? \")\n\nEl símbolo &lt;- sirve para asignar o almacenar la salida de readline() al objeto de nombre nombre.\nVemos que en la pestaña de Environment se ha creado un objeto con el valor de “Diego”.\n\n\n\nAhora veamos el saludo completo:\n\nnombre &lt;- readline(\"¿Cuál es tu nombre? \")\nprint(\"Hola, nombre\")\n\n¿Por qué no sale mi nombre?\n\n\n\nHasta ahora, hemos usado texto representado como una cadena de caracteres para escribir los saludos.\n. . .\nLas cadenas de caracteres, o simplemente caracteres, se escriben en R dentro de comillas dobles (\"\").\n\n\n\nAl incluir nombre dentro de las comillas en el texto del saludo, esta cadena se toma literalmente.\n. . .\n¿Cómo podríamos incluir los caracteres almacenados en el objeto nombre?\n\n\n\nUna opción es usar la función paste(). Esta función convierte sus argumentos a cadenas de caracteres (si es que no lo son) y los concatena:\n\nnombre &lt;- readline(\"¿Cuál es tu nombre? \")\nsaludo &lt;- paste(\"Hola, \", nombre)\nprint(saludo)\n\n\n\n\n¿Por qué hay un espacio de más entre “Hola,” y “Diego”?\n. . .\nSi revisamos la página de ayuda de paste() vemos que uno de sus argumentos es sep, el cual sirve como separador entre las cadenas que se quieren concatenar.\n. . .\nPor defecto, sep tiene el valor de \" \".\n\n\n\nSi cambiamos el valor de sep a \"\", vemos que ya no hay un espacio de más en el saludo:\n\nnombre &lt;- readline(\"¿Cuál es tu nombre? \")\nsaludo &lt;- paste(\"Hola, \", nombre, sep = \"\")\nprint(saludo)\n\n\n\n\nSin embargo, alguien creó una función cuyo argumento sep ya tiene el valor por defecto \"\":\n\nnombre &lt;- readline(\"¿Cuál es tu nombre? \")\nsaludo &lt;- paste0(\"Hola, \", nombre, sep = \"\")\nprint(saludo)\n\n\n\n\nPodríamos haber escrito el mismo código en una sola línea:\n\nprint(paste0(\"Hola, \", readline(\"¿Cuál es tu nombre? \"), sep = \"\"))\n\n. . .\nA esto se le llama composición de funciones.\n. . .\nObtenemos el mismo resultado. Pero, ¿es esta la mejor forma de escribirlo?\n\n\n\nPodemos escribir notas en nuestro código para nosotros mismos o para otras personas usando comentarios. Para insertar un comentario, se escribe un numeral (#) al inicio de la línea:\n\n# Preguntamos el nombre\nnombre &lt;- readline(\"¿Cuál es tu nombre? \")\n\n# Creamos el saludo\nsaludo &lt;- paste0(\"Hola, \", nombre, sep = \"\")\n\n# Saludamos al usuario\nprint(saludo)\n\n\n\n\n¡Trabajemos ahora con datos! Escribamos un programa que nos permita ingresar el conteo de casos confirmado de tres enfermedades:\n\nreadline(\"Ingresa el número de casos de Dengue: \")\nreadline(\"Ingresa el número de casos de Malaria: \")\nreadline(\"Ingresa el número de casos de Leptospirosis: \")\n\n\n\n\n\ndengue &lt;- readline(\"Ingresa el número de casos de Dengue: \")\nmalaria &lt;- readline(\"Ingresa el número de casos de Malaria: \")\nlepto &lt;- readline(\"Ingresa el número de casos de Leptospirosis: \")\n\n\n\n\nR permite realizar operaciones aritméticas básicas usando los siguientes operadores:\n\n+ para sumar,\n- para restar,\n* para multiplicar (multiplicación escalar),\ny / para dividir.\n\n\n\n\n\ndengue &lt;- readline(\"Ingresa el número de casos de Dengue: \")\nmalaria &lt;- readline(\"Ingresa el número de casos de Malaria: \")\nlepto &lt;- readline(\"Ingresa el número de casos de Leptospirosis: \")\n\ntotal &lt;- dengue + malaria + lepto\n\nprint(paste0(\"El número total de casos es: \", total))\n\n\n\n\n¿Por qué nos sale error? Vemos que Environment los valores que hemos ingresado se han guardado como cadenas de caracteres.\n. . .\n¿Se pueden sumar cadenas de caracteres (texto)?\n\n\n\nR tiene diferentes modos para guardar información:\n\ncharacter para caracteres o cadenas de caracteres,\ndouble para números decimales,\ninteger para números enteros,\netc.\n\nTambién se les conoce como tipo de dato.\n\n\n\nR permite transformar el modo de almacenamiento de un objeto coercitivamente usando funciones:\n\nas.character() para cambiar a modo character,\nas.double() para cambiar a modo double,\nas.integer() para cambiar a modo integer,\netc.\n\n\n\n\nEstas funciones botarán un mensaje de error si es no es posible hacer la transformación.\n. . .\nPor ejemplo, no es posible convertir \"Diego\" a un número, pero sí podemos convertir \"32\" a un número.\n\n\n\nApliquemos el concepto de coerción:\n\ndengue &lt;- readline(\"Ingresa el número de casos de Dengue: \")\nmalaria &lt;- readline(\"Ingresa el número de casos de Malaria: \")\nlepto &lt;- readline(\"Ingresa el número de casos de Leptospirosis: \")\n\nas.integer(dengue)\nas.integer(malaria)\nas.integer(lepto)\n\ntotal &lt;- dengue + malaria + lepto\n\nprint(paste0(\"El número total de casos es: \", total))\n\n\n\n\nLos cambios de modo de almacenamiento no se hacen automáticamente. Es necesario guardar o actualizar los valores con el nuevo modo de almacenamiento:\n\ndengue &lt;- readline(\"Ingresa el número de casos de Dengue: \")\nmalaria &lt;- readline(\"Ingresa el número de casos de Malaria: \")\nlepto &lt;- readline(\"Ingresa el número de casos de Leptospirosis: \")\n\ndengue &lt;- as.integer(dengue)\nmalaria &lt;- as.integer(malaria)\nlepto &lt;- as.integer(lepto)\n\ntotal &lt;- dengue + malaria + lepto\n\nprint(paste0(\"El número total de casos es: \", total))\n\n\n\n\nPoder acortar el código usando composición de funciones:\n\ndengue &lt;- as.integer(readline(\"Ingresa el número de casos de Dengue: \"))\nmalaria &lt;- as.integer(readline(\"Ingresa el número de casos de Malaria: \"))\nlepto &lt;- as.integer(readline(\"Ingresa el número de casos de Leptospirosis: \"))\n\ntotal &lt;- dengue + malaria + lepto\n\nprint(paste0(\"El número total de casos es: \", total))\n\n\n\n\n¿Qué pasaría si tuviéramos que sumar muchos valores? Definitivamente, tipear + muchas veces no es eficiente.\nAfortunadamente, R tiene una función llamada sum() que permite calcular la suma de sus argumentos:\n\ndengue &lt;- as.integer(readline(\"Ingresa el número de casos de Dengue: \"))\nmalaria &lt;- as.integer(readline(\"Ingresa el número de casos de Malaria: \"))\nlepto &lt;- as.integer(readline(\"Ingresa el número de casos de Leptospirosis: \"))\n\ntotal &lt;- sum(dengue, malaria, lepto)\n\nprint(paste0(\"El número total de casos es: \", total))\n\n\n\n\nUna tabla es un arreglo de información en filas y columnas:\n\n\n\n\nPodemos usar esta tabla para calcular el número de casos total de dengue:\n\n\n\n\nO el número total de casos confirmados:\n\n\n\n\nA estas operaciones se les llama tabulaciones.\n\n\n\nUna forma popular de almacenar tablas es usando archivos de valores separados por coma o CSV (Comma Separated Values). Por ejemplo, nuestra tabla en formato CSV se veería así:\nenfermedad, confirmados, probables\nDengue, 37, 63\nMalaria, 43, 107,\nLeptospirosis, 25, 44\n\n\n\n\nCreemos el archivo CSV de nuestra tabla usando las opciones New File &gt; Text File en RStudio. Dentro del archivo en blanco, ingresmos los valores separados por coma y luego guardemos el archivo con el nombre casos.csv\n. . .\nEs importante asegurarse que el nombre del archivo tenga la extensión .csv.\n\n\n\nCreemos un nuevo script de R para realizar las tabulaciones:\n\nfile.create(\"tabulacion.R\")\n\n\n\n\nR tiene una función para leer un archivo con formato de tabla llamada read.table(). El primer argumento de esta función es la ruta donde se ubica el archivo:\n\ncasos &lt;- read.table(\"casos.csv\")\n\nPodemos ver la tabla usando la función View():\n\nView(casos)\n\n\n\n\nR tiene una función para leer un archivo con formato de tabla llamada read.table(). El primer argumento de esta función es la ruta donde se ubica el archivo:\n\ncasos &lt;- read.table(\"casos.csv\")\n\nPodemos ver la tabla usando la función View():\n\nView(casos)\n\n¡Esto no se ve bien!\n\n\n\nVeamos la página de ayuda de read.table(). Vemos que esta función posee un argumento llamado sep para indicar qué separador de columnas tiene el archivo que queremos leer. En nuestro caso, el separador es la coma (\",\"):\n\ncasos &lt;- read.table(\"casos.csv\", sep = \",\")\nView(casos)\n\n¡Vamos bien!\n\n\n\nAdemás, read.table() tiene otro argumento llamado header el cual puede tomar los valores lógicos TRUE o FALSE dependiendo de si nuestro archivo tiene los nombres de las columna en la primera línea o no, respectivamente. En nuestro caso, los nombres de las columnas sí están en la primera fila:\n\ncasos &lt;- read.table(\"casos.csv\", sep = \",\", header = TRUE)\nView(casos)\n\n¡Ahora sí tenemos nuestra tabla!\n\n\n\nPara mejorar la legibilidad del código, podemos escribir los argumentos en líneas separadas:\n\ncasos &lt;- read.table(\n  \"casos.csv\", \n  sep = \",\", \n  header = TRUE\n)\nView(casos)\n\n\n\n\nLos programadores son flojos. Uno de ellos creó una función llamada read.csv() que hace lo mismo que read.table() pero con los argumentos sep = \",\" y header = TRUE por defecto:\n\ncasos &lt;- read.csv(\"casos.csv\")\nView(casos)\n\n\n\n\nLa salida que nos devuelve la función read.csv() es un data frame. Un data frame en R es un modo de almacenamiento bidimensional (filas y columnas) que sirve para almacenar datos tabulares.\n\n\n\n\nPodemos realizar diversas operaciones sobre un data frame, como acceder a los datos de las filas o columnas usando la notación de corchetes:\n\n\n\n\nPor ejemplo, para acceder al número de casos confirmados de Dengue (el primer valor de la segunda columna):\n\n\n\n\nSi quisiéramos acceder a todos los valores de una columna, demos el blanco el lugar de la fila. Por ejemplo, para acceder a la columna de casos confirmados:\n\n\n\n\nEn R:\n\ncasos[, 3]\n\n\n\n\n¿Qué pasaría si cambio el orden de las columnas? Tendría que estar actualizando el número de la columna a la cual quiero acceder. Es más fácil acceder a los datos de una columna por su nombre.\n\n\n\nEn R, para acceder a una columna por su nombre escribimos el nombre del data frame, seguido del símbolo $ y el nombre de la columna. Por ejemplo, para acceder a la columna de los casos confirmados:\n\n\n\n\nEn R:\n\ncasos$confirmados\n\n\n\n\nCuando accedemos a una columna usando el símbolo $, R nos devuelve un vector. Un vector es una lista de elementos del mismo tipo. Es decir, la salida no es más un data frame, sino un vector de datos.\n\n\n\n\nUn vector es un arreglo unidimensional de datos, y por tanto también acepta la notación de corchetes. Por ejemplo, para acceder al primer elemento del vector de casos confirmados:\n\ncasos$confirmados[1]\n\nEn un vector, ya no es necesario ingresar el número de fila y de columna, ya que solo tiene una dimensión.\n\n\n\n¿Cómo podríamos calcular el número total de casos confirmados? Una opción es la siguiente:\n\ncasos$confirmados[1] + casos$confirmados[2] + casos$confirmados[3]\n\nSin embargo, ¿qué pasaría si tenemos más de tres enfermedades? ¿Es esto eficiente?\n\n\n\nIntentemos lo siguiente:\n\nsum(casos$confirmados)\n\n¿Por qué funciona?\n\n\n\nLas funciones en R están vectorizadas. Es decir, operan sobre todos los elementos de un vector sin tener que operar uno por uno. Por esta razón, podemos usar la función sum() para realizar la suma de todos los elementos del vector:\n\nsum(casos$confirmados)\n\n\n\n\nLa cadena de caracteres que usamos para el salud es un vector (de un solo elemento):\n\nprint(\"¡Hola, mundo!\")\n\nIncluso un data frame es una colección de vectores (columnas).\n\ncasos$enfermedad\ncasos$confirmados\ncasos$probables\n\n\n\n\n¿Cómo podría calcular el número total de casos para cada enfermedad?\n\n\n\n\nUna opción en R:\n\n# Para Dengue\ncasos$confirmados[1] + casos$probables[1]\n\n# Para Malaria\ncasos$confirmados[2] + casos$probables[2]\n\n# Para Leptospirosis\ncasos$confirmados[3] + casos$probables[3]\n\n¿Qué tal si tengo muchas enfermedades? ¿Habrá una formas más eficiente de hacerlo?\n\n\n\nComo todo en R es un vector, es posible aplicar la aritmética vectorial para calcular la suma de los elementos de cada vector según su posición:\n\n\n\n\nEl resultado de realizar una operación aritmetica entre vectors siempre será también un vector.\n\n\n\nEn R:\n\ncasos$confirmados + casos$probables\n\n\n\n\nTambién podríamos usar la notación de corchetes:\n\ncasos[, 2] + casos[, 3]\n\n\n\n\nSin embargo, hay que tener cuidado con la siguiente notación:\n\ncasos[2] + casos[3]\n\nEsta notación devuelve un data frame y no un vector. Si bien los totales son correctos, es más conveniente tener los resultados en un vector que en un data frame, ya que el primeor es más sencillo de manipular.\n\n\n\nPodemos asignar los totales calculados a una nueva columna en la tabla usando el símbolo $ seguido del nombre de la nueva columna:\n\ncasos$totales &lt;- casos$confirmados + casos$probables\nView(casos)\n\nEsto se puede hacer siempre y cuando la nueva columna tenga el mismo número de filas de la tabla.\n\n\n\nPodemos escribir un nuevo archivo CSV con nuestra nueva tabla usando la función write.csv(). Si vemos la documentación, el primer argumento es el data frame y el segundo la ruta donde se va a escribir el archivo:\n\nwrite.csv(casos, \"totales.csv\")\n\n\n\n\nSi abrimos el archivo, vemos que tiene la siguiente estructura:\n\"\",\"enfermedad\",\"confirmados\",\"probables\",\"totales\"\n\"1\",\"Dengue\",37,63,100\n\"2\",\"Malaria\",43,107,150\n\"3\",\"Leptospirosis\",25,44,69\n\nVemos que además de las columnas que tenía el data frame, se añadió una columna que indica la posición de las filas. Esta columna sirve para nombrar las filas.\n\n\n\nPodemos decirle a write.csv() si queremos (TRUE) o no queremos (FALSE) nombres de fila usando el argumento row.names:\n\nwrite.csv(casos, \"totales.csv\", row.names = FALSE)\n\n\n\n\nCreemos un nuevo script con el nombre dengue.R y usémoslo para importar desde una página web un archivo CSV con los casos notificados de Dengue en la provincia de Maynas en los años 2018 y 2019:\n\nurl &lt;- \"https://raw.githubusercontent.com/healthinnovation/r101-iquitos-20240810/main/data/dengue.csv\"\ndengue &lt;- read.csv(url)\n\n\n\n\nGuardémoslo para poder usarlo luego:\n\nwrite.csv(dengue, \"dengue.csv\", row.names = FALSE)\n\n\n\n\n¿Cuál es el número de filas de este data frame?\n\nnrow(dengue)\n\n\n\n\n¿Cuál es el número de columnas de este data frame?\n\nncol(dengue)\n\n\n\n\n¿Qué enfermedades se notificaron en esta tabla?\n\ndengue$enfermedad\n\n\n\n\nPara ver los valores únicos de una variable, podemos usar la función unique():\n\nunique(dengue$enfermedad)\n\n\n\n\nVeamos la variable de código de localidad:\n\ndengue$localcod\n\n\n\n\n¿Qué son estos valores NA?\n\n\n\nNA en R significa Not Available o “no disponible”. Es un valor especial que indica que debería existir un dato en esa posición, pero por alguna razón no se encuentra disponible o está perdido.\n\n\n\nR tiene otros valores especiales:\n\nNaN de Not a Number, sirve para indicar un valor que es imposible de calcular o no es determinado (división entre cero).\nInf y -Inf sirven para indicar valores infinitos positivos y negativos, respectivamente.\nNULL representa a un objeto nulo. Es la representación de “la nada”. Es posible tener un vector de NAs pero no de NULLs. Un vector que conciente un NULL es considerado NULL.\n\n\n\n\nR tiene otros valores especiales:\n\nNaN de Not a Number, sirve para indicar un valor que es imposible de calcular o no es determinado (división entre cero).\nInf y -Inf sirven para indicar valores infinitos positivos y negativos, respectivamente.\nNULL representa a un objeto nulo. Es la representación de “la nada”. Es posible tener un vector de NAs pero no de NULLs. Un vector que conciente un NULL es considerado NULL.\n\n\n\n\nVeamos la variable sexo:\n\ndengue$sexo\n\n\n\n\nVeamos los valores únicos de la variable sexo:\n\nunique(dengue$sexo)\n\nVemos que esta variable toma dos valores: F de femenino y M de masculino.\n\n\n\nUn tipo de dato en R bastante útil para manejar estos tipos de variables son los factores.\n. . .\nUn factor es un modo de almacenamiento utilizado para representar variables categóricas. Es decir, variables que tienen un número limitado y fijo de valores posibles, llamados niveles.\n\n\n\nPodemos definir un factor usando la función factor(). Por ejemplo, usando la variable sex:\n\nfactor(dengue$sexo)\n\nVemos que ahora R reconoce que la variable sex tiene dos niveles o categorías: F y M.\n\n\n\nPodemos darle etiquetas a los niveles usando el argumento labels. Este argumento recibe un vector de la misma dimensión de los niveles de la variable con las etiquetas que queramos según el orden de los niveles.\n. . .\nEs decir, el primer elemento del vector de etiquetas es la etiqueta del primer nivel, el segundo elemento del vector es la etiqueta del segundo nivel, y así sucesivamente.\n\n\n\nPara crear un vector en R podemos usar la función c(). Por ejemplo, para crear un vector con las etiquetas Femenino y Masculino:\n\nc(\"Femenino\", \"Masculino\")\n\n\n\n\nAhora pasamos el vector al argumento labels de la función factor():\n\nfactor(dengue$sex, labels = c(\"Femenino\", \"Masculino\"))\n\n\n\n\nSi quisiéramos cambiar el orden de los niveles, podemos usar el argumento levels de la función factor(). Este argumento recibe un vector con los niveles en el orden que queramoss:\n\nfactor(\n  dengue$sex,\n  levels = c(\"M\", \"F\"),\n  labels = c(\"Masculino\", \"Femenino\")\n)\n\n¡Cuidado! Hay que cambiar el orden de las etiquetas también.\n\n\n\nDigamos que tenemos el siguiente vector:\n\nsexo &lt;- c(\"F\", \"F\", \"M\", \"M\", \"J\")\n\nDefinimos el factor solo con los niveles F y M:\n\nfactor(sexo, levels = c(\"F\", \"M\"))\n\nVemos que J fue reemplazado con un NA. Los factores son útiles para asegurar la integridad de la variable categórica."
+  },
+  {
+    "objectID": "02-estructuras.html#crear-un-script-de-r",
+    "href": "02-estructuras.html#crear-un-script-de-r",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "Un script de R es un archivo de texto que contiene el código en R que usaremos para darle comandos a la computadora.\n\nLos scripts de R tienen extensión .R. Por ejemplo, para crear un script con el nombre hola.R ingresamos en la consola:\n\nfile.create(\"hola.R\")"
+  },
+  {
+    "objectID": "02-estructuras.html#files",
+    "href": "02-estructuras.html#files",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "Veremos que en la pestaña Files en RStudio aparecerá el script de R que hemos creado. Esta pestaña sirve como un explorador de archivos.\n. . .\nEn la parte superior podemos ver la ruta de la carpeta donde nos encontramos trabajando, la cual será la carpeta donde creamos el proyecto de RStudio."
+  },
+  {
+    "objectID": "02-estructuras.html#editor",
+    "href": "02-estructuras.html#editor",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "En Files podemos darle click al archivo hola.R y se abrirá un panel de edición, el cual se le conoce como el editor de RStudio.\n. . .\nEn este editor podemos escribir las líneas de código que queramos dentro del script y también ejecutar el código línea por línea, por partes, o en su totalidad."
+  },
+  {
+    "objectID": "02-estructuras.html#hola.r",
+    "href": "02-estructuras.html#hola.r",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "En el editor, escribamos:\n\nprint(\"¡Hola, mundo!\")\n\nY luego, con el cursor en la misma línea de código, demos click en Run o presionemos Ctrl + Enter para ejecutarlo."
+  },
+  {
+    "objectID": "02-estructuras.html#consola",
+    "href": "02-estructuras.html#consola",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "En la consola veremos:\n\nprint(\"¡Hola, mundo!\")\n\n[1] \"¡Hola, mundo!\"\n\n\n. . .\nLa consola es el lugar donde el código se ejectua.\n. . .\nCon “ejecutar” nos referimos a que los comandos que hemos escrito en R se traducen al lenguaje máquina para que la computadora nos pueda entender y devolver el resultado deseado."
+  },
+  {
+    "objectID": "02-estructuras.html#hola-mundo",
+    "href": "02-estructuras.html#hola-mundo",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "¡Felicidades 🎉! Has creado tu primer programa con R."
+  },
+  {
+    "objectID": "02-estructuras.html#funciones",
+    "href": "02-estructuras.html#funciones",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "Para crear nuestro primer programa con R, hemos utilizado una función llamada print().\n. . .\nUna función es un módulo de código diseñado para realizar una tarea específica.\n. . .\nEn R, se denota a una función por su nombre, seguido de paréntesis (). Por ejemplo: print()."
+  },
+  {
+    "objectID": "02-estructuras.html#funciones-1",
+    "href": "02-estructuras.html#funciones-1",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "Las funciones reciben un conjunto de entradas o argumentos, que sirven para modificar su comportamiento, y devuelven una o varias salidas."
+  },
+  {
+    "objectID": "02-estructuras.html#funciones-2",
+    "href": "02-estructuras.html#funciones-2",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "En nuestro programa, el argumento de print() fue \"¡Hola, mundo!\". Los argumentos se ingresan en una función separados por una coma.\n. . .\nLa tarea específica de esta función es imprimir en la consola el argumento. La salida es el mismo argumento, solo que en este caso se devuelve de manera silenciosa."
+  },
+  {
+    "objectID": "02-estructuras.html#página-de-ayuda",
+    "href": "02-estructuras.html#página-de-ayuda",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "Todas las funciones tienen una página de ayuda, donde se tiene documentado cómo usar la función y los argumentos que recibe.\n. . .\nPara acceder a la página de ayuda, en la consola ingresar el nombre de la función precedida por un símbolo de interrogación ?:\n\n?print"
+  },
+  {
+    "objectID": "02-estructuras.html#página-de-ayuda-1",
+    "href": "02-estructuras.html#página-de-ayuda-1",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "La página de ayuda se mostrará en la pestaña de Help.\n. . .\nTambién es posible usar esta pestaña para buscar la página de ayuda de una función."
+  },
+  {
+    "objectID": "02-estructuras.html#errores",
+    "href": "02-estructuras.html#errores",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "¿Qué pasa si en vez de print escribimos prin?\n\nprin(\"¡Hola, mundo!\")\n\nError in prin(\"¡Hola, mundo!\"): could not find function \"prin\"\n\n\n. . .\nLos mensajes de error de R nos precisan en qué parte del código hay un error.\n. . .\nEsto nos ayuda a la depuración o debugging de nuestro código."
+  },
+  {
+    "objectID": "02-estructuras.html#entradas-de-usuario",
+    "href": "02-estructuras.html#entradas-de-usuario",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "¿Cómo haríamos si quisieramos saludar a un usuario en particular?\n. . .\nEn R, podemos preguntarle su nombre al usuario utilizando la función readline().\n. . .\nEl argumento de esta función es el mensaje que queremos mostrarle al usuario cuando le pidamos su nombre:\n\nreadline(\"¿Cuál es tu nombre? \")"
+  },
+  {
+    "objectID": "02-estructuras.html#entradas-de-usuario-1",
+    "href": "02-estructuras.html#entradas-de-usuario-1",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "readline() devuelve lo que hayamos ingresado en la consola:\n\nreadline(\"¿Cuál es tu nombre? \")"
+  },
+  {
+    "objectID": "02-estructuras.html#saludo",
+    "href": "02-estructuras.html#saludo",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "¿Cómo armamos el saludo?\n\nreadline(\"¿Cuál es tu nombre? \")\nprint(\"Hola, Diego\")"
+  },
+  {
+    "objectID": "02-estructuras.html#saludo-1",
+    "href": "02-estructuras.html#saludo-1",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "Podemos usar el botón de Source para ejectuar todo el código en este script.\n\nreadline(\"¿Cuál es tu nombre? \")\nprint(\"Hola, Diego\")"
+  },
+  {
+    "objectID": "02-estructuras.html#saludo-2",
+    "href": "02-estructuras.html#saludo-2",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "¿Qué pasa si ingreso otro nombre?\n\nreadline(\"¿Cuál es tu nombre? \")\nprint(\"Hola, Diego\")"
+  },
+  {
+    "objectID": "02-estructuras.html#objetos",
+    "href": "02-estructuras.html#objetos",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "Un objeto en R sirve para almacenar información.\n. . .\nPodemos darle un nombre a un objeto, y asignarle la información que queramos.\n. . .\nAsí, cada vez que queramos usar la información almacenada, solo debemos llamar al nombre del objeto."
+  },
+  {
+    "objectID": "02-estructuras.html#objetos-1",
+    "href": "02-estructuras.html#objetos-1",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "Almacenemos la salida de la función readline() en un objeto llamado nombre:\n\nnombre &lt;- readline(\"¿Cuál es tu nombre? \")\n\nEl símbolo &lt;- sirve para asignar o almacenar la salida de readline() al objeto de nombre nombre.\nVemos que en la pestaña de Environment se ha creado un objeto con el valor de “Diego”."
+  },
+  {
+    "objectID": "02-estructuras.html#objetos-2",
+    "href": "02-estructuras.html#objetos-2",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "Ahora veamos el saludo completo:\n\nnombre &lt;- readline(\"¿Cuál es tu nombre? \")\nprint(\"Hola, nombre\")\n\n¿Por qué no sale mi nombre?"
+  },
+  {
+    "objectID": "02-estructuras.html#cadena-de-caracteres",
+    "href": "02-estructuras.html#cadena-de-caracteres",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "Hasta ahora, hemos usado texto representado como una cadena de caracteres para escribir los saludos.\n. . .\nLas cadenas de caracteres, o simplemente caracteres, se escriben en R dentro de comillas dobles (\"\")."
+  },
+  {
+    "objectID": "02-estructuras.html#cadena-de-caracteres-1",
+    "href": "02-estructuras.html#cadena-de-caracteres-1",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "Al incluir nombre dentro de las comillas en el texto del saludo, esta cadena se toma literalmente.\n. . .\n¿Cómo podríamos incluir los caracteres almacenados en el objeto nombre?"
+  },
+  {
+    "objectID": "02-estructuras.html#paste",
+    "href": "02-estructuras.html#paste",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "Una opción es usar la función paste(). Esta función convierte sus argumentos a cadenas de caracteres (si es que no lo son) y los concatena:\n\nnombre &lt;- readline(\"¿Cuál es tu nombre? \")\nsaludo &lt;- paste(\"Hola, \", nombre)\nprint(saludo)"
+  },
+  {
+    "objectID": "02-estructuras.html#paste-1",
+    "href": "02-estructuras.html#paste-1",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "¿Por qué hay un espacio de más entre “Hola,” y “Diego”?\n. . .\nSi revisamos la página de ayuda de paste() vemos que uno de sus argumentos es sep, el cual sirve como separador entre las cadenas que se quieren concatenar.\n. . .\nPor defecto, sep tiene el valor de \" \"."
+  },
+  {
+    "objectID": "02-estructuras.html#paste-2",
+    "href": "02-estructuras.html#paste-2",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "Si cambiamos el valor de sep a \"\", vemos que ya no hay un espacio de más en el saludo:\n\nnombre &lt;- readline(\"¿Cuál es tu nombre? \")\nsaludo &lt;- paste(\"Hola, \", nombre, sep = \"\")\nprint(saludo)"
+  },
+  {
+    "objectID": "02-estructuras.html#paste0",
+    "href": "02-estructuras.html#paste0",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "Sin embargo, alguien creó una función cuyo argumento sep ya tiene el valor por defecto \"\":\n\nnombre &lt;- readline(\"¿Cuál es tu nombre? \")\nsaludo &lt;- paste0(\"Hola, \", nombre, sep = \"\")\nprint(saludo)"
+  },
+  {
+    "objectID": "02-estructuras.html#composición-de-funciones",
+    "href": "02-estructuras.html#composición-de-funciones",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "Podríamos haber escrito el mismo código en una sola línea:\n\nprint(paste0(\"Hola, \", readline(\"¿Cuál es tu nombre? \"), sep = \"\"))\n\n. . .\nA esto se le llama composición de funciones.\n. . .\nObtenemos el mismo resultado. Pero, ¿es esta la mejor forma de escribirlo?"
+  },
+  {
+    "objectID": "02-estructuras.html#comentarios",
+    "href": "02-estructuras.html#comentarios",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "Podemos escribir notas en nuestro código para nosotros mismos o para otras personas usando comentarios. Para insertar un comentario, se escribe un numeral (#) al inicio de la línea:\n\n# Preguntamos el nombre\nnombre &lt;- readline(\"¿Cuál es tu nombre? \")\n\n# Creamos el saludo\nsaludo &lt;- paste0(\"Hola, \", nombre, sep = \"\")\n\n# Saludamos al usuario\nprint(saludo)"
+  },
+  {
+    "objectID": "02-estructuras.html#conteo-de-casos",
+    "href": "02-estructuras.html#conteo-de-casos",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "¡Trabajemos ahora con datos! Escribamos un programa que nos permita ingresar el conteo de casos confirmado de tres enfermedades:\n\nreadline(\"Ingresa el número de casos de Dengue: \")\nreadline(\"Ingresa el número de casos de Malaria: \")\nreadline(\"Ingresa el número de casos de Leptospirosis: \")"
+  },
+  {
+    "objectID": "02-estructuras.html#conteo-de-casos-1",
+    "href": "02-estructuras.html#conteo-de-casos-1",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "dengue &lt;- readline(\"Ingresa el número de casos de Dengue: \")\nmalaria &lt;- readline(\"Ingresa el número de casos de Malaria: \")\nlepto &lt;- readline(\"Ingresa el número de casos de Leptospirosis: \")"
+  },
+  {
+    "objectID": "02-estructuras.html#aritmética",
+    "href": "02-estructuras.html#aritmética",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "R permite realizar operaciones aritméticas básicas usando los siguientes operadores:\n\n+ para sumar,\n- para restar,\n* para multiplicar (multiplicación escalar),\ny / para dividir."
+  },
+  {
+    "objectID": "02-estructuras.html#conteo-de-casos-2",
+    "href": "02-estructuras.html#conteo-de-casos-2",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "dengue &lt;- readline(\"Ingresa el número de casos de Dengue: \")\nmalaria &lt;- readline(\"Ingresa el número de casos de Malaria: \")\nlepto &lt;- readline(\"Ingresa el número de casos de Leptospirosis: \")\n\ntotal &lt;- dengue + malaria + lepto\n\nprint(paste0(\"El número total de casos es: \", total))"
+  },
+  {
+    "objectID": "02-estructuras.html#modos-de-almacenamiento",
+    "href": "02-estructuras.html#modos-de-almacenamiento",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "¿Por qué nos sale error? Vemos que Environment los valores que hemos ingresado se han guardado como cadenas de caracteres.\n. . .\n¿Se pueden sumar cadenas de caracteres (texto)?"
+  },
+  {
+    "objectID": "02-estructuras.html#modos-de-almacenamiento-1",
+    "href": "02-estructuras.html#modos-de-almacenamiento-1",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "R tiene diferentes modos para guardar información:\n\ncharacter para caracteres o cadenas de caracteres,\ndouble para números decimales,\ninteger para números enteros,\netc.\n\nTambién se les conoce como tipo de dato."
+  },
+  {
+    "objectID": "02-estructuras.html#coerción",
+    "href": "02-estructuras.html#coerción",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "R permite transformar el modo de almacenamiento de un objeto coercitivamente usando funciones:\n\nas.character() para cambiar a modo character,\nas.double() para cambiar a modo double,\nas.integer() para cambiar a modo integer,\netc."
+  },
+  {
+    "objectID": "02-estructuras.html#coerción-1",
+    "href": "02-estructuras.html#coerción-1",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "Estas funciones botarán un mensaje de error si es no es posible hacer la transformación.\n. . .\nPor ejemplo, no es posible convertir \"Diego\" a un número, pero sí podemos convertir \"32\" a un número."
+  },
+  {
+    "objectID": "02-estructuras.html#conteo-de-casos-3",
+    "href": "02-estructuras.html#conteo-de-casos-3",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "Apliquemos el concepto de coerción:\n\ndengue &lt;- readline(\"Ingresa el número de casos de Dengue: \")\nmalaria &lt;- readline(\"Ingresa el número de casos de Malaria: \")\nlepto &lt;- readline(\"Ingresa el número de casos de Leptospirosis: \")\n\nas.integer(dengue)\nas.integer(malaria)\nas.integer(lepto)\n\ntotal &lt;- dengue + malaria + lepto\n\nprint(paste0(\"El número total de casos es: \", total))"
+  },
+  {
+    "objectID": "02-estructuras.html#conteo-de-casos-4",
+    "href": "02-estructuras.html#conteo-de-casos-4",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "Los cambios de modo de almacenamiento no se hacen automáticamente. Es necesario guardar o actualizar los valores con el nuevo modo de almacenamiento:\n\ndengue &lt;- readline(\"Ingresa el número de casos de Dengue: \")\nmalaria &lt;- readline(\"Ingresa el número de casos de Malaria: \")\nlepto &lt;- readline(\"Ingresa el número de casos de Leptospirosis: \")\n\ndengue &lt;- as.integer(dengue)\nmalaria &lt;- as.integer(malaria)\nlepto &lt;- as.integer(lepto)\n\ntotal &lt;- dengue + malaria + lepto\n\nprint(paste0(\"El número total de casos es: \", total))"
+  },
+  {
+    "objectID": "02-estructuras.html#conteo-de-casos-5",
+    "href": "02-estructuras.html#conteo-de-casos-5",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "Poder acortar el código usando composición de funciones:\n\ndengue &lt;- as.integer(readline(\"Ingresa el número de casos de Dengue: \"))\nmalaria &lt;- as.integer(readline(\"Ingresa el número de casos de Malaria: \"))\nlepto &lt;- as.integer(readline(\"Ingresa el número de casos de Leptospirosis: \"))\n\ntotal &lt;- dengue + malaria + lepto\n\nprint(paste0(\"El número total de casos es: \", total))"
+  },
+  {
+    "objectID": "02-estructuras.html#conteo-de-casos-6",
+    "href": "02-estructuras.html#conteo-de-casos-6",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "¿Qué pasaría si tuviéramos que sumar muchos valores? Definitivamente, tipear + muchas veces no es eficiente.\nAfortunadamente, R tiene una función llamada sum() que permite calcular la suma de sus argumentos:\n\ndengue &lt;- as.integer(readline(\"Ingresa el número de casos de Dengue: \"))\nmalaria &lt;- as.integer(readline(\"Ingresa el número de casos de Malaria: \"))\nlepto &lt;- as.integer(readline(\"Ingresa el número de casos de Leptospirosis: \"))\n\ntotal &lt;- sum(dengue, malaria, lepto)\n\nprint(paste0(\"El número total de casos es: \", total))"
+  },
+  {
+    "objectID": "02-estructuras.html#tablas",
+    "href": "02-estructuras.html#tablas",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "Una tabla es un arreglo de información en filas y columnas:"
+  },
+  {
+    "objectID": "02-estructuras.html#tablas-1",
+    "href": "02-estructuras.html#tablas-1",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "Podemos usar esta tabla para calcular el número de casos total de dengue:"
+  },
+  {
+    "objectID": "02-estructuras.html#tablas-2",
+    "href": "02-estructuras.html#tablas-2",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "O el número total de casos confirmados:"
+  },
+  {
+    "objectID": "02-estructuras.html#tablas-3",
+    "href": "02-estructuras.html#tablas-3",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "A estas operaciones se les llama tabulaciones."
+  },
+  {
+    "objectID": "02-estructuras.html#archivos-csv",
+    "href": "02-estructuras.html#archivos-csv",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "Una forma popular de almacenar tablas es usando archivos de valores separados por coma o CSV (Comma Separated Values). Por ejemplo, nuestra tabla en formato CSV se veería así:\nenfermedad, confirmados, probables\nDengue, 37, 63\nMalaria, 43, 107,\nLeptospirosis, 25, 44"
+  },
+  {
+    "objectID": "02-estructuras.html#archivos-csv-1",
+    "href": "02-estructuras.html#archivos-csv-1",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "Creemos el archivo CSV de nuestra tabla usando las opciones New File &gt; Text File en RStudio. Dentro del archivo en blanco, ingresmos los valores separados por coma y luego guardemos el archivo con el nombre casos.csv\n. . .\nEs importante asegurarse que el nombre del archivo tenga la extensión .csv."
+  },
+  {
+    "objectID": "02-estructuras.html#tablas-4",
+    "href": "02-estructuras.html#tablas-4",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "Creemos un nuevo script de R para realizar las tabulaciones:\n\nfile.create(\"tabulacion.R\")"
+  },
+  {
+    "objectID": "02-estructuras.html#leer-un-archivo-csv",
+    "href": "02-estructuras.html#leer-un-archivo-csv",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "R tiene una función para leer un archivo con formato de tabla llamada read.table(). El primer argumento de esta función es la ruta donde se ubica el archivo:\n\ncasos &lt;- read.table(\"casos.csv\")\n\nPodemos ver la tabla usando la función View():\n\nView(casos)"
+  },
+  {
+    "objectID": "02-estructuras.html#leer-un-archivo-csv-1",
+    "href": "02-estructuras.html#leer-un-archivo-csv-1",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "R tiene una función para leer un archivo con formato de tabla llamada read.table(). El primer argumento de esta función es la ruta donde se ubica el archivo:\n\ncasos &lt;- read.table(\"casos.csv\")\n\nPodemos ver la tabla usando la función View():\n\nView(casos)\n\n¡Esto no se ve bien!"
+  },
+  {
+    "objectID": "02-estructuras.html#leer-un-archivo-csv-2",
+    "href": "02-estructuras.html#leer-un-archivo-csv-2",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "Veamos la página de ayuda de read.table(). Vemos que esta función posee un argumento llamado sep para indicar qué separador de columnas tiene el archivo que queremos leer. En nuestro caso, el separador es la coma (\",\"):\n\ncasos &lt;- read.table(\"casos.csv\", sep = \",\")\nView(casos)\n\n¡Vamos bien!"
+  },
+  {
+    "objectID": "02-estructuras.html#leer-un-archivo-csv-3",
+    "href": "02-estructuras.html#leer-un-archivo-csv-3",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "Además, read.table() tiene otro argumento llamado header el cual puede tomar los valores lógicos TRUE o FALSE dependiendo de si nuestro archivo tiene los nombres de las columna en la primera línea o no, respectivamente. En nuestro caso, los nombres de las columnas sí están en la primera fila:\n\ncasos &lt;- read.table(\"casos.csv\", sep = \",\", header = TRUE)\nView(casos)\n\n¡Ahora sí tenemos nuestra tabla!"
+  },
+  {
+    "objectID": "02-estructuras.html#leer-un-archivo-csv-4",
+    "href": "02-estructuras.html#leer-un-archivo-csv-4",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "Para mejorar la legibilidad del código, podemos escribir los argumentos en líneas separadas:\n\ncasos &lt;- read.table(\n  \"casos.csv\", \n  sep = \",\", \n  header = TRUE\n)\nView(casos)"
+  },
+  {
+    "objectID": "02-estructuras.html#leer-un-archivo-csv-5",
+    "href": "02-estructuras.html#leer-un-archivo-csv-5",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "Los programadores son flojos. Uno de ellos creó una función llamada read.csv() que hace lo mismo que read.table() pero con los argumentos sep = \",\" y header = TRUE por defecto:\n\ncasos &lt;- read.csv(\"casos.csv\")\nView(casos)"
+  },
+  {
+    "objectID": "02-estructuras.html#data-frames",
+    "href": "02-estructuras.html#data-frames",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "La salida que nos devuelve la función read.csv() es un data frame. Un data frame en R es un modo de almacenamiento bidimensional (filas y columnas) que sirve para almacenar datos tabulares."
+  },
+  {
+    "objectID": "02-estructuras.html#notación-de-corchetes",
+    "href": "02-estructuras.html#notación-de-corchetes",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "Podemos realizar diversas operaciones sobre un data frame, como acceder a los datos de las filas o columnas usando la notación de corchetes:"
+  },
+  {
+    "objectID": "02-estructuras.html#notación-de-corchetes-1",
+    "href": "02-estructuras.html#notación-de-corchetes-1",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "Por ejemplo, para acceder al número de casos confirmados de Dengue (el primer valor de la segunda columna):"
+  },
+  {
+    "objectID": "02-estructuras.html#notación-de-corchetes-2",
+    "href": "02-estructuras.html#notación-de-corchetes-2",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "Si quisiéramos acceder a todos los valores de una columna, demos el blanco el lugar de la fila. Por ejemplo, para acceder a la columna de casos confirmados:"
+  },
+  {
+    "objectID": "02-estructuras.html#notación-de-corchetes-3",
+    "href": "02-estructuras.html#notación-de-corchetes-3",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "En R:\n\ncasos[, 3]"
+  },
+  {
+    "objectID": "02-estructuras.html#acceder-a-columnas",
+    "href": "02-estructuras.html#acceder-a-columnas",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "¿Qué pasaría si cambio el orden de las columnas? Tendría que estar actualizando el número de la columna a la cual quiero acceder. Es más fácil acceder a los datos de una columna por su nombre."
+  },
+  {
+    "objectID": "02-estructuras.html#acceder-a-columnas-1",
+    "href": "02-estructuras.html#acceder-a-columnas-1",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "En R, para acceder a una columna por su nombre escribimos el nombre del data frame, seguido del símbolo $ y el nombre de la columna. Por ejemplo, para acceder a la columna de los casos confirmados:"
+  },
+  {
+    "objectID": "02-estructuras.html#acceder-a-columnas-2",
+    "href": "02-estructuras.html#acceder-a-columnas-2",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "En R:\n\ncasos$confirmados"
+  },
+  {
+    "objectID": "02-estructuras.html#vectores",
+    "href": "02-estructuras.html#vectores",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "Cuando accedemos a una columna usando el símbolo $, R nos devuelve un vector. Un vector es una lista de elementos del mismo tipo. Es decir, la salida no es más un data frame, sino un vector de datos."
+  },
+  {
+    "objectID": "02-estructuras.html#vectores-1",
+    "href": "02-estructuras.html#vectores-1",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "Un vector es un arreglo unidimensional de datos, y por tanto también acepta la notación de corchetes. Por ejemplo, para acceder al primer elemento del vector de casos confirmados:\n\ncasos$confirmados[1]\n\nEn un vector, ya no es necesario ingresar el número de fila y de columna, ya que solo tiene una dimensión."
+  },
+  {
+    "objectID": "02-estructuras.html#vectores-2",
+    "href": "02-estructuras.html#vectores-2",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "¿Cómo podríamos calcular el número total de casos confirmados? Una opción es la siguiente:\n\ncasos$confirmados[1] + casos$confirmados[2] + casos$confirmados[3]\n\nSin embargo, ¿qué pasaría si tenemos más de tres enfermedades? ¿Es esto eficiente?"
+  },
+  {
+    "objectID": "02-estructuras.html#vectores-3",
+    "href": "02-estructuras.html#vectores-3",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "Intentemos lo siguiente:\n\nsum(casos$confirmados)\n\n¿Por qué funciona?"
+  },
+  {
+    "objectID": "02-estructuras.html#vectorización",
+    "href": "02-estructuras.html#vectorización",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "Las funciones en R están vectorizadas. Es decir, operan sobre todos los elementos de un vector sin tener que operar uno por uno. Por esta razón, podemos usar la función sum() para realizar la suma de todos los elementos del vector:\n\nsum(casos$confirmados)"
+  },
+  {
+    "objectID": "02-estructuras.html#todo-en-r-son-vectores",
+    "href": "02-estructuras.html#todo-en-r-son-vectores",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "La cadena de caracteres que usamos para el salud es un vector (de un solo elemento):\n\nprint(\"¡Hola, mundo!\")\n\nIncluso un data frame es una colección de vectores (columnas).\n\ncasos$enfermedad\ncasos$confirmados\ncasos$probables"
+  },
+  {
+    "objectID": "02-estructuras.html#tablas-5",
+    "href": "02-estructuras.html#tablas-5",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "¿Cómo podría calcular el número total de casos para cada enfermedad?"
+  },
+  {
+    "objectID": "02-estructuras.html#tablas-6",
+    "href": "02-estructuras.html#tablas-6",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "Una opción en R:\n\n# Para Dengue\ncasos$confirmados[1] + casos$probables[1]\n\n# Para Malaria\ncasos$confirmados[2] + casos$probables[2]\n\n# Para Leptospirosis\ncasos$confirmados[3] + casos$probables[3]\n\n¿Qué tal si tengo muchas enfermedades? ¿Habrá una formas más eficiente de hacerlo?"
+  },
+  {
+    "objectID": "02-estructuras.html#aritmética-vectorial",
+    "href": "02-estructuras.html#aritmética-vectorial",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "Como todo en R es un vector, es posible aplicar la aritmética vectorial para calcular la suma de los elementos de cada vector según su posición:"
+  },
+  {
+    "objectID": "02-estructuras.html#aritmética-vectorial-1",
+    "href": "02-estructuras.html#aritmética-vectorial-1",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "El resultado de realizar una operación aritmetica entre vectors siempre será también un vector."
+  },
+  {
+    "objectID": "02-estructuras.html#aritmética-vectorial-2",
+    "href": "02-estructuras.html#aritmética-vectorial-2",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "En R:\n\ncasos$confirmados + casos$probables"
+  },
+  {
+    "objectID": "02-estructuras.html#aritmética-vectorial-3",
+    "href": "02-estructuras.html#aritmética-vectorial-3",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "También podríamos usar la notación de corchetes:\n\ncasos[, 2] + casos[, 3]"
+  },
+  {
+    "objectID": "02-estructuras.html#aritmética-vectorial-4",
+    "href": "02-estructuras.html#aritmética-vectorial-4",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "Sin embargo, hay que tener cuidado con la siguiente notación:\n\ncasos[2] + casos[3]\n\nEsta notación devuelve un data frame y no un vector. Si bien los totales son correctos, es más conveniente tener los resultados en un vector que en un data frame, ya que el primeor es más sencillo de manipular."
+  },
+  {
+    "objectID": "02-estructuras.html#crear-una-nueva-columna",
+    "href": "02-estructuras.html#crear-una-nueva-columna",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "Podemos asignar los totales calculados a una nueva columna en la tabla usando el símbolo $ seguido del nombre de la nueva columna:\n\ncasos$totales &lt;- casos$confirmados + casos$probables\nView(casos)\n\nEsto se puede hacer siempre y cuando la nueva columna tenga el mismo número de filas de la tabla."
+  },
+  {
+    "objectID": "02-estructuras.html#escribir-un-archivo-csv",
+    "href": "02-estructuras.html#escribir-un-archivo-csv",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "Podemos escribir un nuevo archivo CSV con nuestra nueva tabla usando la función write.csv(). Si vemos la documentación, el primer argumento es el data frame y el segundo la ruta donde se va a escribir el archivo:\n\nwrite.csv(casos, \"totales.csv\")"
+  },
+  {
+    "objectID": "02-estructuras.html#nombres-de-fila",
+    "href": "02-estructuras.html#nombres-de-fila",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "Si abrimos el archivo, vemos que tiene la siguiente estructura:\n\"\",\"enfermedad\",\"confirmados\",\"probables\",\"totales\"\n\"1\",\"Dengue\",37,63,100\n\"2\",\"Malaria\",43,107,150\n\"3\",\"Leptospirosis\",25,44,69\n\nVemos que además de las columnas que tenía el data frame, se añadió una columna que indica la posición de las filas. Esta columna sirve para nombrar las filas."
+  },
+  {
+    "objectID": "02-estructuras.html#nombres-de-fila-1",
+    "href": "02-estructuras.html#nombres-de-fila-1",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "Podemos decirle a write.csv() si queremos (TRUE) o no queremos (FALSE) nombres de fila usando el argumento row.names:\n\nwrite.csv(casos, \"totales.csv\", row.names = FALSE)"
+  },
+  {
+    "objectID": "02-estructuras.html#dengue",
+    "href": "02-estructuras.html#dengue",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "Creemos un nuevo script con el nombre dengue.R y usémoslo para importar desde una página web un archivo CSV con los casos notificados de Dengue en la provincia de Maynas en los años 2018 y 2019:\n\nurl &lt;- \"https://raw.githubusercontent.com/healthinnovation/r101-iquitos-20240810/main/data/dengue.csv\"\ndengue &lt;- read.csv(url)"
+  },
+  {
+    "objectID": "02-estructuras.html#dengue-1",
+    "href": "02-estructuras.html#dengue-1",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "Guardémoslo para poder usarlo luego:\n\nwrite.csv(dengue, \"dengue.csv\", row.names = FALSE)"
+  },
+  {
+    "objectID": "02-estructuras.html#número-de-filas",
+    "href": "02-estructuras.html#número-de-filas",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "¿Cuál es el número de filas de este data frame?\n\nnrow(dengue)"
+  },
+  {
+    "objectID": "02-estructuras.html#número-de-columnas",
+    "href": "02-estructuras.html#número-de-columnas",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "¿Cuál es el número de columnas de este data frame?\n\nncol(dengue)"
+  },
+  {
+    "objectID": "02-estructuras.html#enfermedades",
+    "href": "02-estructuras.html#enfermedades",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "¿Qué enfermedades se notificaron en esta tabla?\n\ndengue$enfermedad"
+  },
+  {
+    "objectID": "02-estructuras.html#valores-únicos",
+    "href": "02-estructuras.html#valores-únicos",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "Para ver los valores únicos de una variable, podemos usar la función unique():\n\nunique(dengue$enfermedad)"
+  },
+  {
+    "objectID": "02-estructuras.html#dengue-2",
+    "href": "02-estructuras.html#dengue-2",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "Veamos la variable de código de localidad:\n\ndengue$localcod"
+  },
+  {
+    "objectID": "02-estructuras.html#dengue-3",
+    "href": "02-estructuras.html#dengue-3",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "¿Qué son estos valores NA?"
+  },
+  {
+    "objectID": "02-estructuras.html#valores-especiales",
+    "href": "02-estructuras.html#valores-especiales",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "NA en R significa Not Available o “no disponible”. Es un valor especial que indica que debería existir un dato en esa posición, pero por alguna razón no se encuentra disponible o está perdido."
+  },
+  {
+    "objectID": "02-estructuras.html#valores-especiales-1",
+    "href": "02-estructuras.html#valores-especiales-1",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "R tiene otros valores especiales:\n\nNaN de Not a Number, sirve para indicar un valor que es imposible de calcular o no es determinado (división entre cero).\nInf y -Inf sirven para indicar valores infinitos positivos y negativos, respectivamente.\nNULL representa a un objeto nulo. Es la representación de “la nada”. Es posible tener un vector de NAs pero no de NULLs. Un vector que conciente un NULL es considerado NULL."
+  },
+  {
+    "objectID": "02-estructuras.html#valores-especiales-2",
+    "href": "02-estructuras.html#valores-especiales-2",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "R tiene otros valores especiales:\n\nNaN de Not a Number, sirve para indicar un valor que es imposible de calcular o no es determinado (división entre cero).\nInf y -Inf sirven para indicar valores infinitos positivos y negativos, respectivamente.\nNULL representa a un objeto nulo. Es la representación de “la nada”. Es posible tener un vector de NAs pero no de NULLs. Un vector que conciente un NULL es considerado NULL."
+  },
+  {
+    "objectID": "02-estructuras.html#dengue-4",
+    "href": "02-estructuras.html#dengue-4",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "Veamos la variable sexo:\n\ndengue$sexo"
+  },
+  {
+    "objectID": "02-estructuras.html#dengue-5",
+    "href": "02-estructuras.html#dengue-5",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "Veamos los valores únicos de la variable sexo:\n\nunique(dengue$sexo)\n\nVemos que esta variable toma dos valores: F de femenino y M de masculino."
+  },
+  {
+    "objectID": "02-estructuras.html#factores",
+    "href": "02-estructuras.html#factores",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "Un tipo de dato en R bastante útil para manejar estos tipos de variables son los factores.\n. . .\nUn factor es un modo de almacenamiento utilizado para representar variables categóricas. Es decir, variables que tienen un número limitado y fijo de valores posibles, llamados niveles."
+  },
+  {
+    "objectID": "02-estructuras.html#factores-1",
+    "href": "02-estructuras.html#factores-1",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "Podemos definir un factor usando la función factor(). Por ejemplo, usando la variable sex:\n\nfactor(dengue$sexo)\n\nVemos que ahora R reconoce que la variable sex tiene dos niveles o categorías: F y M."
+  },
+  {
+    "objectID": "02-estructuras.html#etiquetas-de-los-niveles",
+    "href": "02-estructuras.html#etiquetas-de-los-niveles",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "Podemos darle etiquetas a los niveles usando el argumento labels. Este argumento recibe un vector de la misma dimensión de los niveles de la variable con las etiquetas que queramos según el orden de los niveles.\n. . .\nEs decir, el primer elemento del vector de etiquetas es la etiqueta del primer nivel, el segundo elemento del vector es la etiqueta del segundo nivel, y así sucesivamente."
+  },
+  {
+    "objectID": "02-estructuras.html#crear-un-vector",
+    "href": "02-estructuras.html#crear-un-vector",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "Para crear un vector en R podemos usar la función c(). Por ejemplo, para crear un vector con las etiquetas Femenino y Masculino:\n\nc(\"Femenino\", \"Masculino\")"
+  },
+  {
+    "objectID": "02-estructuras.html#etiquetas-de-los-niveles-1",
+    "href": "02-estructuras.html#etiquetas-de-los-niveles-1",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "Ahora pasamos el vector al argumento labels de la función factor():\n\nfactor(dengue$sex, labels = c(\"Femenino\", \"Masculino\"))"
+  },
+  {
+    "objectID": "02-estructuras.html#cambiar-el-orden-de-los-niveles",
+    "href": "02-estructuras.html#cambiar-el-orden-de-los-niveles",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "Si quisiéramos cambiar el orden de los niveles, podemos usar el argumento levels de la función factor(). Este argumento recibe un vector con los niveles en el orden que queramoss:\n\nfactor(\n  dengue$sex,\n  levels = c(\"M\", \"F\"),\n  labels = c(\"Masculino\", \"Femenino\")\n)\n\n¡Cuidado! Hay que cambiar el orden de las etiquetas también."
+  },
+  {
+    "objectID": "02-estructuras.html#por-qué-trabajar-con-factores",
+    "href": "02-estructuras.html#por-qué-trabajar-con-factores",
+    "title": "Representación de datos",
+    "section": "",
+    "text": "Digamos que tenemos el siguiente vector:\n\nsexo &lt;- c(\"F\", \"F\", \"M\", \"M\", \"J\")\n\nDefinimos el factor solo con los niveles F y M:\n\nfactor(sexo, levels = c(\"F\", \"M\"))\n\nVemos que J fue reemplazado con un NA. Los factores son útiles para asegurar la integridad de la variable categórica."
+  },
+  {
+    "objectID": "04-gracias.html",
+    "href": "04-gracias.html",
+    "title": "¡Gracias!",
+    "section": "",
+    "text": "¡Gracias!"
   }
 ]

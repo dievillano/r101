@@ -1,0 +1,6 @@
+execute: 
+  echo: true
+  eval: false
+project:
+  type: website
+  output-dir: docs
