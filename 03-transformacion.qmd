@@ -5,7 +5,7 @@
 Creemos un script de R llamado `iquitos.R` y leamos los datos diarios de temperatura mínima en C° en Iquitos durante el año 2022:
 
 ```{r}
-url <- "https://raw.githubusercontent.com/healthinnovation/r101-iquitos-20240810/main/data/iquitos.csv"
+url <- "https://github.com/dievillano/r101/blob/main/data/tmin_iquitos_2022.csv"
 iquitos <- read.csv(url)
 ```
 

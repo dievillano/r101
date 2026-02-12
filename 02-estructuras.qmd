@@ -786,7 +786,7 @@ write.csv(casos, "totales.csv", row.names = FALSE)
 Creemos un nuevo script con el nombre `dengue.R` y usémoslo para importar desde una página web un archivo CSV con los casos notificados de Dengue en la provincia de Maynas en los años 2018 y 2019:
 
 ```{r}
-url <- "https://raw.githubusercontent.com/healthinnovation/r101-iquitos-20240810/main/data/dengue.csv"
+url <- "https://github.com/dievillano/r101/blob/main/data/dengue_maynas_2018-2019.csv"
 dengue <- read.csv(url)
 ```
 
